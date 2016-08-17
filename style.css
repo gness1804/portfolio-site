@@ -1,0 +1,107 @@
+html {
+  background: linear-gradient(to bottom, white, rgb(203, 202, 217));
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(64, 37, 226);
+}
+
+a:visited {
+  color: rgb(232, 44, 219);
+}
+
+a:hover {
+  color: red;
+  font-style: italic;
+}
+
+
+.header-each-page {
+  background: linear-gradient(to bottom, rgb(127, 179, 247), rgb(240, 243, 247));
+}
+
+.header-each-page h1 {
+  text-align: center;
+  font-size: 44px;
+}
+
+.nav-bar {
+  float: right;
+}
+
+.nav-bar-list {
+  list-style-type: none;
+  margin-top: 80px;
+}
+
+.nav-bar-list > li {
+  display: inline-block;
+  margin: 0px 50px 0px 15px;
+}
+
+.nav-bar-list > li:hover {
+  border: 1px solid rgb(73, 82, 70);
+  border-radius: 5px;
+  padding: 8px;
+    background-color: white;
+}
+
+.nav-bar-list li a {
+  text-transform: uppercase;
+  color: black;
+  font-size: 22px;
+}
+
+.nav-bar-list li a:hover {
+  font-style: normal !important;
+  color: rgb(32, 40, 148);
+}
+
+.nav-bar-list li a:visited {
+  color: rgb(64, 75, 75);
+}
+
+.header-photo {
+  max-height: 250px;
+  max-width: 250px;
+}
+
+#mission {
+  font-style: italic;
+  font-size: 20px;
+  width: 600px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#resume-img {
+  max-height: 100px;
+} /* Code is currently in parking lot */
+
+/* ** Need to figure out how to make the resume icon appear to the right of paragraph, presumably by using float */
+
+.main-article-half-width img {
+  height: 150px;
+}
+
+.main-article-full-width img {
+  height: 100px;
+}
+
+#book-img {
+  height: 200px;
+}
+
+.sub-page-container img {
+  height: 200px;
+}
+
+.sub-page-container p {
+  float: right;
+  width: 400px;
+}

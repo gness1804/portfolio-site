@@ -63,6 +63,12 @@ a:hover {
   color: rgb(64, 75, 75);
 }
 
+.nav-bar-list-selected {
+  border: 1px solid rgb(73, 82, 70);
+  border-radius: 5px;
+  background-color: white;
+}
+
 .header-photo {
   max-height: 250px;
   max-width: 250px;
@@ -175,10 +181,13 @@ a:hover {
   border: 1px solid rgb(73, 82, 70);
   border-radius: 5px;
   padding: 10px 0px 10px 0px;
+  background-color: rgb(240, 236, 228);
 }
 
-.footer-each-page a {
-  padding: 0px 50px 0px 50px;
+.footer-each-page img {
+  height: 40px;
+  width: 40px;
+  padding: 0px 60px;
 }
 
 .sub-page-container img {

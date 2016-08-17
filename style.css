@@ -206,12 +206,13 @@ a:hover {
   padding: 0px 60px;
 }
 
-.project-page-headline h2 {
+.project-page-headline h2, .bio-page-headline h2 {
   text-align: center;
   font-size: 50px;
+  padding-bottom: 20px;
 }
 
-.project-page-headline img {
+.project-page-headline img, .bio-page-headline img {
   height: 80px;
   width: 80px;
   position: relative;
@@ -219,17 +220,21 @@ a:hover {
   margin: 20px auto;
 }
 
-.project-page-section {
+.project-page-section, .bio-page-section {
   border: 1px solid rgb(73, 82, 70);
   border-radius: 5px;
   margin: 50px 50px;
 }
 
-.project-page-section h3 {
+.project-page-section h3, .bio-page-section h3 {
   text-align: center;
   font-weight: bold;
   font-size: 30px;
   padding: 20px 0px;
+}
+
+.bio-page-section h3 {
+  padding-bottom: 40px;
 }
 
 .project-page-section img {
@@ -240,4 +245,22 @@ a:hover {
 .project-page-section p {
   float: right;
   width: 400px;
+}
+
+.bio-page-headline p {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.bio-page-section span {
+  font-weight: bold;
+}
+
+.bio-page-section p {
+  padding: 0px 0px 10px 10px;
+  text-align: center;
+}
+
+.for-more-info {
+  font-style: italic;
 }

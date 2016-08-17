@@ -23,11 +23,12 @@ a:hover {
 
 .header-each-page h1 {
   text-align: center;
-  font-size: 44px;
+  font-size: 48px;
 }
 
 .nav-bar {
   float: right;
+  display: inline-block;
 }
 
 .nav-bar-list {
@@ -38,12 +39,12 @@ a:hover {
 .nav-bar-list > li {
   display: inline-block;
   margin: 0px 50px 0px 15px;
+  padding: 6px;
 }
 
 .nav-bar-list > li:hover {
   border: 1px solid rgb(73, 82, 70);
   border-radius: 5px;
-  padding: 8px;
   background-color: white;
 }
 
@@ -109,15 +110,16 @@ a:hover {
   margin: 60px 30px 40px 30px;
 }
 
-.two-article-control { /* ** ask how to center this in page (the margin auto trick did not work with this div)   */
-  margin-left: 150px;
+.two-article-control {
+  margin: auto;
+  width: 800px;
 }
 
 .proj-btn {
   clear: both;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  width: 200px;
   padding: 15px;
   border-radius: 30px;
   background-color: rgb(228, 226, 237);
@@ -155,6 +157,11 @@ a:hover {
   text-align: center;
   font-style: italic;
   font-size: 20px;
+}
+
+.bottom-elements-control {
+  margin: auto;
+  width: 900px;
 }
 
 #book-img {

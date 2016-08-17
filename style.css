@@ -1,5 +1,6 @@
 html {
   background: linear-gradient(to bottom, white, rgb(203, 202, 217));
+  font-family: 'Open Sans', sans-serif;
 }
 
 a:link {
@@ -16,14 +17,15 @@ a:hover {
   font-style: italic;
 }
 
-
 .header-each-page {
   background: linear-gradient(to bottom, rgb(127, 179, 247), rgb(240, 243, 247));
 }
 
 .header-each-page h1 {
   text-align: center;
-  font-size: 48px;
+  font-size: 60px;
+  padding-top: 20px;
+  font-weight: bold;
 }
 
 .nav-bar {
@@ -76,7 +78,7 @@ a:hover {
 
 #mission {
   font-style: italic;
-  font-size: 20px;
+  font-size: 24px;
   width: 600px;
   text-align: center;
   display: block;
@@ -94,11 +96,22 @@ a:hover {
 
 .main-article-half-width p {
   max-width: 400px;
-  padding: 0px 10px 0px 10px;
+  padding: 10px;
 }
 
 .main-article-half-width h3, h4 {
   text-align: center;
+}
+
+.main-article-half-width h3 {
+  font-weight: bold;
+  font-size: 30px;
+  padding: 10px 0px;
+}
+
+.main-article-half-width h4 {
+  font-size: 22px;
+  padding: 20px 0px 30px 0px;
 }
 
 .main-article-half-width img {
@@ -147,22 +160,26 @@ a:hover {
 
 .page-lower-section h3 {
   text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 10px 0px;
 }
 
 .page-lower-section p {
-  padding: 0px 10px 0px 10px;
+  padding: 10px;
 }
 
 #fig-main {
   display: inline;
   float: right;
-  margin-top: -200px;
+  margin: -220px 0px 50px 0px;
 }
 
 #fig-main figcaption {
   text-align: center;
   font-style: italic;
   font-size: 20px;
+  padding: 10px;
 }
 
 .bottom-elements-control {
@@ -189,30 +206,38 @@ a:hover {
   padding: 0px 60px;
 }
 
-.article-page-headline h2 {
+.project-page-headline h2 {
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
 }
 
-.article-page-headline figure {
-  margin: auto;
-  width: 100px;
-}
-
-.article-page-headline figcaption {
-  text-align: center;
-}
-
-.article-page-headline img {
+.project-page-headline img {
   height: 80px;
   width: 80px;
+  position: relative;
+  display: block;
+  margin: 20px auto;
 }
 
-.sub-page-container img {
+.project-page-section {
+  border: 1px solid rgb(73, 82, 70);
+  border-radius: 5px;
+  margin: 50px 50px;
+}
+
+.project-page-section h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px 0px;
+}
+
+.project-page-section img {
   height: 200px;
+  margin: 0px 0px 30px 20px;
 }
 
-.sub-page-container p {
+.project-page-section p {
   float: right;
   width: 400px;
 }

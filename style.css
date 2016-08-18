@@ -206,7 +206,7 @@ a:hover {
   padding: 0px 60px;
 }
 
-.project-page-headline h2, .bio-page-headline h2 {
+.project-page-headline h2, .bio-page-headline h2, .proj-menu-master-container h2 {
   text-align: center;
   font-size: 50px;
   padding-bottom: 20px;
@@ -263,4 +263,16 @@ a:hover {
 
 .for-more-info {
   font-style: italic;
+}
+
+.proj-menu-indiv-box {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  margin: 15px;
+}
+
+.proj-menu-indiv-box img {
+  height: 200px;
+  width: 200px;
 }

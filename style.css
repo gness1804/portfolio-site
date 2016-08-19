@@ -81,6 +81,25 @@ a:hover {
   margin-top: 20px;
 }
 
+.footer-each-page {
+  clear: both;
+  text-align: center;
+  border: 1px solid rgb(73, 82, 70);
+  border-radius: 5px;
+  padding: 10px 0px 10px 0px;
+  background-color: rgb(240, 236, 228);
+}
+
+.footer-each-page img {
+  height: 40px;
+  width: 40px;
+  padding: 0px 60px;
+}
+
+/* try to make the icon in the foooter get bigger when I hover over them */
+
+/* prim index.html */
+
 #mission {
   font-style: italic;
   font-size: 24px;
@@ -101,7 +120,7 @@ a:hover {
 
 .main-article-half-width p {
   max-width: 400px;
-  padding: 10px;
+  padding: 30px 30px 10px 15px;
 }
 
 .main-article-half-width h3, h4 {
@@ -193,7 +212,7 @@ a:hover {
 
 #fig-main {
   position: absolute;
-  right: 20px;
+  right: 30px;
   margin: 30px 0px;
 }
 
@@ -217,25 +236,17 @@ a:hover {
   height: 300px;
 }
 
-.footer-each-page {
-  clear: both;
-  text-align: center;
-  border: 1px solid rgb(73, 82, 70);
-  border-radius: 5px;
-  padding: 10px 0px 10px 0px;
-  background-color: rgb(240, 236, 228);
-}
+/* prim project and bio pages*/
 
-.footer-each-page img {
-  height: 40px;
-  width: 40px;
-  padding: 0px 60px;
+.project-page-headline {
+  border: 1px dotted red; /* temp */
+  height: 300px;
 }
 
 .project-page-headline h2, .bio-page-headline h2, .proj-menu-master-container h2 {
   text-align: center;
   font-size: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 80px;
 }
 
 .project-page-headline img, .bio-page-headline img {
@@ -256,11 +267,7 @@ a:hover {
   text-align: center;
   font-weight: bold;
   font-size: 30px;
-  padding: 20px 0px;
-}
-
-.bio-page-section h3 {
-  padding-bottom: 40px;
+  padding: 20px 0px 40px 0px;
 }
 
 .project-page-section img {
@@ -315,7 +322,7 @@ a:hover {
 
 .proj-menu-indiv-box p {
   position: relative;
-  left: 25px;
+  text-align: center;
   margin-top: 10px;
   font-weight: bold;
   font-style: italic;

@@ -295,14 +295,17 @@ a:hover {
   margin: auto;
   width: 960px;
   margin-bottom: 50px;
-  border: 1px solid red; /* test */
+  margin-top: 50px;
+  text-align: center;
+  border: 1px dotted red; /* test */
 }
 
 .proj-menu-indiv-box {
   height: 250px;
   width: 250px;
   display: inline-block;
-  margin: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .proj-menu-indiv-box img {

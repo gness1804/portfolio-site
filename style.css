@@ -19,6 +19,7 @@ a:hover {
 
 .header-each-page {
   background: linear-gradient(to bottom, rgb(127, 179, 247), rgb(240, 243, 247));
+  border: 1px dotted red; /* temp */
 }
 
 .header-each-page h1 {
@@ -31,6 +32,8 @@ a:hover {
 .nav-bar {
   float: right;
   display: inline-block;
+  margin-top: 20px;
+  border: 1px dotted red; /* temp */
 }
 
 .nav-bar-list {
@@ -40,8 +43,8 @@ a:hover {
 
 .nav-bar-list > li {
   display: inline-block;
-  margin: 0px 50px 0px 15px;
-  padding: 6px;
+  margin: 15px;
+  padding: 5px;
 }
 
 .nav-bar-list > li:hover {
@@ -74,6 +77,8 @@ a:hover {
 .header-photo {
   max-height: 250px;
   max-width: 250px;
+  margin-left: 50px;
+  margin-top: 20px;
 }
 
 #mission {
@@ -139,7 +144,7 @@ a:hover {
 .two-article-control {
   position: relative;
   margin: auto;
-  margin-bottom: -20px;
+  margin-bottom: 35px;
   width: 800px;
   height: 600px;
   padding: 40px;
@@ -188,7 +193,7 @@ a:hover {
 
 #fig-main {
   position: absolute;
-  right: 10px;
+  right: 20px;
   margin: 30px 0px;
 }
 
@@ -290,6 +295,7 @@ a:hover {
   margin: auto;
   width: 960px;
   margin-bottom: 50px;
+  border: 1px solid red; /* test */
 }
 
 .proj-menu-indiv-box {

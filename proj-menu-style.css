@@ -1,0 +1,32 @@
+.proj-menu-master-container {
+  margin: auto;
+  width: 960px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+  border: 1px dotted red; /* test */
+}
+
+/* .proj-menu-master-container h2: see master */
+
+.proj-menu-indiv-box {
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.proj-menu-indiv-box img {
+  height: 200px;
+  width: 200px;
+}
+
+.proj-menu-indiv-box p {
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+}

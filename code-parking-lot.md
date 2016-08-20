@@ -29,3 +29,7 @@ margin: -220px 0px 50px 0px;
   text-align: center;
   /* border: 1px dotted red;  temp */
 }
+
+.resume {
+  margin-bottom: 100px;
+}

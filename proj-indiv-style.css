@@ -1,0 +1,30 @@
+.project-page-headline {
+  border: 1px dotted red; /* temp */
+  height: 300px;
+}
+
+/* .project-page-headline h2: see master */
+/* .project-page-headline img: see master */
+
+.project-page-section {
+  text-align: center;
+  border: 1px solid rgb(73, 82, 70);
+  border-radius: 5px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+/* .project-page-section h3: see master */
+
+.project-page-section img {
+  height: 200px;
+  /*margin: 0px 0px 30px 20px;*/
+}
+
+.project-page-section p {
+  width: 400px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: left;
+}

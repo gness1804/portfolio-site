@@ -1,0 +1,27 @@
+/* .bio-page-headline h2: see master */
+/* .bio-page-headline img: see master */
+
+.bio-page-headline p {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+/* .bio-page-section: see master */
+/* .bio-page-section h3: see master */
+
+.bio-page-section p {
+  padding: 0px 0px 10px 10px;
+  text-align: center;
+}
+
+.bio-page-section span {
+  font-weight: bold;
+}
+
+.bio-page-section-italic {
+  font-style: italic;
+}
+
+.resume {
+  margin-bottom: 100px;
+}

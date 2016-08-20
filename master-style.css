@@ -30,6 +30,10 @@ a:hover {
   font-weight: bold;
 }
 
+@media screen and (max-width: 800px) { /* for smartphones and tablets */
+  .header-each-page {text-align: center; width: 900px;}
+}
+
 .nav-bar {
   float: right;
   display: inline-block;
@@ -46,6 +50,11 @@ a:hover {
   display: inline-block;
   margin: 15px;
   padding: 5px;
+}
+
+@media screen and (max-width: 800px) { /* for smartphones and tablets */
+  .nav-bar {display: block; float: none;}
+  .nav-bar-list > li {display: block; margin: 35px 15px;}
 }
 
 .nav-bar-list > li:hover {
@@ -82,6 +91,10 @@ a:hover {
   margin-top: 20px;
 }
 
+@media screen and (max-width: 800px) { /* for smartphones and tablets */
+  .header-photo {margin: 80px 0px 40px 50px;}
+}
+
 .footer-each-page {
   clear: both;
   text-align: center;
@@ -97,6 +110,11 @@ a:hover {
   padding: 0px 60px;
 } /* try to make the icons in the foooter get bigger when I hover over them */
 
+@media screen and (max-width: 800px) { /* for smartphones and tablets */
+  .footer-each-page {max-height: 50px; width: 800px; margin-left: 50px;}
+  .footer-each-page img {padding: 0px 20px;}
+}
+
 /* repeated elements from other pages */
 
 .big-button {
@@ -109,6 +127,10 @@ a:hover {
   border-radius: 30px;
   background-color: rgb(228, 226, 237);
   font-size: 20px;
+}
+
+@media screen and (max-width: 800px) { /* for smartphones and tablets */
+  .big-button {margin-left: 360px;}
 }
 
 .big-button:hover {

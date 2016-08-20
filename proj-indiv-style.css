@@ -3,6 +3,11 @@
   height: 300px;
 }
 
+@media screen and (max-width: 800px) { /* for smartphones and tablets */
+  .project-page-headline {width: 900px;}
+  element2 {}
+}
+
 /* .project-page-headline h2: see master */
 /* .project-page-headline img: see master */
 

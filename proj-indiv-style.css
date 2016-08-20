@@ -8,7 +8,14 @@
 }
 
 /* .project-page-headline h2: see master */
-/* .project-page-headline img: see master */
+
+.project-page-headline img {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  display: block;
+  margin: 20px auto;
+}
 
 .project-page-section {
   text-align: center;
@@ -30,5 +37,9 @@
   margin: auto;
   margin-top: 30px;
   margin-bottom: 30px;
-  text-align: left;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) { /* for smartphones and tablets */
+  .project-page-section {width: 800px; margin-left: 100px; margin-right: 0px; margin-top: 40px;}
 }

@@ -15,12 +15,31 @@
 }
 
 @media screen and (max-width: 800px) { /* for smartphones and tablets */
-  .page-upper-section {width: 900px;}
+  .page-upper-section {width: 1000px;}
+}
+
+.two-article-control {
+  position: relative;
+  margin: auto;
+  margin-bottom: 35px;
+  width: 800px;
+  height: 600px;
+  padding: 40px;
+  text-align: center;
+  border: 1px dotted red;  /*temp */
+}
+
+.main-article-half-width {
+  display: inline-block;
+  width: 300px;
+  border: 1px solid rgb(73, 82, 70);
+  border-radius: 5px;
 }
 
 .main-article-half-width p {
   max-width: 400px;
   padding: 30px 30px 10px 15px;
+  text-align: left;
 }
 
 .main-article-half-width h3, h4 {
@@ -45,11 +64,6 @@
   margin-right: auto;
 }
 
-@media screen and (max-width: 800px) { /* for smartphones and tablets */
-  .main-article-half-width p {margin: auto;}
-  element2 {}
-}
-
 .proj1 {
   margin-right: 20px;
 }
@@ -58,34 +72,11 @@
   margin-left: 20px;
 }
 
-.proj1, .proj2 {
-  display: inline-block;
-  width: 300px;
-  border: 1px solid rgb(73, 82, 70);
-  border-radius: 5px;
-}
-
-.proj1 p, .proj2 p {
-  text-align: left;
-}
-
-.two-article-control {
-  position: relative;
-  margin: auto;
-  margin-bottom: 35px;
-  width: 800px;
-  height: 600px;
-  padding: 40px;
-  text-align: center;
-  border: 1px dotted red;  /*temp */
-}
-
 @media screen and (max-width: 800px) { /* for smartphones and tablets */
-  .proj1, .proj2 {display: block; width: 800px;}
-  .proj1 {margin-right: 0px;}
-  .proj2 {margin-left: 0px;}
-  .proj1 p, .proj2 p {text-align: center;}
-  .two-article-control {height: 900px; width: 820px;}
+  .two-article-control {height: 990px; width: 920px;}
+  .main-article-half-width {display: block; width: 800px; margin-left: 60px; margin-right: 0px;}
+  .main-article-half-width p {margin: 10px auto; text-align: center;}
+  .proj2 {margin-top: 40px;}
 }
 
 /* .big-button, .big-button:hover: see master */
@@ -127,7 +118,7 @@
   margin: auto;
   margin-bottom: 40px;
   position: relative;
-  width: 900px;
+  width: 1000px;
   border: 1px dotted red;  /* temp */
   height: 400px;
 }

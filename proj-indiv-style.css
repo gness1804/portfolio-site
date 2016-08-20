@@ -4,8 +4,7 @@
 }
 
 @media screen and (max-width: 800px) { /* for smartphones and tablets */
-  .project-page-headline {width: 900px;}
-  element2 {}
+  .project-page-headline {width: 1000px; margin-top: 40px;}
 }
 
 /* .project-page-headline h2: see master */

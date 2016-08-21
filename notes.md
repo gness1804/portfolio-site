@@ -1,17 +1,6 @@
 Link to portfolio directions: http://frontend.turing.io/projects/portfolio-first-draft.html
 
-Ian's advice about centering my two article divs:
-<!-- create new div inside original container; position outer one relative; inner one absolute; inner one gets auto margins -->
-
-.proj1, .proj2 {
-  float: left;
-  width: 300px;
-  border: 1px solid rgb(73, 82, 70);
-  border-radius: 5px;
-  margin: 60px 30px 0px 30px;
-}
-
-///
+(code from Stack Overflow on aligning columns at center of page)
 #wrap {
     background: #e7e7e7;
     padding: 40px;

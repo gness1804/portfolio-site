@@ -1,7 +1,12 @@
 /* elements common to all pages */
 html {
   background: linear-gradient(to bottom, white, rgb(203, 202, 217));
+  background-size: cover;
   font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width: 800px) { /* for smartphones and tablets */
+html {min-height: 2000px; /* to get rid of white space in some mobile renderings of site */}
 }
 
 a:link {

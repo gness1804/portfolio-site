@@ -1,7 +1,3 @@
-.page-upper-section {
-  border: 1px dotted red; /* temp */
-}
-
 #mission {
   font-style: italic;
   font-size: 24px;
@@ -26,7 +22,6 @@
   height: 600px;
   padding: 40px;
   text-align: center;
-  border: 1px dotted red;  /*temp */
 }
 
 .main-article-half-width {
@@ -119,7 +114,6 @@
   margin-bottom: 40px;
   position: relative;
   width: 1000px;
-  border: 1px dotted red;  /* temp */
   height: 400px;
 }
 

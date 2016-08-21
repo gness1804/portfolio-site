@@ -22,6 +22,12 @@ a:hover {
   border: 1px dotted red; /* temp */
 }
 
+#test {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header-each-page {
   background: linear-gradient(to bottom, rgb(127, 179, 247), rgb(240, 243, 247));
 }
@@ -41,7 +47,6 @@ a:hover {
   float: right;
   display: inline-block;
   margin-top: 20px;
-  border: 1px dotted red; /* temp */
 }
 
 .nav-bar-list {
@@ -105,6 +110,7 @@ a:hover {
   border-radius: 5px;
   padding: 10px 0px 10px 0px;
   background-color: rgb(240, 236, 228);
+  margin-top: 30px;
 }
 
 .footer-each-page img {
@@ -121,7 +127,6 @@ a:hover {
 /* repeated elements from other pages */
 
 .big-button-container {
-  border: 1px dotted red; /* temp */
   margin: auto;
   text-align: center;
 }

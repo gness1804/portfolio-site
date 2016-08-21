@@ -33,3 +33,9 @@ margin: -220px 0px 50px 0px;
 .resume {
   margin-bottom: 100px;
 }
+
+$(document).ready(function () {
+  $("#test").click(function () {
+    $(".testing").toggleClass("border-test")
+  });
+}); //end of jQuery body

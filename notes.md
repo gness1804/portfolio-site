@@ -1,5 +1,9 @@
 Link to portfolio directions: http://frontend.turing.io/projects/portfolio-first-draft.html
 
+To do:
+*Revise red border test using key combo
+
+
 (code from Stack Overflow on aligning columns at center of page)
 #wrap {
     background: #e7e7e7;

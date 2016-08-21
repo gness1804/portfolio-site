@@ -1,5 +1,7 @@
 $(document).ready(function () {
-  $("#test").click(function () {
-    $(".testing").toggleClass("border-test")
+  $(document).on("keydown", function(key) {
+    if (key.which === 66) { // "B"
+      $(".testing").toggleClass("border-test");
+    }
   });
 }); //end of jQuery body

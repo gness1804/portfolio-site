@@ -22,12 +22,6 @@ a:hover {
   border: 1px dotted red; /* temp */
 }
 
-#test {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .header-each-page {
   background: linear-gradient(to bottom, rgb(127, 179, 247), rgb(240, 243, 247));
 }

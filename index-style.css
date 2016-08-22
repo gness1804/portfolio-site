@@ -70,10 +70,10 @@
 }
 
 @media screen and (max-width: 800px) { /* for smartphones and tablets */
-  .two-article-control {height: 990px; width: 920px;}
-  .main-article-half-width {display: block; width: 800px; margin-left: 60px; margin-right: 0px;}
+  .two-article-control {width: 1000px;}
+  .main-article-half-width {display: block; width: 800px; margin: 0px auto;}
   .main-article-half-width p {margin: 10px auto; text-align: center;}
-  .proj2 {margin-top: 40px;}
+  .proj2 {margin-top: 50px;}
 }
 
 /* .big-button-container, .big-button, .big-button:hover: see master */
@@ -98,10 +98,6 @@
   max-width: 400px;
 }
 
-@media screen and (max-width: 800px) { /* for smartphones and tablets */
-  .page-lower-section {left: 100px;}
-}
-
 #fig-main {
   display: inline-block;
   margin-left: 20px;
@@ -122,8 +118,9 @@
 }
 
 @media screen and (max-width: 800px) { /* for smartphones and tablets */
-  .bottom-elements-control {width: 900px;}
-  #fig-main {right: 0px;}
+  .bottom-elements-control {width: 1000px;}
+  .page-lower-section {margin: 0px auto;}
+  #fig-main {display: none;}
 }
 
 #book-img {

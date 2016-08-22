@@ -1,7 +1,6 @@
 Link to portfolio directions: http://frontend.turing.io/projects/portfolio-first-draft.html
 
-To do:
-*Revise red border test using key combo
+**Pick up with Project page 
 
 
 (code from Stack Overflow on aligning columns at center of page)

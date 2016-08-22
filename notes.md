@@ -1,7 +1,5 @@
 Link to portfolio directions: http://frontend.turing.io/projects/portfolio-first-draft.html
 
-**Pick up with Project page 
-
 
 (code from Stack Overflow on aligning columns at center of page)
 #wrap {

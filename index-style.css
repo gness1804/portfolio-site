@@ -6,13 +6,13 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 .page-upper-section {
   width: 900px;
   margin: auto;
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 800px) { /* for smartphones and tablets */
@@ -22,7 +22,6 @@
 .two-article-control {
   position: relative;
   margin: auto;
-  margin-bottom: 60px;
   width: 900px;
   text-align: center;
 }
@@ -37,7 +36,7 @@
 .main-article-half-width p {
   max-width: 400px;
   padding: 30px 30px 10px 15px;
-  text-align: left;
+  text-align: center;
 }
 
 .main-article-half-width h3, h4 {
@@ -94,7 +93,7 @@
 }
 
 .page-lower-section p {
-  text-align: left;
+  text-align: center;
   padding: 10px;
   max-width: 400px;
 }
@@ -117,8 +116,6 @@
 
 .bottom-elements-control {
   margin: auto;
-  margin-bottom: 40px;
-  margin-top: 60px;
   position: relative;
   width: 900px;
   text-align: center;

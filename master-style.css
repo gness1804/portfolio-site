@@ -110,7 +110,7 @@ a:hover {
   border-radius: 5px;
   padding: 10px 0px 10px 0px;
   background-color: rgb(240, 236, 228);
-  margin-top: 30px;
+  margin-top: 80px;
 }
 
 .footer-each-page img {
@@ -127,13 +127,12 @@ a:hover {
 /* repeated elements from other pages */
 
 .big-button-container {
-  margin: auto;
+  margin: 60px auto;
   text-align: center;
   width: 900px;
 }
 
 .big-button {
-  vertical-align: middle;
   width: 200px;
   padding: 15px;
   border-radius: 30px;
@@ -149,12 +148,6 @@ a:hover {
   background-color: rgb(30, 20, 219);
   color: white;
   cursor: pointer;
-}
-
-.bio-page-headline h2, .proj-menu-master-container h2, .project-page-headline h2 {
-  text-align: center;
-  font-size: 50px;
-  padding-bottom: 80px;
 }
 
 .bio-page-section h3, .project-page-section h3 {

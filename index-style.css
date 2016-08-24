@@ -1,36 +1,38 @@
 #mission {
-  font-style: italic;
-  font-size: 24px;
-  width: 600px;
-  text-align: center;
   display: block;
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 80px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 80px;
+  text-align: center;
+  width: 600px;
 }
 
 .page-upper-section {
-  width: 900px;
-  margin: auto;
   margin-top: 50px;
+  margin: auto;
+  width: 900px;
 }
 
 @media screen and (max-width: 800px) { /* for smartphones and tablets */
-  .page-upper-section {width: 1000px}
+  .page-upper-section {
+    width: 1000px
+  }
 }
 
 .two-article-control {
-  position: relative;
   margin: auto;
-  width: 900px;
+  position: relative;
   text-align: center;
+  width: 900px;
 }
 
 .main-article-half-width {
+  border-radius: 5px;
+  border: 1px solid rgb(73, 82, 70);
   display: inline-block;
   width: 300px;
-  border: 1px solid rgb(73, 82, 70);
-  border-radius: 5px;
 }
 
 .main-article-half-width p {
@@ -44,8 +46,8 @@
 }
 
 .main-article-half-width h3 {
-  font-weight: bold;
   font-size: 30px;
+  font-weight: bold;
   padding: 10px 0px;
 }
 
@@ -55,8 +57,8 @@
 }
 
 .main-article-half-width img {
-  height: 150px;
   display: block;
+  height: 150px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -70,34 +72,49 @@
 }
 
 @media screen and (max-width: 800px) { /* for smartphones and tablets */
-  .two-article-control {width: 1000px;}
-  .main-article-half-width {display: block; width: 800px; margin: 0px auto;}
-  .main-article-half-width p {margin: 10px auto; text-align: center;}
-  .proj2 {margin-top: 50px;}
+  .two-article-control {
+    width: 1000px;
+  }
+
+  .main-article-half-width {
+    display: block;
+    margin: 0px auto;
+    width: 800px;
+  }
+
+  .main-article-half-width p {
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .proj2 {
+    margin-top: 50px;
+  }
+
 }
 
 /* .big-button-container, .big-button, .big-button:hover: see master */
 
 .page-lower-section {
-  display: inline-block;
-  border: 1px solid rgb(73, 82, 70);
-  position: relative;
-  bottom: 90px;
   border-radius: 5px;
+  border: 1px solid rgb(73, 82, 70);
+  bottom: 90px;
+  display: inline-block;
   margin-right: 20px;
+  position: relative;
 }
 
 .page-lower-section h3 {
-  text-align: center;
-  font-weight: bold;
   font-size: 30px;
+  font-weight: bold;
   padding: 10px 0px;
+  text-align: center;
 }
 
 .page-lower-section p {
-  text-align: center;
-  padding: 10px;
   max-width: 400px;
+  padding: 10px;
+  text-align: center;
 }
 
 #fig-main {
@@ -106,23 +123,33 @@
 }
 
 #fig-main figcaption {
-  text-align: center;
-  font-style: italic;
   font-size: 20px;
+  font-style: italic;
   padding: 10px;
+  text-align: center;
 }
 
 .bottom-elements-control {
   margin: auto;
   position: relative;
-  width: 900px;
   text-align: center;
+  width: 900px;
 }
 
 @media screen and (max-width: 800px) { /* for smartphones and tablets */
-  .bottom-elements-control {width: 1000px;}
-  .page-lower-section {margin: 0px auto; bottom: 0;}
-  #fig-main {display: none;}
+  .bottom-elements-control {
+    width: 1000px;
+  }
+
+  .page-lower-section {
+    bottom: 0;
+    margin: 0px auto;
+  }
+
+  #fig-main {
+    display: none;
+  }
+
 }
 
 #book-img {

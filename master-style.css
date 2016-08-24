@@ -1,17 +1,20 @@
 /* elements common to all pages */
 html {
-  background: linear-gradient(to bottom, white, rgb(203, 202, 217));
   background-size: cover;
+  background: linear-gradient(to bottom, white, rgb(203, 202, 217));
   font-family: 'Open Sans', sans-serif;
 }
 
 @media screen and (max-width: 800px) { /* for smartphones and tablets */
-html {min-height: 2000px; /* to get rid of white space in some mobile renderings of site */}
+  html {
+  min-height: 2000px;
+  }
+
 }
 
 a:link {
-  text-decoration: none;
   color: rgb(64, 37, 226);
+  text-decoration: none;
 }
 
 a:visited {
@@ -32,19 +35,23 @@ a:hover {
 }
 
 .header-each-page h1 {
-  text-align: center;
   font-size: 60px;
-  padding-top: 20px;
   font-weight: bold;
+  padding-top: 20px;
+  text-align: center;
 }
 
 @media screen and (max-width: 800px) { /* for smartphones and tablets */
-  .header-each-page {text-align: center; width: 1000px;}
+  .header-each-page {
+    text-align: center;
+    width: 1000px;
+  }
+
 }
 
 .nav-bar {
-  float: right;
   display: inline-block;
+  float: right;
   margin-top: 20px;
 }
 
@@ -60,25 +67,33 @@ a:hover {
 }
 
 @media screen and (max-width: 800px) { /* for smartphones and tablets */
-  .nav-bar {display: block; float: none;}
-  .nav-bar-list > li {display: block; margin: 35px 15px;}
+  .nav-bar {
+    display: block;
+    float: none;
+  }
+
+  .nav-bar-list > li {
+    display: block;
+    margin: 35px 15px;
+  }
+
 }
 
 .nav-bar-list > li:hover {
-  border: 1px solid rgb(73, 82, 70);
-  border-radius: 5px;
   background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(73, 82, 70);
 }
 
 .nav-bar-list li a {
-  text-transform: uppercase;
   color: black;
   font-size: 22px;
+  text-transform: uppercase;
 }
 
 .nav-bar-list li a:hover {
-  font-style: normal !important;
   color: rgb(32, 40, 148);
+  font-style: normal !important;
 }
 
 .nav-bar-list li a:visited {
@@ -86,42 +101,53 @@ a:hover {
 }
 
 .nav-bar ul.nav-bar-list li.nav-bar-list-selected {
-  border: 1px solid rgb(73, 82, 70);
-  border-radius: 5px;
   background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(73, 82, 70);
 }
 
 .header-photo {
-  max-height: 250px;
-  max-width: 250px;
+  border-radius: 50%;
   margin-left: 50px;
   margin-top: 20px;
-  border-radius: 50%;
+  max-height: 250px;
+  max-width: 250px;
 }
 
 @media screen and (max-width: 800px) { /* for smartphones and tablets */
-  .header-photo {margin: 80px 0px 40px 50px;}
+  .header-photo {
+    margin: 80px 0px 40px 50px;
+  }
+
 }
 
 .footer-each-page {
-  clear: both;
-  text-align: center;
-  border: 1px solid rgb(73, 82, 70);
-  border-radius: 5px;
-  padding: 10px 0px 10px 0px;
   background-color: rgb(240, 236, 228);
+  border-radius: 5px;
+  border: 1px solid rgb(73, 82, 70);
+  clear: both;
   margin-top: 80px;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
 }
 
 .footer-each-page img {
   height: 40px;
-  width: 40px;
   padding: 0px 100px;
+  width: 40px;
 } /* try to make the icons in the foooter get bigger when I hover over them */
 
 @media screen and (max-width: 800px) { /* for smartphones and tablets */
-  .footer-each-page {max-height: 50px; width: 800px; margin-left: 100px;}
-  .footer-each-page img {padding: 0px 60px;}
+  .footer-each-page {
+    margin-left: 100px;
+    max-height: 50px;
+    width: 800px;
+  }
+
+  .footer-each-page img {
+    padding: 0px 60px;
+  }
+
 }
 
 /* repeated elements from other pages */
@@ -133,15 +159,18 @@ a:hover {
 }
 
 .big-button {
-  width: 200px;
-  padding: 15px;
-  border-radius: 30px;
   background-color: rgb(228, 226, 237);
+  border-radius: 30px;
   font-size: 20px;
+  padding: 15px;
+  width: 200px;
 }
 
 @media screen and (max-width: 800px) { /* for smartphones and tablets */
-  .big-button-container {width: 1000px;}
+  .big-button-container {
+    width: 1000px;
+  }
+
 }
 
 .big-button:hover {
@@ -151,8 +180,8 @@ a:hover {
 }
 
 .bio-page-section h3, .project-page-section h3 {
-  text-align: center;
-  font-weight: bold;
   font-size: 30px;
+  font-weight: bold;
   padding: 20px 0px 40px 0px;
+  text-align: center;
 }

@@ -1,16 +1,19 @@
 .bio-page-headline {
-  width: 900px;
-  margin: auto;
   margin-top: 50px;
+  margin: auto;
+  width: 900px;
 }
 
 @media screen and (max-width: 800px) { /* for smartphones and tablets */
-  .bio-page-headline {width: 1000px; margin-top: 50px;}
+  .bio-page-headline {
+    margin-top: 50px;
+    width: 1000px;
+  }
 }
 
 .bio-page-headline h2 {
-  text-align: center;
   font-size: 50px;
+  text-align: center;
 }
 
 /* .big-button-container, .big-button, .big-button:hover: see master */
@@ -20,16 +23,16 @@
 }
 
 .bio-page-section-container {
+  margin: 0px auto;
   text-align: center;
   width: 900px;
-  margin: 0px auto;
 }
 
 .bio-page-section {
-  border: 1px solid rgb(73, 82, 70);
   border-radius: 5px;
-  max-width: 800px;
+  border: 1px solid rgb(73, 82, 70);
   margin: 0px auto 50px auto;
+  max-width: 800px;
 }
 
 /* .bio-page-section h3: see master */
@@ -48,5 +51,7 @@
 }
 
 @media screen and (max-width: 800px) { /* for smartphones and tablets */
-  .bio-page-section-container {width: 1000px;}
+  .bio-page-section-container {
+    width: 1000px;
+  }
 }

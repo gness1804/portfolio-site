@@ -1,32 +1,35 @@
 .project-page-headline {
-  width: 900px;
-  margin: auto;
   margin-top: 50px;
+  margin: auto;
+  width: 900px;
 }
 
 @media screen and (max-width: 800px) { /* for smartphones and tablets */
-  .project-page-headline {width: 1000px;}
+  .project-page-headline {
+    width: 1000px;
+  }
+
 }
 
 .project-page-headline h2 {
-  text-align: center;
   font-size: 50px;
+  text-align: center;
 }
 
 .project-page-headline img {
-  height: 80px;
-  width: 80px;
-  position: relative;
   display: block;
+  height: 80px;
   margin: 40px auto 80px auto;
+  position: relative;
+  width: 80px;
 }
 
 .project-page-section {
-  text-align: center;
-  border: 1px solid rgb(73, 82, 70);
   border-radius: 5px;
-  max-width: 800px;
+  border: 1px solid rgb(73, 82, 70);
   margin: 0px auto 50px auto;
+  max-width: 800px;
+  text-align: center;
 }
 
 /* .project-page-section h3: see master */
@@ -37,13 +40,19 @@
 }
 
 .project-page-section p {
-  width: 400px;
-  margin: auto;
-  margin-top: 30px;
   margin-bottom: 30px;
+  margin-top: 30px;
+  margin: auto;
   text-align: center;
+  width: 400px;
 }
 
 @media screen and (max-width: 800px) { /* for smartphones and tablets */
-  .project-page-section {width: 800px; margin-left: 100px; margin-right: 0px; margin-top: 40px;}
+  .project-page-section {
+    margin-left: 100px;
+    margin-right: 0px;
+    margin-top: 40px;
+    width: 800px;
+  }
+
 }

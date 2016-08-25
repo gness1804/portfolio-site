@@ -110,8 +110,26 @@ a:hover {
   position: relative;
 }
 
-.dropdown-sub-menu {
+.dropdown-sub-menu { /* the dropdown menu itself */
+  background-color: white;
+  border: 1px solid rgb(73, 82, 70);
+  border-radius: 5px;
+  max-width: 100px;
+  padding: 5px;
   position: absolute;
+  z-index: 1;
+}
+
+.dropdown-sub-menu li {
+  line-height: 25px;
+}
+
+.projects-dropdown {
+  right: 270px;
+}
+
+.background-dropdown {
+  right: 120px;
 }
 
 .header-photo {

@@ -106,6 +106,14 @@ a:hover {
   border: 1px solid rgb(73, 82, 70);
 }
 
+.dropdown-super-menu {
+  position: relative;
+}
+
+.dropdown-sub-menu {
+  position: absolute;
+}
+
 .header-photo {
   border-radius: 50%;
   margin-left: 50px;

@@ -107,7 +107,7 @@ a:hover {
 }
 
 .dropdown-super-menu {
-  border: 1px dotted red; /* temp */
+  /*border: 1px dotted red; /* temp */
   position: relative;
 }
 
@@ -116,22 +116,27 @@ a:hover {
   border: 1px solid rgb(73, 82, 70);
   border-radius: 5px;
   display: none;
-  max-width: 100px;
+  max-width: 110px;
   padding: 5px;
   position: absolute;
   z-index: 1;
+  /*top: 100%;
+  left: 0;*/
 }
 
-.dropdown-sub-menu li {
+.dropdown-super-menu .dropdown-sub-menu li {
   line-height: 25px;
+  color: green;
 }
 
 .projects-dropdown {
   right: 270px;
+  top: 230px;
 }
 
 .background-dropdown {
   right: 120px;
+  top: 230px;
 }
 
 .header-photo {

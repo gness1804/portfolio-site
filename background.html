@@ -16,26 +16,21 @@
       <h1>Graham Nessler</h1>
       <img class="header-photo" src="images/skype-photo-2.jpg" alt="Photo of me in blue shirt." />
       <nav class="nav-bar testing">
-        <ul class="nav-bar-list">
+        <ul class="nav-bar-list testing">
           <li><a href="index.html">Home</a></li>
-          <li><a href="project-menu.html">Projects</a></li> <!-- Ask if the order of li and a matters here -->
-          <!-- <ul>
-            <li>Project 1</li>
-            <li>Project 2</li>
-            <li>Project 3</li>
-          </ul> -->
-          <li class="nav-bar-list-selected"><a href="background.html">Who I Am</a></li> <!-- change this in all pages -->
-            <!-- <ul>
-              <li>Employment History</li>
-              <li>Education</li>
-          </ul> -->
+          <li class="dropdown-super-menu"><a href="project-menu.html">Projects</a></li>
+              <ul class="dropdown-sub-menu projects-dropdown">
+                <li><a href="project-indiv.html">Project 1</a></li>
+                <li><a href="project-indiv.html">Project 2</a></li>
+                <li><a href="project-indiv.html">Project 3</a></li>
+            </ul>
+          <li class="dropdown-super-menu nav-bar-list-selected"><a href="background.html">Who I Am</a></li>
+            <ul class="dropdown-sub-menu background-dropdown">
+              <li><a href="background.html#work-hist">Employment History</a></li>
+              <li><a href="background.html#education">Education</a></li>
+          </ul>
           <li><a href="http://ness-blog-real.bitballoon.com/" target="_blank">Blog</a></li>
-            <!-- <ul>
-              <li>Sub-Item 1</li>
-              <li>Sub-Item 2</li>
-          </ul> -->
-          <!-- ** I need to ask why I can't get these lists to show up as blocks below each of the direct descendant li's of nav-bar-list -->
-        </ul>
+        </ul> <!-- end of main nav bar -->
       </nav>
     </header>
     <section class="bio-page-headline testing">

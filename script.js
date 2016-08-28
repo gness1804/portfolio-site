@@ -4,13 +4,16 @@ $(document).ready(function () {
       $(".testing").toggleClass("border-test");
     }
   });
-  $(".dropdown-super-menu").hover(function () {
-    $(".dropdown-sub-menu").show();
+  $(".nav-bar-list").hover(function () {
+      $(".dropdown-sub-menu").fadeIn(500);
   });
-  $(".dropdown-sub-menu").mouseleave(function () {
-    $(".dropdown-sub-menu").hide();
+  $(".nav-bar-list").mouseleave(function () {
+    $(".dropdown-sub-menu").fadeOut(500);
   });
-  // $(".dropdown-super-menu").mouseleave(function () {
+  // $(".dropdown-sub-menu").mouseleave(function () {
   //   $(".dropdown-sub-menu").hide();
+  // });
+  // $(".dropdown-super-menu").hover(function () {
+  //   $(".dropdown-sub-menu").show();
   // });
 }); //end of jQuery body

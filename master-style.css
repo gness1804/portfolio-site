@@ -100,7 +100,7 @@ a:hover {
   color: rgb(64, 75, 75);
 }
 
-.nav-bar ul.nav-bar-list li.nav-bar-list-selected {
+.nav-bar-list-selected { /*.nav-bar ul.nav-bar-list li.nav-bar-list-selected*/
   background-color: white;
   border-radius: 5px;
   border: 1px solid rgb(73, 82, 70);
@@ -116,17 +116,27 @@ a:hover {
   border: 1px solid rgb(73, 82, 70);
   border-radius: 5px;
   display: none;
-  max-width: 110px;
+  max-width: 135px;
   padding: 5px;
   position: absolute;
+  text-align: center;
+  word-wrap: normal;
   z-index: 1;
   /*top: 100%;
   left: 0;*/
 }
 
-.dropdown-super-menu .dropdown-sub-menu li {
-  line-height: 25px;
-  color: green;
+.nav-bar-list .dropdown-sub-menu li {
+  margin-bottom: 20px;
+}
+
+.nav-bar-list .dropdown-sub-menu a {
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.nav-bar-list .dropdown-sub-menu a:visited {
+
 }
 
 .projects-dropdown {
@@ -135,8 +145,9 @@ a:hover {
 }
 
 .background-dropdown {
-  right: 120px;
+  right: 100px;
   top: 230px;
+  max-width: 150px;
 }
 
 .header-photo {

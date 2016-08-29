@@ -1,0 +1,232 @@
+/* elements common to all pages */
+html {
+  background-size: cover;
+  background: linear-gradient(to bottom, white, rgb(203, 202, 217));
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width: 800px) { /* for smartphones and tablets */
+  html {
+  min-height: 2000px;
+  }
+
+}
+
+a:link {
+  color: rgb(64, 37, 226);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(232, 44, 219);
+}
+
+a:hover {
+  color: red;
+  font-style: italic;
+}
+
+.border-test {
+  border: 1px dotted red; /* temp */
+}
+
+.header-each-page {
+  background: linear-gradient(to bottom, rgb(127, 179, 247), rgb(240, 243, 247));
+}
+
+.header-each-page h1 {
+  font-size: 60px;
+  font-weight: bold;
+  padding-top: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) { /* for smartphones and tablets */
+  .header-each-page {
+    text-align: center;
+    width: 1000px;
+  }
+
+}
+
+.nav-bar {
+  display: inline-block;
+  float: right;
+  margin-top: 20px;
+}
+
+.nav-bar-list {
+  list-style-type: none;
+  margin-top: 80px;
+}
+
+.nav-bar-list > li {
+  display: inline-block;
+  margin: 15px;
+  padding: 5px;
+}
+
+@media screen and (max-width: 800px) { /* for smartphones and tablets */
+  .nav-bar {
+    display: block;
+    float: none;
+  }
+
+  .nav-bar-list > li {
+    display: block;
+    margin: 35px 15px;
+  }
+
+}
+
+.nav-bar-list > li:hover {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(73, 82, 70);
+}
+
+.nav-bar-list li a {
+  color: black;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.nav-bar-list li a:hover {
+  color: rgb(32, 40, 148);
+  font-style: normal !important;
+}
+
+.nav-bar-list li a:visited {
+  color: rgb(64, 75, 75);
+}
+
+.nav-bar-list-selected { /*.nav-bar ul.nav-bar-list li.nav-bar-list-selected*/
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(73, 82, 70);
+}
+
+.dropdown-super-menu {
+  /*border: 1px dotted red; /* temp */
+  position: relative;
+}
+
+.dropdown-sub-menu { /* the dropdown menu itself */
+  background-color: white;
+  border: 1px solid rgb(73, 82, 70);
+  border-radius: 5px;
+  display: none;
+  max-width: 135px;
+  padding: 5px;
+  position: absolute;
+  text-align: center;
+  word-wrap: normal;
+  z-index: 1;
+  /*top: 100%;
+  left: 0;*/
+}
+
+.nav-bar-list .dropdown-sub-menu li {
+  margin-bottom: 20px;
+  padding: 0px 10px;
+}
+
+.nav-bar-list .dropdown-sub-menu a {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.nav-bar-list .dropdown-sub-menu a:hover {
+  color: rgb(159, 145, 159);
+}
+
+.projects-dropdown {
+  right: 270px;
+  top: 230px;
+}
+
+.background-dropdown {
+  right: 100px;
+  top: 230px;
+  max-width: 150px;
+}
+
+.header-photo {
+  border-radius: 50%;
+  margin-left: 50px;
+  margin-top: 20px;
+  max-height: 250px;
+  max-width: 250px;
+}
+
+@media screen and (max-width: 800px) { /* for smartphones and tablets */
+  .header-photo {
+    margin: 80px 0px 40px 50px;
+  }
+
+}
+
+.footer-each-page {
+  background-color: rgb(240, 236, 228);
+  border-radius: 5px;
+  border: 1px solid rgb(73, 82, 70);
+  clear: both;
+  margin-top: 80px;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+}
+
+.footer-each-page img {
+  height: 40px;
+  padding: 0px 100px;
+  width: 40px;
+} /* try to make the icons in the foooter get bigger when I hover over them */
+
+@media screen and (max-width: 800px) { /* for smartphones and tablets */
+  .footer-each-page {
+    margin: auto;
+    max-height: 50px;
+    width: 1000px;
+  }
+
+  .footer-each-page img {
+    padding: 0px 60px;
+  }
+
+}
+
+/* repeated elements from other pages */
+
+.big-button-container {
+  margin: 60px auto;
+  text-align: center;
+  width: 900px;
+}
+
+.big-button {
+  background-color: rgb(228, 226, 237);
+  border-radius: 30px;
+  font-size: 20px;
+  padding: 15px;
+  width: 200px;
+}
+
+@media screen and (max-width: 800px) { /* for smartphones and tablets */
+  .big-button-container {
+    width: 1000px;
+  }
+
+}
+
+.big-button:hover {
+  background-color: rgb(30, 20, 219);
+  color: white;
+  cursor: pointer;
+}
+
+.bio-page-section h3, .project-page-section h3 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px 0px 40px 0px;
+  text-align: center;
+}

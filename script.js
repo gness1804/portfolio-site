@@ -5,7 +5,9 @@ $(document).ready(function () {
     }
   });
   $(".nav-bar-list").hover(function () {
-      $(".dropdown-sub-menu").fadeIn(500);
+      if (window.outerWidth > 875) {
+        $(".dropdown-sub-menu").fadeIn(500);
+      }
   });
   $(".nav-bar-list").mouseleave(function () {
     $(".dropdown-sub-menu").fadeOut(500);

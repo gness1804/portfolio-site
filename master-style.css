@@ -5,7 +5,7 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-@media screen and (max-width: 800px) { /* for smartphones and tablets */
+@media screen and (max-width: 875px) { /* for smartphones and tablets */
   html {
   min-height: 2000px;
   }
@@ -42,7 +42,7 @@ a:hover {
   text-align: center;
 }
 
-@media screen and (max-width: 800px) { /* for smartphones and tablets */
+@media screen and (max-width: 875px) { /* for smartphones and tablets */
   .header-each-page {
     text-align: center;
     width: 1000px;
@@ -63,11 +63,11 @@ a:hover {
 
 .nav-bar-list > li {
   display: inline-block;
-  margin: 15px;
+  margin: 25px; /* orig: margin: 15px for 800px break point */
   padding: 5px;
 }
 
-@media screen and (max-width: 800px) { /* for smartphones and tablets */
+@media screen and (max-width: 875px) { /* for smartphones and tablets */
   .nav-bar {
     display: block;
     float: none;
@@ -142,13 +142,13 @@ a:hover {
 }
 
 .projects-dropdown {
-  right: 270px;
-  top: 230px;
+  right: 313px; /* orig 270 */
+  top: 250px; /* orig 230 */
 }
 
 .background-dropdown {
-  right: 100px;
-  top: 230px;
+  right: 122px;
+  top: 250px;
   max-width: 150px;
 }
 
@@ -160,7 +160,7 @@ a:hover {
   max-width: 250px;
 }
 
-@media screen and (max-width: 800px) { /* for smartphones and tablets */
+@media screen and (max-width: 875px) { /* for smartphones and tablets */
   .header-photo {
     margin: 80px 0px 40px 50px;
   }
@@ -183,7 +183,7 @@ a:hover {
   width: 40px;
 } /* try to make the icons in the foooter get bigger when I hover over them */
 
-@media screen and (max-width: 800px) { /* for smartphones and tablets */
+@media screen and (max-width: 875px) { /* for smartphones and tablets */
   .footer-each-page {
     margin: auto;
     max-height: 50px;
@@ -212,7 +212,7 @@ a:hover {
   width: 200px;
 }
 
-@media screen and (max-width: 800px) { /* for smartphones and tablets */
+@media screen and (max-width: 875px) { /* for smartphones and tablets */
   .big-button-container {
     width: 1000px;
   }

@@ -32,6 +32,7 @@ a:hover {
 
 .header-each-page {
   background: linear-gradient(to bottom, rgb(127, 179, 247), rgb(240, 243, 247));
+  margin-bottom: 80px;
 }
 
 .header-each-page h1 {

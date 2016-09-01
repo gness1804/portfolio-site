@@ -6,8 +6,9 @@
 }
 
 .page-upper-section p {
-  font-size: 24px;
+  font-size: 36px;
   font-style: italic;
+  line-height: 43px;
   max-width: 600px;
   margin: auto;
   text-align: center;

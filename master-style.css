@@ -38,6 +38,7 @@ a:hover {
 .header-each-page h1 {
   font-size: 60px;
   font-weight: bold;
+  margin-bottom: 60px;
   padding-top: 20px;
   text-align: center;
 }
@@ -142,13 +143,13 @@ a:hover {
 }
 
 .projects-dropdown {
-  right: 313px; /* orig 270 */
-  top: 250px; /* orig 230 */
+  right: 313px;
+  top: 310px
 }
 
 .background-dropdown {
   right: 122px;
-  top: 250px;
+  top: 310px;
   max-width: 150px;
 }
 

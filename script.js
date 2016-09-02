@@ -4,18 +4,13 @@ $(document).ready(function () {
       $(".testing").toggleClass("border-test");
     }
   });
-  $(".nav-bar-list").hover(function () {
-      if (window.outerWidth > 875) {
-        $(".dropdown-sub-menu").fadeIn(500);
-      }
-  });
-  $(".nav-bar-list").mouseleave(function () {
-    $(".dropdown-sub-menu").fadeOut(500);
-  });
-  // $(".dropdown-sub-menu").mouseleave(function () {
-  //   $(".dropdown-sub-menu").hide();
+  $(".dropdown-menu-actual").hide();
+  // $(".nav-bar-list").hover(function () {
+  //     if (window.outerWidth > 875) {
+  //       $(".dropdown-sub-menu").fadeIn(500);
+  //     }
   // });
-  // $(".dropdown-super-menu").hover(function () {
-  //   $(".dropdown-sub-menu").show();
-  // });
+  // $(".nav-bar-list").mouseleave(function () {
+  //   $(".dropdown-sub-menu").fadeOut(500);
+
 }); //end of jQuery body

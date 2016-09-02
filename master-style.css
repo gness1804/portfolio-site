@@ -57,16 +57,24 @@ a:hover {
   margin-top: 20px;
 }
 
-.nav-bar-list {
+.dropdown-menu-container {
+  
+}
+
+.dropdown-menu-actual {
+
+}
+
+/*.nav-bar-list {
   list-style-type: none;
   margin-top: 80px;
 }
 
 .nav-bar-list > li {
   display: inline-block;
-  margin: 25px; /* orig: margin: 15px for 800px break point */
+  margin: 25px;
   padding: 5px;
-}
+}  */
 
 @media screen and (max-width: 875px) { /* for smartphones and tablets */
   .nav-bar {

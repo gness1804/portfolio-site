@@ -93,7 +93,8 @@ a:hover {
 }
 
 .dropdown-menu-actual a {
-  margin-bottom: 20px;
+  display: block;
+  margin-bottom: 15px;
   padding: 0px 10px;
   font-size: 18px;
   line-height: 20px;
@@ -136,12 +137,6 @@ a:hover {
   }
 
 }
-
-
-
-
-
-
 
 .header-photo {
   border-radius: 50%;

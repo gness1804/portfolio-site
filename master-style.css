@@ -57,6 +57,22 @@ a:hover {
   margin-top: 20px;
 }
 
+.nav-bar a {
+  color: black;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.nav-bar a:hover {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(73, 82, 70);
+}
+
+.nav-bar a:visited {
+  color: rgb(64, 75, 75);
+}
+
 .dropdown-menu-container {
   display: inline-block;
   margin: 25px;
@@ -66,6 +82,12 @@ a:hover {
 
 .dropdown-menu-actual {
   position: absolute;
+}
+
+.selected {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(73, 82, 70);
 }
 
 /*.nav-bar-list {
@@ -86,31 +108,9 @@ a:hover {
 
 }
 
-.nav-bar-list > li:hover {
-  background-color: white;
-  border-radius: 5px;
-  border: 1px solid rgb(73, 82, 70);
-}
-
-.nav-bar-list li a {
-  color: black;
-  font-size: 22px;
-  text-transform: uppercase;
-}
-
-.nav-bar-list li a:hover {
-  color: rgb(32, 40, 148);
-  font-style: normal !important;
-}
-
-.nav-bar-list li a:visited {
-  color: rgb(64, 75, 75);
-}
 
 .nav-bar-list-selected { /*.nav-bar ul.nav-bar-list li.nav-bar-list-selected*/
-  background-color: white;
-  border-radius: 5px;
-  border: 1px solid rgb(73, 82, 70);
+
 }
 
 .dropdown-super-menu {

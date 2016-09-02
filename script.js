@@ -5,6 +5,9 @@ $(document).ready(function () {
     }
   });
   $(".dropdown-menu-actual").hide();
+  $(".dropdown-menu-container").hover(function () {
+    $(this).children().show();
+  });
   // $(".nav-bar-list").hover(function () {
   //     if (window.outerWidth > 875) {
   //       $(".dropdown-sub-menu").fadeIn(500);

@@ -10,15 +10,7 @@ $(document).ready(function () {
       $(this).children().fadeIn(500);
     }
   });
-  $(".dropdown-menu-container").mouseleave(function () {
-    $(".dropdown-menu-actual").fadeOut(500);
-  });
-  // $(".nav-bar-list").hover(function () {
-  //     if (window.outerWidth > 875) {
-  //       $(".dropdown-sub-menu").fadeIn(500);
-  //     }
-  // });
-  // $(".nav-bar-list").mouseleave(function () {
-  //   $(".dropdown-sub-menu").fadeOut(500);
-
+  // $(".dropdown-menu-container").mouseleave(function () {
+  //   $(".dropdown-menu-actual").fadeOut(500);
+  // }); temporarily hidden to reposition the hidden elements
 }); //end of jQuery body

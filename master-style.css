@@ -60,6 +60,7 @@ a:hover {
 .nav-bar a {
   color: black;
   font-size: 22px;
+  padding: 10px;
   text-transform: uppercase;
 }
 
@@ -76,7 +77,6 @@ a:hover {
 .dropdown-menu-container {
   display: inline-block;
   margin: 25px;
-  padding: 5px;
   position: relative;
 }
 
@@ -104,6 +104,15 @@ a:hover {
   color: rgb(159, 145, 159);
 }
 
+.projects-dropdown {
+  top: 60px;
+}
+
+.background-dropdown {
+  max-width: 150px;
+  top: 60px;
+}
+
 .selected {
   background-color: white;
   border-radius: 5px;
@@ -128,18 +137,11 @@ a:hover {
 
 }
 
-/*stopped*/
 
-.projects-dropdown {
-  right: 313px;
-  top: 310px
-}
 
-.background-dropdown {
-  right: 122px;
-  top: 310px;
-  max-width: 150px;
-}
+
+
+
 
 .header-photo {
   border-radius: 50%;

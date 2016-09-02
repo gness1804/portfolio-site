@@ -81,7 +81,27 @@ a:hover {
 }
 
 .dropdown-menu-actual {
+  background-color: white;
   position: absolute;
+  border: 1px solid rgb(73, 82, 70);
+  border-radius: 5px;
+  max-width: 135px;
+  padding: 5px;
+  text-align: center;
+  word-wrap: normal;
+  z-index: 1;
+}
+
+.dropdown-menu-actual a {
+  margin-bottom: 20px;
+  padding: 0px 10px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.dropdown-menu-actual a:hover {
+  border: none;
+  color: rgb(159, 145, 159);
 }
 
 .selected {
@@ -101,51 +121,14 @@ a:hover {
     float: none;
   }
 
-  .nav-bar-list > li {
+  .nav-bar a {
     display: block;
     margin: 35px 15px;
   }
 
 }
 
-
-.nav-bar-list-selected { /*.nav-bar ul.nav-bar-list li.nav-bar-list-selected*/
-
-}
-
-.dropdown-super-menu {
-  /*border: 1px dotted red; /* temp */
-  position: relative;
-}
-
-.dropdown-sub-menu { /* the dropdown menu itself */
-  background-color: white;
-  border: 1px solid rgb(73, 82, 70);
-  border-radius: 5px;
-  display: none;
-  max-width: 135px;
-  padding: 5px;
-  position: absolute;
-  text-align: center;
-  word-wrap: normal;
-  z-index: 1;
-  /*top: 100%;
-  left: 0;*/
-}
-
-.nav-bar-list .dropdown-sub-menu li {
-  margin-bottom: 20px;
-  padding: 0px 10px;
-}
-
-.nav-bar-list .dropdown-sub-menu a {
-  font-size: 18px;
-  line-height: 20px;
-}
-
-.nav-bar-list .dropdown-sub-menu a:hover {
-  color: rgb(159, 145, 159);
-}
+/*stopped*/
 
 .projects-dropdown {
   right: 313px;

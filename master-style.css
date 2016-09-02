@@ -61,10 +61,11 @@ a:hover {
   display: inline-block;
   margin: 25px;
   padding: 5px;
+  position: relative;
 }
 
 .dropdown-menu-actual {
-
+  position: absolute;
 }
 
 /*.nav-bar-list {

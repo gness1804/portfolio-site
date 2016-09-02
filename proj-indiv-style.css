@@ -19,9 +19,13 @@
 .project-page-headline img {
   display: block;
   height: 80px;
-  margin: 40px auto 80px auto;
+  margin: 40px auto 30px auto;
   position: relative;
   width: 80px;
+}
+
+.project-page-headline p {
+  text-align: center;
 }
 
 .project-page-section {

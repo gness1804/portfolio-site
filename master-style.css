@@ -57,16 +57,74 @@ a:hover {
   margin-top: 20px;
 }
 
-.nav-bar-list {
-  list-style-type: none;
-  margin-top: 80px;
+.nav-bar a {
+  color: black;
+  font-size: 22px;
+  padding: 10px;
+  text-transform: uppercase;
 }
 
-.nav-bar-list > li {
-  display: inline-block;
-  margin: 25px; /* orig: margin: 15px for 800px break point */
-  padding: 5px;
+.nav-bar a:hover {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(73, 82, 70);
 }
+
+.nav-bar a:visited {
+  color: rgb(64, 75, 75);
+}
+
+.dropdown-menu-container {
+  display: inline-block;
+  margin: 25px;
+  position: relative;
+}
+
+.dropdown-menu-actual {
+  background-color: white;
+  position: absolute;
+  border: 1px solid rgb(73, 82, 70);
+  border-radius: 5px;
+  max-width: 135px;
+  padding: 5px;
+  text-align: center;
+  word-wrap: normal;
+  z-index: 1;
+}
+
+.dropdown-menu-actual a {
+  display: block;
+  margin-bottom: 15px;
+  padding: 0px 10px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.dropdown-menu-actual a:hover {
+  border: none;
+  color: rgb(159, 145, 159);
+}
+
+.projects-dropdown {
+  top: 38px;
+}
+
+.background-dropdown {
+  left: -9px;
+  max-width: 150px;
+  top: 38px;
+}
+
+.selected {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(73, 82, 70);
+}
+
+/*.nav-bar-list {
+  list-style-type: none;
+  margin-top: 80px;
+} */
 
 @media screen and (max-width: 875px) { /* for smartphones and tablets */
   .nav-bar {
@@ -74,83 +132,11 @@ a:hover {
     float: none;
   }
 
-  .nav-bar-list > li {
+  .nav-bar a {
     display: block;
     margin: 35px 15px;
   }
 
-}
-
-.nav-bar-list > li:hover {
-  background-color: white;
-  border-radius: 5px;
-  border: 1px solid rgb(73, 82, 70);
-}
-
-.nav-bar-list li a {
-  color: black;
-  font-size: 22px;
-  text-transform: uppercase;
-}
-
-.nav-bar-list li a:hover {
-  color: rgb(32, 40, 148);
-  font-style: normal !important;
-}
-
-.nav-bar-list li a:visited {
-  color: rgb(64, 75, 75);
-}
-
-.nav-bar-list-selected { /*.nav-bar ul.nav-bar-list li.nav-bar-list-selected*/
-  background-color: white;
-  border-radius: 5px;
-  border: 1px solid rgb(73, 82, 70);
-}
-
-.dropdown-super-menu {
-  /*border: 1px dotted red; /* temp */
-  position: relative;
-}
-
-.dropdown-sub-menu { /* the dropdown menu itself */
-  background-color: white;
-  border: 1px solid rgb(73, 82, 70);
-  border-radius: 5px;
-  display: none;
-  max-width: 135px;
-  padding: 5px;
-  position: absolute;
-  text-align: center;
-  word-wrap: normal;
-  z-index: 1;
-  /*top: 100%;
-  left: 0;*/
-}
-
-.nav-bar-list .dropdown-sub-menu li {
-  margin-bottom: 20px;
-  padding: 0px 10px;
-}
-
-.nav-bar-list .dropdown-sub-menu a {
-  font-size: 18px;
-  line-height: 20px;
-}
-
-.nav-bar-list .dropdown-sub-menu a:hover {
-  color: rgb(159, 145, 159);
-}
-
-.projects-dropdown {
-  right: 313px;
-  top: 310px
-}
-
-.background-dropdown {
-  right: 122px;
-  top: 310px;
-  max-width: 150px;
 }
 
 .header-photo {

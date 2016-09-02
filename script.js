@@ -10,7 +10,7 @@ $(document).ready(function () {
       $(this).children().fadeIn(500);
     }
   });
-  // $(".dropdown-menu-container").mouseleave(function () {
-  //   $(".dropdown-menu-actual").fadeOut(500);
-  // }); temporarily hidden to reposition the hidden elements
+  $(".dropdown-menu-container").mouseleave(function () {
+    $(".dropdown-menu-actual").fadeOut(500);
+  });
 }); //end of jQuery body

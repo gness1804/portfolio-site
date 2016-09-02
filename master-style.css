@@ -110,6 +110,7 @@ a:hover {
 }
 
 .background-dropdown {
+  left: -9px;
   max-width: 150px;
   top: 38px;
 }

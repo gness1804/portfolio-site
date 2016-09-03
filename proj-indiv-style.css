@@ -1,4 +1,5 @@
 .project-page-headline {
+  margin-bottom: 60px;
   margin-top: 50px;
   margin: auto;
   width: 900px;
@@ -31,7 +32,7 @@
 .project-page-section {
   border-radius: 5px;
   border: 1px solid rgb(73, 82, 70);
-  margin: 0px auto 50px auto;
+  margin: 60px auto 50px auto;
   max-width: 875px;
   text-align: center;
 }

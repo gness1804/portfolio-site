@@ -16,21 +16,25 @@
       <h1>Graham Nessler</h1>
       <img class="header-photo" src="images/skype-photo-2.jpg" alt="Photo of me in blue shirt." />
       <nav class="nav-bar testing">
-        <ul class="nav-bar-list testing">
-          <li><a href="index.html">Home</a></li>
-          <li class="dropdown-super-menu"><a href="project-menu.html">Projects</a></li>
-              <ul class="dropdown-sub-menu projects-dropdown">
-                <li><a href="project-indiv.html">Project 1</a></li>
-                <li><a href="project-indiv.html">Project 2</a></li>
-                <li><a href="project-indiv.html">Project 3</a></li>
-            </ul>
-          <li class="dropdown-super-menu nav-bar-list-selected"><a href="background.html">Who I Am</a></li>
-            <ul class="dropdown-sub-menu background-dropdown">
-              <li><a href="background.html#work-hist">Employment History</a></li>
-              <li><a href="background.html#education">Education</a></li>
-          </ul>
-          <li><a href="http://ness-blog-real.bitballoon.com/" target="_blank">Blog</a></li>
-        </ul> <!-- end of main nav bar -->
+        <a href="index.html">Home</a>
+        <section class="dropdown-menu-container testing">
+          <a href="project-menu.html">Projects</a>
+          <section class="dropdown-menu-actual projects-dropdown">
+            <a href="project-indiv.html">Project 1</a>
+            <a href="project-indiv.html">Project 2</a>
+            <a href="project-indiv.html">Project 3</a>
+          </section>
+        </section>
+        <section class="dropdown-menu-container testing">
+          <a href="background.html" class="selected">About Me</a>
+          <section class="dropdown-menu-actual background-dropdown">
+            <a href="background.html#work-hist">Employment History</a>
+            <a href="background.html#education">Education</a>
+          </section>
+          </section>
+          <section class="dropdown-menu-container testing">
+            <a href="http://ness-blog-real.bitballoon.com/">Blog</a>
+          </section>
       </nav>
     </header>
     <section class="bio-page-headline testing">

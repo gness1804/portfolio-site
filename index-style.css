@@ -118,6 +118,10 @@
   text-align: center;
 }
 
+.page-lower-section span {
+  font-style: italic;
+}
+
 #fig-main {
   display: inline-block;
   margin-left: 20px;

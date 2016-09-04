@@ -105,6 +105,13 @@ a:hover {
   color: rgb(159, 145, 159);
 }
 
+@media screen and (max-width: 875px) { /* for smartphones and tablets */
+  .dropdown-menu-container {
+    display: block;
+  }
+  element2 {}
+}
+
 .projects-dropdown {
   top: 38px;
 }

@@ -108,8 +108,10 @@ a:hover {
 @media screen and (max-width: 875px) { /* for smartphones and tablets */
   .dropdown-menu-container {
     display: block;
+    margin: auto;
+    max-width: 600px;
   }
-  
+
 }
 
 .projects-dropdown {

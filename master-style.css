@@ -18,7 +18,7 @@ a:link {
 }
 
 a:visited {
-  color: rgb(99, 105, 95);
+  color: rgb(221, 22, 207);
 }
 
 a:hover {
@@ -159,9 +159,11 @@ a:hover {
   border-radius: 5px;
   border: 1px solid rgb(73, 82, 70);
   clear: both;
+  display: flex;
+  justify-content: center;
   margin-top: 80px;
-  padding: 10px 0px 10px 0px;
-  text-align: center;
+  /*padding: 10px 0px 10px 0px;
+  text-align: center;*/
 }
 
 .footer-each-page img {

@@ -179,7 +179,12 @@ a:hover {
   height: 40px;
   padding: 10px 75px;
   width: 40px;
-} /* try to make the icons in the foooter get bigger when I hover over them */
+}
+
+.footer-each-page img:hover {
+  height: 55px;
+  width: 55px;
+}
 
 @media screen and (max-width: 875px) { /* for smartphones and tablets */
   .footer-each-page {

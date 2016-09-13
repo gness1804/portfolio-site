@@ -6,7 +6,7 @@ $(document).ready(function () {
   });
   $(".dropdown-menu-actual").hide();
   $(".dropdown-menu-container").hover(function () {
-    if (window.outerWidth > 875) {
+    if (window.outerWidth > 920) {
       $(this).children().fadeIn(500);
     }
   });

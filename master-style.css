@@ -191,6 +191,8 @@ a:hover {
   .footer-each-page {
     margin: auto;
     max-height: 50px;
+    /*position: absolute;
+    top: 1950px;*/
     width: 1000px;
   }
 

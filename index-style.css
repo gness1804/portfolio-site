@@ -14,7 +14,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 875px) { /* for smartphones and tablets */
+@media screen and (max-width: 920px) { /* for smartphones and tablets */
   .page-upper-section {
     margin-top: 140px;
     width: 1000px
@@ -71,7 +71,7 @@
   margin-left: 20px;
 }
 
-@media screen and (max-width: 875px) { /* for smartphones and tablets */
+@media screen and (max-width: 920px) { /* for smartphones and tablets */
   .two-article-control {
     width: 1000px;
   }
@@ -142,7 +142,7 @@
   width: 900px;
 }
 
-@media screen and (max-width: 875px) { /* for smartphones and tablets */
+@media screen and (max-width: 920px) { /* for smartphones and tablets */
   .bottom-elements-control {
     width: 1000px;
   }

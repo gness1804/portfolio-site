@@ -190,6 +190,7 @@ a:hover {
 @media screen and (max-width: 920px) { /* for smartphones and tablets */
   .footer-each-page {
     margin: auto;
+    margin-top: 200px;
     max-height: 50px;
     /*position: absolute;
     top: 1950px;*/

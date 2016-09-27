@@ -1,9 +1,9 @@
 $(document).ready(function () {
-  $(document).on("keydown", function(key) {
-    if (key.which === 66) { // "B"
-      $(".testing").toggleClass("border-test");
-    }
-  });
+  // $(document).on("keydown", function(key) { //the code for the red border test
+  //   if (key.which === 66) { // "B"
+  //     $(".testing").toggleClass("border-test");
+  //   }
+  // });
   $(".dropdown-menu-actual").hide();
   $(".dropdown-menu-container").hover(function () {
     if (window.outerWidth > 920) {

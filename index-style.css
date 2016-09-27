@@ -80,6 +80,7 @@
 
   .main-article-half-width {
     display: block;
+    height: auto;
     margin: 0px auto;
     width: 800px;
   }

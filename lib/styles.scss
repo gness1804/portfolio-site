@@ -21,12 +21,8 @@ a:hover {
   @include link-hover;
 }
 
-.border-test {
-  border: 1px dotted red; /* temp */
-}
-
 .header-each-page {
-  background: linear-gradient(to bottom, rgb(127, 179, 247), rgb(240, 243, 247));
+  background: $header-gradient;
   margin-bottom: 80px;
 }
 

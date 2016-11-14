@@ -1,3 +1,19 @@
 @import "variables.scss";
 
+@media screen and (max-width: 920px) { /* for smartphones and tablets */
+  html {
+    min-height: 2000px;
+  }
 
+  .header-each-page {
+    text-align: center;
+    width: 1000px;
+  }
+
+  .dropdown-menu-container {
+    display: block !important;
+    margin: auto !important;
+    max-width: 600px !important;
+  }
+
+}

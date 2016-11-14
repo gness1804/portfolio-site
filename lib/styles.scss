@@ -1,6 +1,7 @@
 @import "variables.scss";
 @import "mixins.scss";
 @import "debug.scss";
+@import "mobile.scss";
 
 /* elements common to all pages */
 html {
@@ -27,20 +28,8 @@ a:hover {
 }
 
 .header-each-page h1 {
-  font-size: 60px;
-  font-weight: bold;
-  margin-bottom: 60px;
-  padding-top: 20px;
-  text-align: center;
-}
-
-@media screen and (max-width: 920px) { /* for smartphones and tablets */
-  .header-each-page {
-    text-align: center;
-    width: 1000px;
+  @include h1;
   }
-
-}
 
 .nav-bar {
   display: inline-block;
@@ -53,12 +42,13 @@ a:hover {
   font-size: 22px;
   padding: 10px;
   text-transform: uppercase;
-}
 
-.nav-bar a:hover {
-  background-color: white;
-  border-radius: 5px;
-  border: 1px solid rgb(73, 82, 70);
+  &:hover {
+   background-color: white;
+   border-radius: 5px;
+   border: 1px solid rgb(73, 82, 70);
+  }
+
 }
 
 .nav-bar a:visited {
@@ -94,15 +84,6 @@ a:hover {
 .dropdown-menu-actual a:hover {
   border: none;
   color: rgb(159, 145, 159);
-}
-
-@media screen and (max-width: 920px) { /* for smartphones and tablets */
-  .dropdown-menu-container {
-    display: block;
-    margin: auto;
-    max-width: 600px;
-  }
-
 }
 
 .projects-dropdown {

@@ -1,6 +1,7 @@
 @import "variables.scss";
 
-@media screen and (max-width: $breakpoint) { /* for smartphones and tablets */
+@media screen and (max-width: $breakpoint) {
+
   html {
     min-height: 2000px;
   }
@@ -34,7 +35,7 @@
 
   .footer-each-page {
      margin: auto;
-     margin-top: 200px;
+     margin-top: 220px !important;
      max-height: 50px;
      top: 1950px;
      width: 1000px;
@@ -111,5 +112,5 @@
   .proj-menu-master-container {
     margin-bottom: 240px;
   }
-  
+
 } //end of media query

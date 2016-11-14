@@ -46,7 +46,7 @@
    }
 
    .big-button-container {
-     width: 1000px;
+     width: 1000px !important;
     }
 
    .bio-page-headline {
@@ -64,14 +64,14 @@
   }
 
    .two-article-control {
-     width: 1000px;
+     width: 1000px !important;
   }
 
    .main-article-half-width {
-     display: block;
-     height: auto;
-     margin: 0px auto;
-     width: 800px;
+     display: block !important;
+     height: auto !important;
+     margin: 0px auto !important;
+     width: 800px !important;
   }
 
    .main-article-half-width p {
@@ -80,19 +80,19 @@
   }
 
    .proj2 {
-     margin-top: 50px;
+     margin-top: 50px !important;
   }
 
    .bottom-elements-control {
-     width: 1000px;
+     width: 1000px !important;
   }
 
    .page-lower-section {
-     bottom: 0;
+     bottom: 0 !important;
      margin: 0px auto;
   }
 
    #fig-main {
-     display: none;
+     display: none !important;
   }
 } //end of media query

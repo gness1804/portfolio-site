@@ -15,7 +15,7 @@
     margin: auto !important;
     max-width: 600px !important;
   }
-  
+
   .nav-bar {
     display: block !important;
     float: none !important;
@@ -52,7 +52,7 @@
    .bio-page-headline {
      margin-top: 50px;
      width: 1000px;
-   } 
+   }
 
    .bio-page-section-container {
      width: 1000px;
@@ -96,4 +96,16 @@
      display: none !important;
   }
 
+  .project-page-headline {
+    margin-bottom: 120px !important;
+    width: 1000px !important;
+  }
+
+  .project-page-section {
+    margin-left: 100px;
+    margin-right: 0px;
+    margin-top: 40px;
+    width: 800px;
+  }
+  
 } //end of media query

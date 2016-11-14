@@ -7,7 +7,7 @@
 /* elements common to all pages */
 html {
   background-size: cover;
-  background: $background-gradient; 
+  background: $background-gradient;
   font-family: $main-font;
 }
 
@@ -83,7 +83,7 @@ a:hover {
 
   &:hover {
    border: none;
-   color: rgb(159, 145, 159); 
+   color: rgb(159, 145, 159);
   }
 }
 
@@ -159,6 +159,27 @@ a:hover {
   cursor: pointer;
 }
 
+.project-page-section {
+  border-radius: 5px;
+  border: 1px solid rgb(73, 82, 70);
+  margin: 100px auto 50px auto;
+  max-width: 920px;
+  text-align: center;
+
+  img {
+      height: 200px;
+    }
+
+    p {
+      padding-bottom: 30px;
+      padding-top: 30px;
+      margin: auto;
+      text-align: center;
+      width: 400px;
+    }
+    
+}
+
 .bio-page-section h3, .project-page-section h3 {
   font-size: 30px;
   font-weight: bold;
@@ -215,7 +236,7 @@ a:hover {
   margin: auto;
   margin-bottom: 140px;
   width: 900px;
-  
+
   p {
    font-size: 36px;
    font-style: italic;
@@ -336,6 +357,22 @@ a:hover {
   margin-top: 50px;
   margin: auto;
   width: 900px;
+
+  h2 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  img {
+    display: block;
+    height: 80px;
+    margin: 40px auto 30px auto;
+    position: relative;
+    width: 80px;
+  }
+
+  p {
+    text-align: center;
+  }
+
 }
-
-

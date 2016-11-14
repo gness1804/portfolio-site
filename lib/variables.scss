@@ -3,4 +3,19 @@ $background-gradient: linear-gradient(to bottom, white, rgb(203, 202, 217));
 
 //typography
  $main-font: 'Open Sans', sans-serif;
+ 
+//links 
+  @mixin link-unvisited {
+  color: rgb(64, 37, 226);
+  text-decoration: none;
+}
+
+ @mixin link-visited {
+ color: rgb(221, 22, 207);
+ }
+
+ @mixin link-hover {
+  color: red;
+  font-style: italic;
+ }
 

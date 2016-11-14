@@ -9,25 +9,16 @@ html {
   font-family: $main-font;
 }
 
-@media screen and (max-width: 920px) { /* for smartphones and tablets */
-  html {
-  min-height: 2000px;
-  }
-
-}
-
 a:link {
-  color: rgb(64, 37, 226);
-  text-decoration: none;
+  @include link-unvisited;
 }
 
 a:visited {
-  color: rgb(221, 22, 207);
+  @include link-visited;
 }
 
 a:hover {
-  color: red;
-  font-style: italic;
+  @include link-hover;
 }
 
 .border-test {

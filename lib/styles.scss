@@ -5,8 +5,8 @@
 /* elements common to all pages */
 html {
   background-size: cover;
-  background: linear-gradient(to bottom, white, rgb(203, 202, 217));
-  font-family: 'Open Sans', sans-serif;
+  background: $background-gradient; 
+  font-family: $main-font;
 }
 
 @media screen and (max-width: 920px) { /* for smartphones and tablets */

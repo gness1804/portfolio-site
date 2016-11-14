@@ -274,4 +274,53 @@ a:hover {
   margin-left: 20px;
 }
 
+.page-lower-section {
+  border-radius: 5px;
+  border: 1px solid rgb(73, 82, 70);
+  bottom: 100px;
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
 
+.page-lower-section h3 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.page-lower-section p {
+  max-width: 400px;
+  padding: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.page-lower-section span {
+  font-style: italic;
+}
+
+#fig-main {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+#fig-main figcaption {
+  font-size: 20px;
+  font-style: italic;
+  padding: 10px;
+  text-align: center;
+}
+
+.bottom-elements-control {
+  margin: auto;
+  margin-bottom: 50px;
+  position: relative;
+  text-align: center;
+  width: 900px;
+}
+
+#book-img {
+  height: 300px;
+}

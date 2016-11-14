@@ -63,4 +63,36 @@
      width: 1000px
   }
 
+   .two-article-control {
+     width: 1000px;
+  }
+
+   .main-article-half-width {
+     display: block;
+     height: auto;
+     margin: 0px auto;
+     width: 800px;
+  }
+
+   .main-article-half-width p {
+     margin: 10px auto;
+     text-align: center;
+  }
+
+   .proj2 {
+     margin-top: 50px;
+  }
+
+   .bottom-elements-control {
+     width: 1000px;
+  }
+
+   .page-lower-section {
+     bottom: 0;
+     margin: 0px auto;
+  }
+
+   #fig-main {
+     display: none;
+  }
 } //end of media query

@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "[See it live!](https://gness1804.github.io/portfolio-site/index.html)",
+  "main": "script.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "mocha-loader": "^1.0.0",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gness1804/portfolio-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gness1804/portfolio-site/issues"
+  },
+  "homepage": "https://github.com/gness1804/portfolio-site#readme"
+}

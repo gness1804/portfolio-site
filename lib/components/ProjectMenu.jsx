@@ -24,7 +24,7 @@ class ProjectMenu extends Component {
             </div>
           </Link>
 
-
+          //stopped
 
         <a href="https://github.com/gness1804/number-guesser-react">
             <div className="proj-menu-indiv-box">

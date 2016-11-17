@@ -35,9 +35,16 @@ class IndexBody extends Component {
            </a>
            <img src="images/flash-shopper.png" alt="Screenshot." />
            <p>
-             <a href="https://grocery-list-caef5.firebaseapp.com/" target="_blank">Flash Shopper</a> is an application created by me independent of the Turing curriculum. It is a grocery list app where users can enter items, sort them, delete them, and populate aisles by category (currently available for 1 location). This app aims to present a smart and sleek alternative to existing grocery apps. For more details, see the <a href="flash-shopper.html" target="_blank">project page.</a>
+             <a href="https://grocery-list-caef5.firebaseapp.com/" target="_blank">Flash Shopper</a> is an application created by me independent of the Turing curriculum. It is a grocery list app where users can enter items, sort them, delete them, and populate aisles by category (currently available for 1 location). This app aims to present a smart and sleek alternative to existing grocery apps. For more details, see the <Link to="/flashshopper">Project Page.</Link>
            </p>
          </article>
+        </section>
+        <section className="big-button-container">
+          <Link to="/projmenu">
+            <button className="big-button">
+            View More Projects
+           </button>
+          </Link>  
         </section>
       </div>
     );

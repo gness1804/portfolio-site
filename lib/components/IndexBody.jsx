@@ -44,7 +44,21 @@ class IndexBody extends Component {
             <button className="big-button">
             View More Projects
            </button>
-          </Link>  
+          </Link>
+        </section>
+        <section className="bottom-elements-control">
+         <article className="page-lower-section">
+           <h3>Who Am I?</h3>
+           <p>
+             My web development experience includes projects using React, JavaScript/jQuery, SASS/CSS, and other technologies. I am also the author of a book on the only successful slave revolution in world history, entitled <a href="http://uncpress.unc.edu/books/12448.html" target="_blank">An Islandwide Struggle for Freedom: Revolution, Emancipation, and Reenslavement in Hispaniola, 1789-1809.</a> For more information, see my <Link to="/aboutme">"About Me" page.</Link>
+           </p>
+         </article>
+         <a href="http://uncpress.unc.edu/books/12448.html" target="_blank">
+           <figure id="fig-main">
+             <img src="images/book_cover.jpg" alt="The cover of my book." title="Book Cover" id="book-img" />
+             <figcaption>My book</figcaption>
+           </figure>
+         </a>
         </section>
       </div>
     );

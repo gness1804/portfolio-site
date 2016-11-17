@@ -30,7 +30,7 @@ class Header extends Component {
                 <Link to="/flashshopper">
                   Flash Shopper
                 </Link>
-                <Link to="/project-menu">Other Projects</Link>
+                <Link to="/projmenu">Other Projects</Link>
               </section>
             </section>
             <section className="dropdown-menu-container">
@@ -38,8 +38,12 @@ class Header extends Component {
                 About Me
               </Link>
               <section className="dropdown-menu-actual background-dropdown">
-                <a href="background.html#work-hist">Employment History</a>
-                <a href="background.html#education">Education</a>
+                <Link to="/aboutme/#work-hist">
+                  Employment History
+                </Link>
+                <Link to="/aboutme/#education">
+                  Education
+                </Link>
               </section>
               </section>
               <section className="dropdown-menu-container">

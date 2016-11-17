@@ -5,7 +5,7 @@ class IndexBody extends Component {
 
   render() {
     return (
-      <div>Hello! This is a test. I am IndexBody.</div>
+      <div>I am the landing page material that lives in the Home page.</div>
     );
   }
 

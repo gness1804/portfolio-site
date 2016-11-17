@@ -20,9 +20,13 @@ class Header extends Component {
               </Link>
             </section>
             <section className="dropdown-menu-container">
-              <a href="project-menu.html" className="selected">Projects</a>
+              <Link to="/projmenu">
+                Projects
+              </Link>
               <section className="dropdown-menu-actual projects-dropdown">
-                <a href="netwerker.html">Netwerker</a>
+                <Link to="/netwerker">
+                  Netwerker
+                </Link>
                 <a href="flash-shopper.html">Flash Shopper</a>
                 <Link to="/project-menu">Other Projects</Link>
               </section>

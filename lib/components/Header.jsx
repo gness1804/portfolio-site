@@ -27,7 +27,9 @@ class Header extends Component {
                 <Link to="/netwerker">
                   Netwerker
                 </Link>
-                <a href="flash-shopper.html">Flash Shopper</a>
+                <Link to="/flashshopper">
+                  Flash Shopper
+                </Link>
                 <Link to="/project-menu">Other Projects</Link>
               </section>
             </section>

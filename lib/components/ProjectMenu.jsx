@@ -17,14 +17,14 @@ class ProjectMenu extends Component {
             </div>
           </Link>
 
-
-
-        <a href="flash-shopper.html">
+          <Link to="/flashshopper">
             <div className="proj-menu-indiv-box">
               <img src="images/flash-shopper.png" alt="Screenshot." />
               <p>Flash Shopper</p>
             </div>
-          </a>
+          </Link>
+
+
 
         <a href="https://github.com/gness1804/number-guesser-react">
             <div className="proj-menu-indiv-box">

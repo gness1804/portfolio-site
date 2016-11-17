@@ -9,7 +9,9 @@ class Header extends Component {
     return (
       <div>
         <header className="header-each-page">
-          <h1>Graham Nessler</h1>
+          <Link to="/">
+            <h1>Graham Nessler</h1>
+          </Link>
           <img className="header-photo" src="images/skype-photo-2.jpg" alt="Photo of me in blue shirt." />
           <nav className="nav-bar">
             <section className="dropdown-menu-container">

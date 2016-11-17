@@ -5,7 +5,7 @@ class ProjectMenu extends Component {
 
   render() {
     return (
-      <div>I am Project Menu.</div>
+      <div>I am the Project Menu.</div>
     );
   }
 

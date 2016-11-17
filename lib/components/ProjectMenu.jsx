@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 const ReactDOM = require('react-dom');
 
 class ProjectMenu extends Component {

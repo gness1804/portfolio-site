@@ -28,6 +28,15 @@ a:hover {
   margin-bottom: 80px;
 }
 
+.headline-link {
+  color: black !important;
+
+  &:visited{
+    color: black !important;
+  }
+
+}
+
 .header-each-page h1 {
   @include h1;
   }

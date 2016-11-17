@@ -23,11 +23,13 @@ class IndexBody extends Component {
            </a>
            <img src="images/netwerker.png" alt="Screen shot from Netwerker." />
            <p>
-             <a href="https://netwerker-3d622.firebaseapp.com/" target="_blank">Netwerker</a> is a professional networking app, created with Matt Kaufman and Christine Gamble, that allows the user to store contacts, sort them alphabetically, delete them, flag them for followup, and add images. It was created using the toolbox of React, Firebase, Webpack, and Enzyme. For more details, see the <a href="netwerker.html" target="_blank">project page.</a>
+             <a href="https://netwerker-3d622.firebaseapp.com/" target="_blank">Netwerker</a> is a professional networking app, created with Matt Kaufman and Christine Gamble, that allows the user to store contacts, sort them alphabetically, delete them, flag them for followup, and add images. It was created using the toolbox of React, Firebase, Webpack, and Enzyme. For more details, see the <Link to="/netwerker">project page.</Link>
            </p>
          </article>
          <article className="main-article-half-width proj2">
-           <a href="flash-shopper.html"><h3>Flash Shopper</h3></a>
+          <Link to="/flashshopper">
+            <h3>Flash Shopper</h3>
+          </Link>
            <a href="https://github.com/gness1804/grocery-list-react" target="_blank">
              <h4>(GitHub)</h4>
            </a>

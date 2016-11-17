@@ -15,7 +15,9 @@ class Header extends Component {
           <img className="header-photo" src="images/skype-photo-2.jpg" alt="Photo of me in blue shirt." />
           <nav className="nav-bar">
             <section className="dropdown-menu-container">
-              <a href="index.html">Home</a>
+              <Link to="/">
+                Home
+              </Link>
             </section>
             <section className="dropdown-menu-container">
               <a href="project-menu.html" className="selected">Projects</a>
@@ -26,7 +28,9 @@ class Header extends Component {
               </section>
             </section>
             <section className="dropdown-menu-container">
-              <a href="background.html">About Me</a>
+              <Link to="/aboutme">
+                About Me
+              </Link>
               <section className="dropdown-menu-actual background-dropdown">
                 <a href="background.html#work-hist">Employment History</a>
                 <a href="background.html#education">Education</a>

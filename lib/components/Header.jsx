@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
+
 const ReactDOM = require('react-dom');
 
 class Header extends Component {
@@ -18,7 +20,7 @@ class Header extends Component {
               <section className="dropdown-menu-actual projects-dropdown">
                 <a href="netwerker.html">Netwerker</a>
                 <a href="flash-shopper.html">Flash Shopper</a>
-                <a href="project-menu.html">Other Projects</a>
+                <Link to="/project-menu">Other Projects</Link>
               </section>
             </section>
             <section className="dropdown-menu-container">

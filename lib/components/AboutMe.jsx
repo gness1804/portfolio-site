@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
 const ReactDOM = require('react-dom');
 
-class ProjectMenu extends Component {
+class AboutMe extends Component {
 
   render() {
     return (
-      <div>I am Project Menu.</div>
+      <div>I am the About Me page.</div>
     );
   }
 
 }
 
 
-export default ProjectMenu;
+export default AboutMe;

@@ -31,14 +31,14 @@ class ProjectMenu extends Component {
             </div>
           </a>
 
-          <a href="https://github.com/gness1804/seven-weeks-of-fonts">
+          <a href="https://gness1804.github.io/seven-weeks-of-fonts/">
             <div className="proj-menu-indiv-box">
               <img src="images/seven-weeks-of-fonts.png" alt="Screenshot." />
               <p>Seven Weeks of Fonts</p>
             </div>
           </a>
 
-        <a href="https://github.com/gness1804/shoot-the-breeze">
+        <a href="https://shoot-the-breeze-b5e3f.firebaseapp.com/">
             <div className="proj-menu-indiv-box">
               <img src="images/shoot-the-breeze.png" alt="Screenshot." />
               <p>Shoot the Breeze</p>
@@ -52,7 +52,7 @@ class ProjectMenu extends Component {
             </div>
           </Link>
 
-        <a href="https://github.com/gness1804/2DoBox-Pivot">
+        <a href="https://hilarylewis92.github.io/2DoBox-Pivot/">
             <div className="proj-menu-indiv-box">
               <img src="images/2do-box.png" alt="Screenshot." />
               <p>2Do Box Pivot</p>
@@ -87,14 +87,14 @@ class ProjectMenu extends Component {
             </div>
           </a>
 
-          <a href="https://github.com/gness1804/color-changer">
+          <a href="https://gness1804.github.io/color-changer/">
             <div className="proj-menu-indiv-box">
               <img src="images/color-changer.png" alt="Color changer screenshot." />
               <p>Color Changer</p>
             </div>
           </a>
 
-          <a href="https://github.com/gness1804/160gr8-lorem-ipsum-gen">
+          <a href="https://gness1804.github.io/160gr8-lorem-ipsum-gen/">
             <div className="proj-menu-indiv-box">
               <img src="images/lorem-ipsum-screenshot.png" alt="Screenshot of lorem ipsum generator." />
               <p>Lorem Ipsum Generator</p>

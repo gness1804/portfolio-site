@@ -5,8 +5,8 @@ $debug-background-color: magenta;
 
 @if ($debug) {
 
-  section {
-  border: $debug-border-style;
+  .dropdown-menu-container {
+    border: $debug-border-style;
   }
 
   .todo-list {

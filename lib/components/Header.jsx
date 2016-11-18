@@ -38,10 +38,10 @@ class Header extends Component {
                 About Me
               </Link>
               <section className="dropdown-menu-actual background-dropdown">
-                <Link to="/aboutme/#work-hist">
+                <Link to="workhist">
                   Employment History
                 </Link>
-                <Link to="/aboutme/#education">
+                <Link to="education">
                   Education
                 </Link>
               </section>

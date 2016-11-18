@@ -17,7 +17,7 @@ class FlashShopper extends Component {
         <h3>Principal Accomplishments</h3>
         <img src="images/flash-shopper.png" alt="Screenshot." />
         <p>
-        <a href="https://grocery-list-caef5.firebaseapp.com/" target="_blank">Flash Shopper</a> is an application created by me independent of the Turing curriculum. It is a grocery list app where users can enter items, sort them, delete them, and populate aisles by category (currently available for 1 location). This app aims to present a smart and sleek alternative to existing grocery apps. In creating this app, I successfully designed a complex system utilizing React to manage the state of each item and of the entire app. Not only that, but this app has become invaluable for me when I go grocery shopping!
+        <a href="https://grocery-list-caef5.firebaseapp.com/" target="_blank">Flash Shopper</a> is an application created by me independent of the Turing School curriculum. It is a grocery list app where users can enter items, sort them, delete them, and populate aisles by category (currently available for 1 location). This app aims to present a smart and sleek alternative to existing grocery apps. In creating this app, I successfully designed a complex system utilizing React to manage the state of each item and of the entire app. Not only that, but this app has become invaluable for me when I go grocery shopping!
         </p>
       </section>
       <section className="project-page-section">

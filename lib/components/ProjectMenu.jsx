@@ -24,14 +24,14 @@ class ProjectMenu extends Component {
             </div>
           </Link>
 
-          //stopped
-
-        <a href="https://github.com/gness1804/number-guesser-react">
+          <Link to="/numguesserreact">
             <div className="proj-menu-indiv-box">
               <img src="images/number-guesser-react.png" alt="Screenshot." />
               <p>Number Guesser in React</p>
             </div>
-        </a>
+          </Link>
+
+        
 
         <a href="https://github.com/gness1804/seven-weeks-of-fonts">
             <div className="proj-menu-indiv-box">

@@ -31,8 +31,6 @@ class ProjectMenu extends Component {
             </div>
           </Link>
 
-        
-
         <a href="https://github.com/gness1804/seven-weeks-of-fonts">
             <div className="proj-menu-indiv-box">
               <img src="images/seven-weeks-of-fonts.png" alt="Screenshot." />
@@ -47,12 +45,12 @@ class ProjectMenu extends Component {
             </div>
           </a>
 
-        <a href="weather-app.html">
+          <Link to="/weatherapp">
             <div className="proj-menu-indiv-box">
               <img src="images/weather-app.png" alt="Screenshot." />
               <p>Weathrly 2.0 </p>
             </div>
-          </a>
+          </Link>
 
         <a href="https://github.com/gness1804/2DoBox-Pivot">
             <div className="proj-menu-indiv-box">
@@ -61,13 +59,14 @@ class ProjectMenu extends Component {
             </div>
           </a>
 
-          <a href="game-time.html">
+          <Link to="/gametime">
             <div className="proj-menu-indiv-box">
               <img src="images/game-time-screenshot1.png" alt="Screenshot from game." />
               <p>Bluecifer's Revenge</p>
             </div>
-          </a>
+          </Link>
 
+        
           <a href="idea-box.html">
             <div className="proj-menu-indiv-box">
               <img src="images/idea-box-screenshot.png" alt="Screenshot of Idea Box." />

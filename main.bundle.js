@@ -45147,12 +45147,12 @@
 	            )
 	          ),
 	          _react2.default.createElement(
-	            'div',
-	            { className: 'proj-menu-indiv-box' },
-	            _react2.default.createElement('img', { src: 'images/number-guesser-react.png', alt: 'Screenshot.' }),
+	            'a',
+	            { href: 'https://gness1804.github.io/number-guesser-react/' },
 	            _react2.default.createElement(
-	              'a',
-	              { href: 'https://github.com/gness1804/number-guesser-react' },
+	              'div',
+	              { className: 'proj-menu-indiv-box' },
+	              _react2.default.createElement('img', { src: 'images/number-guesser-react.png', alt: 'Screenshot.' }),
 	              _react2.default.createElement(
 	                'p',
 	                null,

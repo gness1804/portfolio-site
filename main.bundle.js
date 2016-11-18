@@ -45162,7 +45162,7 @@
 	          ),
 	          _react2.default.createElement(
 	            'a',
-	            { href: 'https://github.com/gness1804/seven-weeks-of-fonts' },
+	            { href: 'https://gness1804.github.io/seven-weeks-of-fonts/' },
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'proj-menu-indiv-box' },
@@ -45176,7 +45176,7 @@
 	          ),
 	          _react2.default.createElement(
 	            'a',
-	            { href: 'https://github.com/gness1804/shoot-the-breeze' },
+	            { href: 'https://shoot-the-breeze-b5e3f.firebaseapp.com/' },
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'proj-menu-indiv-box' },
@@ -45204,7 +45204,7 @@
 	          ),
 	          _react2.default.createElement(
 	            'a',
-	            { href: 'https://github.com/gness1804/2DoBox-Pivot' },
+	            { href: 'https://hilarylewis92.github.io/2DoBox-Pivot/' },
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'proj-menu-indiv-box' },
@@ -45274,7 +45274,7 @@
 	          ),
 	          _react2.default.createElement(
 	            'a',
-	            { href: 'https://github.com/gness1804/color-changer' },
+	            { href: 'https://gness1804.github.io/color-changer/' },
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'proj-menu-indiv-box' },
@@ -45288,7 +45288,7 @@
 	          ),
 	          _react2.default.createElement(
 	            'a',
-	            { href: 'https://github.com/gness1804/160gr8-lorem-ipsum-gen' },
+	            { href: 'https://gness1804.github.io/160gr8-lorem-ipsum-gen/' },
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'proj-menu-indiv-box' },

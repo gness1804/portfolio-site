@@ -48,7 +48,7 @@ class Header extends Component {
               </section>
               </section>
               <section className="dropdown-menu-container">
-                <a href="https://gness1804.github.io/Personal-Blog/">Blog</a>
+                <a href="https://gness1804.github.io/blog-in-react/#/">Blog</a>
               </section>
           </nav>
         </header>

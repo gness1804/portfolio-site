@@ -34732,7 +34732,7 @@
 	              { className: 'dropdown-menu-container' },
 	              _react2.default.createElement(
 	                'a',
-	                { href: 'https://gness1804.github.io/Personal-Blog/' },
+	                { href: 'https://gness1804.github.io/blog-in-react/#/' },
 	                'Blog'
 	              )
 	            )

@@ -13,7 +13,7 @@ class AboutMe extends Component {
           <h2>Who Am I?</h2>
         </section>
         <section className="big-button-container">
-          <a href="resumes/Nessler-Resume-11-14-16.pdf" target="_blank">
+          <a href="resumes/Nessler-Resume-11-27-16.pdf" target="_blank">
             <button type="button" className="big-button">View My Resume</button>
           </a>
         </section>

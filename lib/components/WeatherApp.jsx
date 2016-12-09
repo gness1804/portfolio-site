@@ -29,7 +29,7 @@ class WeatherApp extends Component {
             </section>
             <section className="project-page-section">
                 <h3>What I Learned</h3>
-                <img src="images/light-bulb-2.png" alt="A lightbulb." />
+                <img src="images/thinking.svg" alt="A lightbulb." title="Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com" />
                 <p>
                 This project was our first experience using React. We found this to be quite a steep learning curve, but thanks in large part to well-time and extremely helpful guest lesson by Turing alum <a href="https://github.com/kristindiannefoss" target="_blank">Kris Foss</a>, we pulled through and began to understand the ins and outs of this library. I learned a great deal not only about React but also about Ajax calls and APIs during this project, and I am excited to work more with APIs in the future!
                 </p>

@@ -33,9 +33,7 @@ class IdeaBox extends Component {
             </section>
             <section className="project-page-section">
                 <h3>What I Learned</h3>
-                <a href="images/light-bulb-2.png" target="_blank">
-                  <img src="images/light-bulb-2.png" alt="" title="Click to Enlarge"/>
-                </a>
+                <img src="images/thinking.svg" alt="A lightbulb." title="Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com" />
                 <p>
                   Our core lessons for this project were the difficulties of using JSON and local storage. Our previous project, <a href="https://gness1804.github.io/Personal-Blog/linked-list-09-03-16.html" target="_blank">Linked List</a>, also involved transferring user input to other parts of the page and allowing users to modify their data in various ways, but there was no data persistence involved. We quickly learned that keeping up with data via local storage was far harder than it appeared initially. This project indeed taught us the value of trial-and-error, since we tried many approaches before finding a viable method that involved using arrays and object literals. (You can read my <a href="https://gness1804.github.io/Personal-Blog/idea-box-09-25-16.html" target="_blank">blog post on the project</a> for more details).
                 </p>

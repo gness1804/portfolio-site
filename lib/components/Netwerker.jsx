@@ -7,7 +7,7 @@ class Netwerker extends Component {
     return (
       <div>
         <section className="project-page-headline">
-          <h2>Netwerker <span className="italic-names">(with Matt Kaufman and Christine Gamble)</span></h2>
+          <h2>Netwerker</h2>
           <a href="https://github.com/gness1804/netwerker" target="_blank">
             <img src="images/github.png" alt="GitHub logo" title="Project GitHub link" />
             <p>Project Link (Github)</p>

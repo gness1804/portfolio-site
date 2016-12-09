@@ -45373,7 +45373,7 @@
 	          { className: 'big-button-container' },
 	          _react2.default.createElement(
 	            'a',
-	            { href: 'resumes/Nessler-Resume-11-27-16.pdf', target: '_blank' },
+	            { href: 'resumes/Nessler-Resume-12-6-16.pdf', target: '_blank' },
 	            _react2.default.createElement(
 	              'button',
 	              { type: 'button', className: 'big-button' },
@@ -45663,12 +45663,7 @@
 	          _react2.default.createElement(
 	            'h2',
 	            null,
-	            'Netwerker ',
-	            _react2.default.createElement(
-	              'span',
-	              { className: 'italic-names' },
-	              '(with Matt Kaufman and Christine Gamble)'
-	            )
+	            'Netwerker'
 	          ),
 	          _react2.default.createElement(
 	            'a',

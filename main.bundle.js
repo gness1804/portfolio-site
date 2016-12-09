@@ -45724,7 +45724,7 @@
 	            null,
 	            'What I Learned'
 	          ),
-	          _react2.default.createElement('img', { src: 'images/light-bulb.jpg', alt: 'Lightbulb.' }),
+	          _react2.default.createElement('img', { src: 'images/light-bulb-2.png', alt: 'Lightbulb.' }),
 	          _react2.default.createElement(
 	            'p',
 	            null,
@@ -45861,7 +45861,7 @@
 	            null,
 	            'What I Learned'
 	          ),
-	          _react2.default.createElement('img', { src: 'images/light-bulb.jpg', alt: 'A lightbulb.' }),
+	          _react2.default.createElement('img', { src: 'images/light-bulb-2.png', alt: 'A lightbulb.' }),
 	          _react2.default.createElement(
 	            'p',
 	            null,
@@ -45993,7 +45993,7 @@
 	            null,
 	            'What I Learned'
 	          ),
-	          _react2.default.createElement('img', { src: 'images/light-bulb.jpg', alt: 'A lightbulb.' }),
+	          _react2.default.createElement('img', { src: 'images/light-bulb-2.png', alt: 'A lightbulb.' }),
 	          _react2.default.createElement(
 	            'p',
 	            null,
@@ -46273,8 +46273,8 @@
 	          ),
 	          _react2.default.createElement(
 	            'a',
-	            { href: 'images/light-bulb.jpg', target: '_blank' },
-	            _react2.default.createElement('img', { src: 'images/light-bulb.jpg', alt: '', title: 'Click to Enlarge' })
+	            { href: 'images/light-bulb-2.png', target: '_blank' },
+	            _react2.default.createElement('img', { src: 'images/light-bulb-2.png', alt: '', title: 'Click to Enlarge' })
 	          ),
 	          _react2.default.createElement(
 	            'p',

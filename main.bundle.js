@@ -45373,7 +45373,7 @@
 	          { className: 'big-button-container' },
 	          _react2.default.createElement(
 	            'a',
-	            { href: 'resumes/Nessler-Resume-12-6-16.pdf', target: '_blank' },
+	            { href: 'resumes/Nessler-Resume-12-16.pdf', target: '_blank' },
 	            _react2.default.createElement(
 	              'button',
 	              { type: 'button', className: 'big-button' },

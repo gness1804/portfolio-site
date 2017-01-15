@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-const ReactDOM = require('react-dom');
 
 class Netwerker extends Component {
 

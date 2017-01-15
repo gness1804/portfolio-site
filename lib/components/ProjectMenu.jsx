@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-const ReactDOM = require('react-dom');
 
 class ProjectMenu extends Component {
 
@@ -9,6 +8,20 @@ class ProjectMenu extends Component {
       <div>
         <div className="proj-menu-master-container">
           <h2>My Work</h2>
+
+          <a href="https://github.com/kswhyte/remEMBER">
+            <div className="proj-menu-indiv-box">
+              <img src="images/ember-remember-screenshot.png" alt="Screenshot." />
+                <p>Ember RemEMBER</p>
+            </div>
+          </a>
+
+          <Link to="/weather-tracker">
+            <div className="proj-menu-indiv-box">
+              <img src="images/weather-tracker-screenshot.png" alt="Screenshot." />
+              <p>Weather Tracker</p>
+            </div>
+          </Link>
 
           <Link to="/netwerker">
             <div className="proj-menu-indiv-box">

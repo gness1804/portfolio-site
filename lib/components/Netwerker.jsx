@@ -28,7 +28,7 @@ class Netwerker extends Component {
             </section>
             <section className="project-page-section">
                 <h3>What I Learned</h3>
-                <img src="images/thinking.svg" alt="A lightbulb." title="Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com" />
+                <img src="images/thinking.svg" alt="A thinking head." title="Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com" />
                 <p>
                  I was fortunate to work with two very strong developers on this project, <a href="https://github.com/MilkMan90" target="_blank">Matt Kaufman</a> and <a href="https://github.com/ccgamble" target="_blank">Christine Gamble.</a> They both taught me a great deal about React and about programming in general. Thanks in large part to these partners and to the complexity of the project, I was able to learn a lot about more complex React functionality and how a somewhat larger app can harness the power of React for efficiency and a better user experience.
                </p>

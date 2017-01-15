@@ -30,7 +30,7 @@ class FlashShopper extends Component {
         </section>
         <section className="project-page-section">
             <h3>What I Learned</h3>
-            <img src="images/thinking.svg" alt="A lightbulb." title="Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com" />
+            <img src="images/thinking.svg" alt="A thinking head." title="Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com" />
             <p>
             The main benefit to me of doing this project was to increase my skills in React, Redux, and Firebase. Moreover, as I use the grocery list app in my real life experience in planning grocery runs and at the store, I have learned valuable lessons on how real-life experiences can inform the improvement of software--that is, no matter how well a given app is designed, user experience and user testing are crucial to ensuring a viable product. These lessons will surely be useful to me as I embark on my career in web development.
             </p>

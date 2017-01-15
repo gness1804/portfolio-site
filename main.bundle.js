@@ -45719,7 +45719,7 @@
 	            null,
 	            'What I Learned'
 	          ),
-	          _react2.default.createElement('img', { src: 'images/thinking.svg', alt: 'A lightbulb.', title: 'Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com' }),
+	          _react2.default.createElement('img', { src: 'images/thinking.svg', alt: 'A thinking head.', title: 'Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com' }),
 	          _react2.default.createElement(
 	            'p',
 	            null,
@@ -45856,7 +45856,7 @@
 	            null,
 	            'What I Learned'
 	          ),
-	          _react2.default.createElement('img', { src: 'images/thinking.svg', alt: 'A lightbulb.', title: 'Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com' }),
+	          _react2.default.createElement('img', { src: 'images/thinking.svg', alt: 'A thinking head.', title: 'Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com' }),
 	          _react2.default.createElement(
 	            'p',
 	            null,
@@ -45988,7 +45988,7 @@
 	            null,
 	            'What I Learned'
 	          ),
-	          _react2.default.createElement('img', { src: 'images/thinking.svg', alt: 'A lightbulb.', title: 'Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com' }),
+	          _react2.default.createElement('img', { src: 'images/thinking.svg', alt: 'A thinking head.', title: 'Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com' }),
 	          _react2.default.createElement(
 	            'p',
 	            null,
@@ -46266,7 +46266,7 @@
 	            null,
 	            'What I Learned'
 	          ),
-	          _react2.default.createElement('img', { src: 'images/thinking.svg', alt: 'A lightbulb.', title: 'Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com' }),
+	          _react2.default.createElement('img', { src: 'images/thinking.svg', alt: 'A thinking head.', title: 'Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com' }),
 	          _react2.default.createElement(
 	            'p',
 	            null,

@@ -50,7 +50,7 @@ class IndexBody extends Component {
          <article className="page-lower-section">
            <h3>Who Am I?</h3>
            <p>
-             My web development experience includes projects using React, JavaScript/jQuery, SASS/CSS, and other technologies. I am also the author of a book on the only successful slave revolution in world history, entitled <a href="http://uncpress.unc.edu/books/12448.html" target="_blank">An Islandwide Struggle for Freedom: Revolution, Emancipation, and Reenslavement in Hispaniola, 1789-1809.</a> For more information, see my <Link to="/aboutme">"About Me" page.</Link>
+             My web development experience includes projects using React, Redux, JavaScript/jQuery, SASS/CSS, and other technologies. I am also the author of a book on the only successful slave revolution in world history, entitled <a href="http://uncpress.unc.edu/books/12448.html" target="_blank">An Islandwide Struggle for Freedom: Revolution, Emancipation, and Reenslavement in Hispaniola, 1789-1809.</a> For more information, see my <Link to="/aboutme">"About Me" page.</Link>
            </p>
          </article>
          <a href="http://uncpress.unc.edu/books/12448.html" target="_blank">

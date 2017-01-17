@@ -9,6 +9,13 @@ class ProjectMenu extends Component {
         <div className="proj-menu-master-container">
           <h2>My Work</h2>
 
+          <Link to="/fareharbor">
+            <div className="proj-menu-indiv-box">
+              <img src="images/search-input-screenshot.png" alt="Screenshot." />
+              <p>FareHarbor Toolkit</p>
+            </div>
+          </Link>
+
           <a href="https://github.com/kswhyte/remEMBER">
             <div className="proj-menu-indiv-box">
               <img src="images/ember-remember-screenshot.png" alt="Screenshot." />

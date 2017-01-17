@@ -8236,9 +8236,13 @@
 	
 	var _WeatherTracker2 = _interopRequireDefault(_WeatherTracker);
 	
+	var _FareHarbor = __webpack_require__(540);
+	
+	var _FareHarbor2 = _interopRequireDefault(_FareHarbor);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	__webpack_require__(540);
+	__webpack_require__(541);
 	
 	(0, _reactDom.render)(_react2.default.createElement(
 	  _reactRouter.Router,
@@ -8250,6 +8254,7 @@
 	    _react2.default.createElement(_reactRouter.Route, { path: '/projmenu', component: _ProjectMenu2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/netwerker', component: _Netwerker2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/weather-tracker', component: _WeatherTracker2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/fareharbor', component: _FareHarbor2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/aboutme', component: _AboutMe2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/workhist', component: _WorkHistory2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/education', component: _Education2.default }),
@@ -34372,8 +34377,6 @@
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	var ReactDOM = __webpack_require__(331);
-	
 	var IndexBody = function (_Component) {
 	  _inherits(IndexBody, _Component);
 	
@@ -34398,7 +34401,7 @@
 	            'I am a front-end software engineer, published author, and educator. Feel free to browse my projects below and to ',
 	            _react2.default.createElement(
 	              'a',
-	              { href: 'mailto:gnessler@umich.edu', target: '_blank' },
+	              { href: 'mailto:gnessler@umich.edu', target: '_blank', rel: 'noopener noreferrer' },
 	              'get in touch'
 	            ),
 	            '.'
@@ -34412,35 +34415,66 @@
 	            { className: 'main-article-half-width proj1' },
 	            _react2.default.createElement(
 	              _reactRouter.Link,
-	              { to: '/netwerker' },
+	              { to: '/fareharbor' },
 	              _react2.default.createElement(
 	                'h3',
 	                null,
-	                'Netwerker'
+	                'FareHarbor Toolkit'
 	              )
 	            ),
 	            _react2.default.createElement(
 	              'a',
-	              { href: 'https://github.com/gness1804/netwerker', target: '_blank' },
+	              { href: 'https://github.com/rcwestlake/fare-harbor-toolkit', target: '_blank', rel: 'noopener noreferrer' },
 	              _react2.default.createElement(
 	                'h4',
 	                null,
 	                '(GitHub)'
 	              )
 	            ),
-	            _react2.default.createElement('img', { src: 'images/netwerker.png', alt: 'Screen shot from Netwerker.' }),
+	            _react2.default.createElement('img', { src: 'images/search-input-screenshot.png', alt: 'Screenshot from the FareHarbor project.' }),
 	            _react2.default.createElement(
-	              'p',
+	              'span',
+	              { className: 'main-article-span' },
+	              'Main portfolio deliverables:'
+	            ),
+	            _react2.default.createElement(
+	              'ul',
 	              null,
 	              _react2.default.createElement(
-	                'a',
-	                { href: 'https://netwerker-3d622.firebaseapp.com/', target: '_blank' },
-	                'Netwerker'
+	                'li',
+	                null,
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: 'images/fareharbor-wireframes.pdf', target: '_blank', rel: 'noopener noreferrer' },
+	                  'A wireframe built in Sketch'
+	                )
 	              ),
-	              ' is a professional networking app, created with Matt Kaufman and Christine Gamble, that allows the user to store contacts, sort them alphabetically, delete them, flag them for followup, and add images. It was created using the toolbox of React, Firebase, Webpack, and Enzyme. For more details, see the ',
+	              _react2.default.createElement(
+	                'li',
+	                null,
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: 'https://www.gitbook.com/book/rcwestlake/fareharbor-toolkit/details', target: '_blank', rel: 'noopener noreferrer' },
+	                  'Documentation'
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'li',
+	                null,
+	                _react2.default.createElement(
+	                  'a',
+	                  { href: 'https://github.com/rcwestlake/fare-harbor-toolkit', target: '_blank', rel: 'noopener noreferrer' },
+	                  'Github repo'
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'left-article-p' },
+	              'This project consists of a powerful tool creator and three tools built for FareHarbor, an online travel services company. For more details, see the ',
 	              _react2.default.createElement(
 	                _reactRouter.Link,
-	                { to: '/netwerker' },
+	                { to: '/fareharbor' },
 	                'project page.'
 	              )
 	            )
@@ -34459,7 +34493,7 @@
 	            ),
 	            _react2.default.createElement(
 	              'a',
-	              { href: 'https://github.com/gness1804/grocery-list-react', target: '_blank' },
+	              { href: 'https://github.com/gness1804/grocery-list-react', target: '_blank', rel: 'noopener noreferrer' },
 	              _react2.default.createElement(
 	                'h4',
 	                null,
@@ -34472,10 +34506,10 @@
 	              null,
 	              _react2.default.createElement(
 	                'a',
-	                { href: 'https://github.com/gness1804/grocery-list-redux/tree/master', target: '_blank' },
+	                { href: 'https://github.com/gness1804/grocery-list-redux/tree/master', target: '_blank', rel: 'noopener noreferrer' },
 	                'Flash Shopper'
 	              ),
-	              ' is an application created by me independent of the Turing School curriculum. It is a grocery list app where users can enter items, sort them, delete them, and edit them. The app also populates aisles by category (currently available for 1 location). This app aims to present a smart and sleek alternative to existing grocery apps. For more details, see the ',
+	              ' is an application created by me independent of the Turing School curriculum. It is a grocery list app built in React and Redux where users can enter items, sort them, delete them, and edit them. The app also populates aisles by category (currently available for 1 location). This app aims to present a smart and sleek alternative to existing grocery apps. For more details, see the ',
 	              _react2.default.createElement(
 	                _reactRouter.Link,
 	                { to: '/flashshopper' },
@@ -34514,7 +34548,7 @@
 	              'My web development experience includes projects using React, Redux, JavaScript/jQuery, SASS/CSS, and other technologies. I am also the author of a book on the only successful slave revolution in world history, entitled ',
 	              _react2.default.createElement(
 	                'a',
-	                { href: 'http://uncpress.unc.edu/books/12448.html', target: '_blank' },
+	                { href: 'http://uncpress.unc.edu/books/12448.html', target: '_blank', rel: 'noopener noreferrer' },
 	                'An Islandwide Struggle for Freedom: Revolution, Emancipation, and Reenslavement in Hispaniola, 1789-1809.'
 	              ),
 	              ' For more information, see my ',
@@ -34527,7 +34561,7 @@
 	          ),
 	          _react2.default.createElement(
 	            'a',
-	            { href: 'http://uncpress.unc.edu/books/12448.html', target: '_blank' },
+	            { href: 'http://uncpress.unc.edu/books/12448.html', target: '_blank', rel: 'noopener noreferrer' },
 	            _react2.default.createElement(
 	              'figure',
 	              { id: 'fig-main' },
@@ -34694,8 +34728,8 @@
 	                { className: 'dropdown-menu-actual projects-dropdown' },
 	                _react2.default.createElement(
 	                  _reactRouter.Link,
-	                  { to: '/netwerker' },
-	                  'Netwerker'
+	                  { to: '/fareharbor' },
+	                  'FareHarbor Toolkit'
 	                ),
 	                _react2.default.createElement(
 	                  _reactRouter.Link,
@@ -45122,6 +45156,20 @@
 	            'My Work'
 	          ),
 	          _react2.default.createElement(
+	            _reactRouter.Link,
+	            { to: '/fareharbor' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'proj-menu-indiv-box' },
+	              _react2.default.createElement('img', { src: 'images/search-input-screenshot.png', alt: 'Screenshot.' }),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                'FareHarbor Toolkit'
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
 	            'a',
 	            { href: 'https://github.com/kswhyte/remEMBER' },
 	            _react2.default.createElement(
@@ -45404,7 +45452,7 @@
 	          { className: 'big-button-container' },
 	          _react2.default.createElement(
 	            'a',
-	            { href: 'resumes/Nessler-Resume-12-16.pdf', target: '_blank' },
+	            { href: 'resumes/Nessler-Resume-01-17-17.pdf', target: '_blank', rel: 'noopener noreferrer' },
 	            _react2.default.createElement(
 	              'button',
 	              { type: 'button', className: 'big-button' },
@@ -46474,13 +46522,161 @@
 /* 540 */
 /***/ function(module, exports, __webpack_require__) {
 
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(299);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var FareHarbor = function (_Component) {
+	  _inherits(FareHarbor, _Component);
+	
+	  function FareHarbor() {
+	    _classCallCheck(this, FareHarbor);
+	
+	    return _possibleConstructorReturn(this, (FareHarbor.__proto__ || Object.getPrototypeOf(FareHarbor)).apply(this, arguments));
+	  }
+	
+	  _createClass(FareHarbor, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        null,
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-headline" },
+	          _react2.default.createElement(
+	            "h2",
+	            null,
+	            "FareHarbor Toolkit"
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://github.com/rcwestlake/fare-harbor-toolkit", target: "_blank", rel: "noopener noreferrer" },
+	            _react2.default.createElement("img", { src: "images/github.png", alt: "GitHub logo", title: "Project GitHub link" }),
+	            _react2.default.createElement(
+	              "p",
+	              null,
+	              "Project Link (Github)"
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "Principal Accomplishments"
+	          ),
+	          _react2.default.createElement("img", { src: "images/search-input-screenshot.png", alt: "Screenshot." }),
+	          _react2.default.createElement(
+	            "span",
+	            { className: "ul-span" },
+	            "Main portfolio deliverables:"
+	          ),
+	          _react2.default.createElement(
+	            "ul",
+	            null,
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              _react2.default.createElement(
+	                "a",
+	                { href: "images/fareharbor-wireframes.pdf", target: "_blank", rel: "noopener noreferrer" },
+	                "A wireframe built in Sketch"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              _react2.default.createElement(
+	                "a",
+	                { href: "https://www.gitbook.com/book/rcwestlake/fareharbor-toolkit/details", target: "_blank", rel: "noopener noreferrer" },
+	                "Documentation"
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              _react2.default.createElement(
+	                "a",
+	                { href: "https://github.com/rcwestlake/fare-harbor-toolkit", target: "_blank", rel: "noopener noreferrer" },
+	                "Github repo"
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            { className: "fareharbor-accomplishments-p" },
+	            "This was my first company project, and it was an excellent learning experience. Fellow student ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://github.com/rcwestlake", target: "_blank", rel: "noopener noreferrer" },
+	              "Ryan Westlake"
+	            ),
+	            " and I built three tools and a tool creator for ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://fareharbor.com/", target: "_blank", rel: "noopener noreferrer" },
+	              "FareHarbor"
+	            ),
+	            ", an online travel services company. We ended up creating a powerful tool creator (essentially a series of objects) allowing the company to create and customize tools for their hundreds of clients. We also created three tools ourselves: a search input tool, a footer tool, and a bottom modal tool. We built these tools in order to increase conversions among FareHarbor's clients, and we were able to create an effective and robust final product with detailed documentation."
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "Tools Used and What I Learned"
+	          ),
+	          _react2.default.createElement("img", { src: "images/fareharbor-code-screenshot.png", alt: "Screenshot of code from the FareHarbor project." }),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "We learned a lot in the process of building this toolkit. First, we had to build a small server to get around a CORS issue in order to serve up client API data for our tools. This led us to learn a lot about Express.js and the fundamentals of building a server. Second, due to backwards compatibility concerns, we built the whole project in vanilla JavaScript (including the styling and markup), which was an extremely useful exercise in the fundamentals and also made us learn how to make API calls using the vanilla XMLHTTPRequest() object (see screenshot above). ",
+	            _react2.default.createElement("br", null),
+	            _react2.default.createElement("br", null),
+	            "We also became more adept testers, as we made extensive use of Selenium Webdriver for testing and had to adapt our tests for contingencies such as different company names. Finally, the project taught us a lot about building software for business needs. As noted above, we shaped our choices around the objective of increasing conversions for FareHarbor's clients. This certainly made me more aware of how seemingly small aesthetic choices and code decisions can significantly impact the user experience."
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return FareHarbor;
+	}(_react.Component);
+	
+	exports.default = FareHarbor;
+
+/***/ },
+/* 541 */
+/***/ function(module, exports, __webpack_require__) {
+
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(541);
+	var content = __webpack_require__(542);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(544)(content, {});
+	var update = __webpack_require__(545)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -46497,21 +46693,21 @@
 	}
 
 /***/ },
-/* 541 */
+/* 542 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(542)();
+	exports = module.exports = __webpack_require__(543)();
 	// imports
-	exports.i(__webpack_require__(543), "");
+	exports.i(__webpack_require__(544), "");
 	
 	// module
-	exports.push([module.id, "@media screen and (max-width: 920px) {\n  html {\n    min-height: 2000px; }\n  .header-each-page {\n    text-align: center;\n    width: 1000px; }\n  .dropdown-menu-container {\n    display: block !important;\n    margin: auto !important;\n    max-width: 600px !important; }\n  .nav-bar {\n    display: block !important;\n    float: none !important; }\n    .nav-bar a {\n      display: block;\n      margin: 35px 15px; }\n  .header-photo {\n    margin: 80px 0px 120px 50px; }\n  .footer-each-page {\n    margin: auto;\n    margin-top: 220px !important;\n    max-height: 50px;\n    top: 1950px;\n    width: 1000px; }\n    .footer-each-page img {\n      padding: 0px 60px; }\n  .big-button-container {\n    width: 1000px !important; }\n  .bio-page-headline {\n    margin-top: 50px !important;\n    width: 1000px !important; }\n  .bio-page-section-container {\n    width: 1000px; }\n  .page-upper-section {\n    margin-top: 140px;\n    width: 1000px; }\n  .two-article-control {\n    width: 1000px !important; }\n  .main-article-half-width {\n    display: block !important;\n    height: auto !important;\n    margin: 0px auto !important;\n    width: 800px !important; }\n  .main-article-half-width p {\n    margin: 10px auto;\n    text-align: center; }\n  .proj2 {\n    margin-top: 50px !important; }\n  .bottom-elements-control {\n    width: 1000px !important; }\n  .page-lower-section {\n    bottom: 0 !important;\n    margin: 0px auto; }\n  #fig-main {\n    display: none !important; }\n  .project-page-headline {\n    margin-bottom: 120px !important;\n    width: 1000px !important; }\n  .project-page-section {\n    margin-left: 100px !important;\n    margin-right: 0px !important;\n    margin-top: 40px !important;\n    width: 800px !important; }\n  .proj-menu-master-container {\n    margin-bottom: 240px; } }\n\n/* elements common to all pages */\nhtml {\n  background-size: cover;\n  background: linear-gradient(to bottom, white, #cbcad9);\n  font-family: \"Open Sans\", sans-serif; }\n\na:link {\n  color: #4025e2;\n  text-decoration: none; }\n\na:visited {\n  color: #dd16cf; }\n\na:hover {\n  color: red;\n  font-style: italic; }\n\n.header-each-page {\n  background: linear-gradient(to bottom, #7fb3f7, #f0f3f7);\n  margin-bottom: 80px; }\n\n.headline-link {\n  color: black !important; }\n  .headline-link:visited {\n    color: black !important; }\n\n.header-each-page h1 {\n  font-size: 60px;\n  font-weight: bold;\n  margin-bottom: 60px;\n  padding-top: 20px;\n  text-align: center; }\n\n.nav-bar {\n  display: inline-block;\n  float: right;\n  margin-top: 20px; }\n\n.nav-bar a {\n  color: black;\n  font-size: 22px;\n  padding: 10px;\n  text-transform: uppercase; }\n  .nav-bar a:hover {\n    background-color: white;\n    border-radius: 5px;\n    border: 1px solid #495246; }\n\n.nav-bar a:visited {\n  color: #404b4b; }\n\n.dropdown-menu-container {\n  display: inline-block;\n  margin: 25px;\n  position: relative; }\n\n.dropdown-menu-actual {\n  background-color: white;\n  position: absolute;\n  border: 1px solid #495246;\n  border-radius: 5px;\n  max-width: 135px;\n  padding: 5px;\n  text-align: center;\n  word-wrap: normal;\n  z-index: 1; }\n\n.dropdown-menu-actual a {\n  display: block;\n  margin-bottom: 15px;\n  padding: 0px 10px;\n  font-size: 18px;\n  line-height: 20px; }\n  .dropdown-menu-actual a:hover {\n    border: none;\n    color: #9f919f; }\n\n.projects-dropdown {\n  left: -3px;\n  top: 34px; }\n\n.background-dropdown {\n  left: -9px;\n  max-width: 150px;\n  top: 34px; }\n\n.selected {\n  background-color: white;\n  border-radius: 5px;\n  border: 1px solid #495246; }\n\n.header-photo {\n  border-radius: 50%;\n  margin-left: 50px;\n  margin-top: 20px;\n  max-height: 250px;\n  max-width: 250px; }\n\n.footer-each-page {\n  background-color: #f0ece4;\n  border-radius: 5px;\n  border: 1px solid #495246;\n  clear: both;\n  display: flex;\n  justify-content: center;\n  margin-top: 80px;\n  text-align: center; }\n\n.footer-each-page img {\n  height: 40px;\n  padding: 10px 75px;\n  width: 40px; }\n\n.footer-each-page img:hover {\n  height: 55px;\n  width: 55px; }\n\n.master-section {\n  text-align: center;\n  width: 100vw; }\n\n.big-button-container {\n  margin: 60px auto;\n  text-align: center;\n  width: 900px; }\n\n.big-button {\n  background-color: #e4e2ed;\n  border-radius: 30px;\n  font-size: 20px;\n  padding: 15px;\n  width: 200px; }\n\n.big-button:hover {\n  background-color: #1e14db;\n  color: white;\n  cursor: pointer; }\n\n.project-page-section {\n  border-radius: 5px;\n  border: 1px solid #495246;\n  margin: 100px auto 50px auto;\n  max-width: 920px;\n  text-align: center; }\n  .project-page-section img {\n    height: 200px; }\n  .project-page-section p {\n    padding-bottom: 30px;\n    padding-top: 30px;\n    margin: auto;\n    text-align: center;\n    width: 400px; }\n\n.bio-page-section h3, .project-page-section h3 {\n  font-size: 30px;\n  font-weight: bold;\n  padding: 20px 0px 40px 0px;\n  text-align: center; }\n\n.bio-page-headline {\n  margin-top: 50px;\n  margin: auto;\n  width: 900px; }\n  .bio-page-headline h2 {\n    font-size: 50px;\n    text-align: center; }\n\n.resume {\n  margin-bottom: 100px; }\n\n.bio-page-section-container {\n  margin: 120px auto;\n  text-align: center; }\n\n.bio-page-section {\n  border-radius: 5px;\n  border: 1px solid #495246;\n  margin: 0px auto 50px auto;\n  max-width: 920px; }\n  .bio-page-section p {\n    padding: 0px 0px 30px 10px;\n    text-align: center; }\n  .bio-page-section span {\n    font-size: 20px;\n    font-weight: bolder; }\n\n.bio-page-section-italic {\n  font-style: italic; }\n\n.page-upper-section {\n  display: block;\n  margin: auto;\n  margin-bottom: 140px;\n  width: 900px; }\n  .page-upper-section p {\n    font-size: 36px;\n    font-style: italic;\n    line-height: 43px;\n    max-width: 700px;\n    margin: auto;\n    text-align: center; }\n\n.two-article-control {\n  margin: auto;\n  position: relative;\n  text-align: center;\n  width: 900px; }\n\n.main-article-half-width {\n  border-radius: 5px;\n  border: 1px solid #495246;\n  display: inline-block;\n  height: 570px;\n  overflow: auto;\n  width: 300px; }\n  .main-article-half-width p {\n    max-width: 400px;\n    padding: 30px 30px 30px 15px;\n    text-align: center; }\n  .main-article-half-width h3, .main-article-half-width h4 {\n    text-align: center; }\n  .main-article-half-width h3 {\n    font-size: 30px;\n    font-weight: bold;\n    padding: 10px 0px; }\n  .main-article-half-width h4 {\n    font-size: 22px;\n    padding: 20px 0px 30px 0px; }\n  .main-article-half-width img {\n    display: block;\n    height: 150px;\n    margin-left: auto;\n    margin-right: auto; }\n\n.proj1 {\n  margin-right: 20px; }\n\n.proj2 {\n  margin-left: 20px; }\n\n.page-lower-section {\n  border-radius: 5px;\n  border: 1px solid #495246;\n  bottom: 100px;\n  display: inline-block;\n  margin-right: 20px;\n  position: relative; }\n\n.page-lower-section h3 {\n  font-size: 30px;\n  font-weight: bold;\n  padding: 10px 0px;\n  text-align: center; }\n\n.page-lower-section p {\n  max-width: 400px;\n  padding: 10px;\n  padding-bottom: 30px;\n  text-align: center; }\n\n.page-lower-section span {\n  font-style: italic; }\n\n#fig-main {\n  display: inline-block;\n  margin-left: 20px; }\n\n#fig-main figcaption {\n  font-size: 20px;\n  font-style: italic;\n  padding: 10px;\n  text-align: center; }\n\n.bottom-elements-control {\n  margin: auto;\n  margin-bottom: 50px;\n  position: relative;\n  text-align: center;\n  width: 900px; }\n\n#book-img {\n  height: 300px; }\n\n.project-page-headline {\n  margin-bottom: 60px;\n  margin-top: 50px;\n  margin: auto;\n  width: 900px; }\n  .project-page-headline h2 {\n    font-size: 50px;\n    text-align: center; }\n  .project-page-headline img {\n    display: block;\n    height: 80px;\n    margin: 40px auto 30px auto;\n    position: relative;\n    width: 80px; }\n  .project-page-headline p {\n    text-align: center; }\n\n.proj-menu-master-container {\n  margin-top: 50px;\n  margin: auto;\n  text-align: center;\n  width: 1000px; }\n  .proj-menu-master-container h2 {\n    font-size: 50px;\n    padding-bottom: 80px;\n    text-align: center; }\n\n.proj-menu-indiv-box {\n  display: inline-block;\n  height: 250px;\n  margin-bottom: 50px;\n  margin-left: 20px;\n  margin-right: 20px;\n  width: 250px; }\n  .proj-menu-indiv-box img {\n    height: 200px;\n    width: 200px; }\n  .proj-menu-indiv-box p {\n    font-size: 20px;\n    font-style: italic;\n    font-weight: bold;\n    margin-top: 10px;\n    position: relative;\n    text-align: center; }\n\n.italic-names {\n  font-style: italic; }\n", ""]);
+	exports.push([module.id, "@media screen and (max-width: 920px) {\n  html {\n    min-height: 2000px; }\n  .header-each-page {\n    text-align: center;\n    width: 1000px; }\n  .dropdown-menu-container {\n    display: block !important;\n    margin: auto !important;\n    max-width: 600px !important; }\n  .nav-bar {\n    display: block !important;\n    float: none !important; }\n    .nav-bar a {\n      display: block;\n      margin: 35px 15px; }\n  .header-photo {\n    margin: 80px 0px 120px 50px; }\n  .footer-each-page {\n    margin: auto;\n    margin-top: 220px !important;\n    max-height: 50px;\n    top: 1950px;\n    width: 1000px; }\n    .footer-each-page img {\n      padding: 0px 60px; }\n  .big-button-container {\n    width: 1000px !important; }\n  .bio-page-headline {\n    margin-top: 50px !important;\n    width: 1000px !important; }\n  .bio-page-section-container {\n    width: 1000px; }\n  .page-upper-section {\n    margin-top: 140px;\n    width: 1000px; }\n  .two-article-control {\n    width: 1000px !important; }\n  .main-article-half-width {\n    display: block !important;\n    height: auto !important;\n    margin: 0px auto !important;\n    width: 800px !important; }\n  .main-article-half-width p {\n    margin: 10px auto;\n    text-align: center; }\n  .proj2 {\n    margin-top: 50px !important; }\n  .bottom-elements-control {\n    width: 1000px !important; }\n  .page-lower-section {\n    bottom: 0 !important;\n    margin: 0px auto; }\n  #fig-main {\n    display: none !important; }\n  .project-page-headline {\n    margin-bottom: 120px !important;\n    width: 1000px !important; }\n  .project-page-section {\n    margin-left: 100px !important;\n    margin-right: 0px !important;\n    margin-top: 40px !important;\n    width: 800px !important; }\n  .proj-menu-master-container {\n    margin-bottom: 240px; } }\n\n/* elements common to all pages */\nhtml {\n  background-size: cover;\n  background: linear-gradient(to bottom, white, #cbcad9);\n  font-family: \"Open Sans\", sans-serif; }\n\na:link {\n  color: #4025e2;\n  text-decoration: none; }\n\na:visited {\n  color: #dd16cf; }\n\na:hover {\n  color: red;\n  font-style: italic; }\n\n.header-each-page {\n  background: linear-gradient(to bottom, #7fb3f7, #f0f3f7);\n  margin-bottom: 80px; }\n\n.headline-link {\n  color: black !important; }\n  .headline-link:visited {\n    color: black !important; }\n\n.header-each-page h1 {\n  font-size: 60px;\n  font-weight: bold;\n  margin-bottom: 60px;\n  padding-top: 20px;\n  text-align: center; }\n\n.nav-bar {\n  display: inline-block;\n  float: right;\n  margin-top: 20px; }\n\n.nav-bar a {\n  color: black;\n  font-size: 22px;\n  padding: 10px;\n  text-transform: uppercase; }\n  .nav-bar a:hover {\n    background-color: white;\n    border-radius: 5px;\n    border: 1px solid #495246; }\n\n.nav-bar a:visited {\n  color: #404b4b; }\n\n.dropdown-menu-container {\n  display: inline-block;\n  margin: 25px;\n  position: relative; }\n\n.dropdown-menu-actual {\n  background-color: white;\n  position: absolute;\n  border: 1px solid #495246;\n  border-radius: 5px;\n  max-width: 135px;\n  padding: 5px;\n  text-align: center;\n  word-wrap: normal;\n  z-index: 1; }\n\n.dropdown-menu-actual a {\n  display: block;\n  margin-bottom: 15px;\n  padding: 0px 10px;\n  font-size: 18px;\n  line-height: 20px; }\n  .dropdown-menu-actual a:hover {\n    border: none;\n    color: #9f919f; }\n\n.projects-dropdown {\n  left: -3px;\n  top: 34px; }\n\n.background-dropdown {\n  left: -9px;\n  max-width: 150px;\n  top: 34px; }\n\n.selected {\n  background-color: white;\n  border-radius: 5px;\n  border: 1px solid #495246; }\n\n.header-photo {\n  border-radius: 50%;\n  margin-left: 50px;\n  margin-top: 20px;\n  max-height: 250px;\n  max-width: 250px; }\n\n.footer-each-page {\n  background-color: #f0ece4;\n  border-radius: 5px;\n  border: 1px solid #495246;\n  clear: both;\n  display: flex;\n  justify-content: center;\n  margin-top: 80px;\n  text-align: center; }\n\n.footer-each-page img {\n  height: 40px;\n  padding: 10px 75px;\n  width: 40px; }\n\n.footer-each-page img:hover {\n  height: 55px;\n  width: 55px; }\n\n.master-section {\n  text-align: center;\n  width: 100vw; }\n\n.big-button-container {\n  margin: 60px auto;\n  text-align: center;\n  width: 900px; }\n\n.big-button {\n  background-color: #e4e2ed;\n  border-radius: 30px;\n  font-size: 20px;\n  padding: 15px;\n  width: 200px; }\n\n.big-button:hover {\n  background-color: #1e14db;\n  color: white;\n  cursor: pointer; }\n\n.project-page-section {\n  border-radius: 5px;\n  border: 1px solid #495246;\n  margin: 100px auto 50px auto;\n  max-width: 920px;\n  text-align: center; }\n  .project-page-section img {\n    height: 200px; }\n  .project-page-section p {\n    padding-bottom: 30px;\n    padding-top: 30px;\n    margin: auto;\n    text-align: center;\n    width: 400px; }\n  .project-page-section ul {\n    padding-bottom: 20px;\n    padding-top: 20px; }\n  .project-page-section .ul-span {\n    display: block;\n    font-weight: 600;\n    margin-top: 20px; }\n  .project-page-section li {\n    padding-bottom: 15px; }\n  .project-page-section .fareharbor-accomplishments-p {\n    padding-top: 0; }\n\n.bio-page-section h3, .project-page-section h3 {\n  font-size: 30px;\n  font-weight: bold;\n  padding: 20px 0px 40px 0px;\n  text-align: center; }\n\n.bio-page-headline {\n  margin-top: 50px;\n  margin: auto;\n  width: 900px; }\n  .bio-page-headline h2 {\n    font-size: 50px;\n    text-align: center; }\n\n.resume {\n  margin-bottom: 100px; }\n\n.bio-page-section-container {\n  margin: 120px auto;\n  text-align: center; }\n\n.bio-page-section {\n  border-radius: 5px;\n  border: 1px solid #495246;\n  margin: 0px auto 50px auto;\n  max-width: 920px; }\n  .bio-page-section p {\n    padding: 0px 0px 30px 10px;\n    text-align: center; }\n  .bio-page-section span {\n    font-size: 20px;\n    font-weight: bolder; }\n\n.bio-page-section-italic {\n  font-style: italic; }\n\n.page-upper-section {\n  display: block;\n  margin: auto;\n  margin-bottom: 140px;\n  width: 900px; }\n  .page-upper-section p {\n    font-size: 36px;\n    font-style: italic;\n    line-height: 43px;\n    max-width: 700px;\n    margin: auto;\n    text-align: center; }\n\n.two-article-control {\n  margin: auto;\n  position: relative;\n  text-align: center;\n  width: 900px; }\n\n.main-article-half-width {\n  border-radius: 5px;\n  border: 1px solid #495246;\n  display: inline-block;\n  height: 570px;\n  overflow: auto;\n  width: 300px; }\n  .main-article-half-width p {\n    max-width: 400px;\n    padding: 30px 30px 30px 15px;\n    text-align: center; }\n  .main-article-half-width h3, .main-article-half-width h4 {\n    text-align: center; }\n  .main-article-half-width h3 {\n    font-size: 30px;\n    font-weight: bold;\n    padding: 10px 0px; }\n  .main-article-half-width h4 {\n    font-size: 22px;\n    padding: 20px 0px 30px 0px; }\n  .main-article-half-width img {\n    display: block;\n    height: 150px;\n    margin-left: auto;\n    margin-right: auto; }\n\n.proj1 {\n  margin-right: 20px; }\n  .proj1 .main-article-span {\n    display: block;\n    font-weight: 600;\n    margin-top: 20px; }\n  .proj1 ul {\n    padding-top: 20px; }\n  .proj1 li {\n    padding-bottom: 15px; }\n  .proj1 .left-article-p {\n    padding-top: 20px; }\n\n.proj2 {\n  margin-left: 20px; }\n\n.page-lower-section {\n  border-radius: 5px;\n  border: 1px solid #495246;\n  bottom: 100px;\n  display: inline-block;\n  margin-right: 20px;\n  position: relative; }\n\n.page-lower-section h3 {\n  font-size: 30px;\n  font-weight: bold;\n  padding: 10px 0px;\n  text-align: center; }\n\n.page-lower-section p {\n  max-width: 400px;\n  padding: 10px;\n  padding-bottom: 30px;\n  text-align: center; }\n\n.page-lower-section span {\n  font-style: italic; }\n\n#fig-main {\n  display: inline-block;\n  margin-left: 20px; }\n\n#fig-main figcaption {\n  font-size: 20px;\n  font-style: italic;\n  padding: 10px;\n  text-align: center; }\n\n.bottom-elements-control {\n  margin: auto;\n  margin-bottom: 50px;\n  position: relative;\n  text-align: center;\n  width: 900px; }\n\n#book-img {\n  height: 300px; }\n\n.project-page-headline {\n  margin-bottom: 60px;\n  margin-top: 50px;\n  margin: auto;\n  width: 900px; }\n  .project-page-headline h2 {\n    font-size: 50px;\n    text-align: center; }\n  .project-page-headline img {\n    display: block;\n    height: 80px;\n    margin: 40px auto 30px auto;\n    position: relative;\n    width: 80px; }\n  .project-page-headline p {\n    text-align: center; }\n\n.proj-menu-master-container {\n  margin-top: 50px;\n  margin: auto;\n  text-align: center;\n  width: 1000px; }\n  .proj-menu-master-container h2 {\n    font-size: 50px;\n    padding-bottom: 80px;\n    text-align: center; }\n\n.proj-menu-indiv-box {\n  display: inline-block;\n  height: 250px;\n  margin-bottom: 50px;\n  margin-left: 20px;\n  margin-right: 20px;\n  width: 250px; }\n  .proj-menu-indiv-box img {\n    height: 200px;\n    width: 200px; }\n  .proj-menu-indiv-box p {\n    font-size: 20px;\n    font-style: italic;\n    font-weight: bold;\n    margin-top: 10px;\n    position: relative;\n    text-align: center; }\n\n.italic-names {\n  font-style: italic; }\n", ""]);
 	
 	// exports
 
 
 /***/ },
-/* 542 */
+/* 543 */
 /***/ function(module, exports) {
 
 	/*
@@ -46567,10 +46763,10 @@
 
 
 /***/ },
-/* 543 */
+/* 544 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(542)();
+	exports = module.exports = __webpack_require__(543)();
 	// imports
 	
 	
@@ -46581,7 +46777,7 @@
 
 
 /***/ },
-/* 544 */
+/* 545 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*

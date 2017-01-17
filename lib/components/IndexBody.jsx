@@ -13,16 +13,22 @@ class IndexBody extends Component {
         </div>
         <section className="two-article-control">
          <article className="main-article-half-width proj1">
-          <Link to="/netwerker">
-            <h3>Netwerker</h3>
+          <Link to="/fareharbor">
+            <h3>FareHarbor Toolkit</h3>
           </Link>
-           <a href="https://github.com/gness1804/netwerker" target="_blank" rel="noopener noreferrer">
+           <a href="https://github.com/rcwestlake/fare-harbor-toolkit" target="_blank" rel="noopener noreferrer">
              <h4>(GitHub)</h4>
            </a>
-           <img src="images/netwerker.png" alt="Screen shot from Netwerker." />
-           <p>
-             <a href="https://netwerker-3d622.firebaseapp.com/" target="_blank" rel="noopener noreferrer">Netwerker</a> is a professional networking app, created with Matt Kaufman and Christine Gamble, that allows the user to store contacts, sort them alphabetically, delete them, flag them for followup, and add images. It was created using the toolbox of React, Firebase, Webpack, and Enzyme. For more details, see the <Link to="/netwerker">project page.</Link>
-           </p>
+           <img src="images/search-input-screenshot.png" alt="Screenshot from the FareHarbor project." />
+             <span className="main-article-span">Main portfolio deliverables:</span>
+             <ul>
+               <li><a href="images/fareharbor-wireframes.pdf" target="_blank" rel="noopener noreferrer">A wireframe built in Sketch</a></li>
+               <li><a href="https://www.gitbook.com/book/rcwestlake/fareharbor-toolkit/details" target="_blank" rel="noopener noreferrer">Documentation</a></li>
+               <li><a href="https://github.com/rcwestlake/fare-harbor-toolkit" target="_blank" rel="noopener noreferrer">Github repo</a></li>
+             </ul>
+             <p className="left-article-p">
+               This project consists of a powerful tool creator and three tools built for FareHarbor, an online travel services company. For more details, see the <Link to="/fareharbor">project page.</Link>
+             </p>
          </article>
          <article className="main-article-half-width proj2">
           <Link to="/flashshopper">
@@ -33,7 +39,7 @@ class IndexBody extends Component {
            </a>
            <img src="images/flash-shopper.png" alt="Screenshot." />
            <p>
-             <a href="https://github.com/gness1804/grocery-list-redux/tree/master" target="_blank" rel="noopener noreferrer">Flash Shopper</a> is an application created by me independent of the Turing School curriculum. It is a grocery list app where users can enter items, sort them, delete them, and edit them. The app also populates aisles by category (currently available for 1 location). This app aims to present a smart and sleek alternative to existing grocery apps. For more details, see the <Link to="/flashshopper">project page.</Link>
+             <a href="https://github.com/gness1804/grocery-list-redux/tree/master" target="_blank" rel="noopener noreferrer">Flash Shopper</a> is an application created by me independent of the Turing School curriculum. It is a grocery list app built in React and Redux where users can enter items, sort them, delete them, and edit them. The app also populates aisles by category (currently available for 1 location). This app aims to present a smart and sleek alternative to existing grocery apps. For more details, see the <Link to="/flashshopper">project page.</Link>
            </p>
          </article>
         </section>

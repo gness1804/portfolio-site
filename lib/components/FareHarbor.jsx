@@ -18,7 +18,7 @@ class FareHarbor extends Component {
             <span className="ul-span">Main portfolio deliverables:</span>
             <ul>
               <li><a href="images/fareharbor-wireframes.pdf" target="_blank" rel="noopener noreferrer">A wireframe built in Sketch</a></li>
-              <li><a href="https://www.gitbook.com/book/rcwestlake/fareharbor-toolkit/details" target="_blank" rel="noopener noreferrer">Documentation written for the FareHarbor integrator</a></li>
+              <li><a href="https://www.gitbook.com/book/rcwestlake/fareharbor-toolkit/details" target="_blank" rel="noopener noreferrer">Documentation</a></li>
               <li><a href="https://github.com/rcwestlake/fare-harbor-toolkit" target="_blank" rel="noopener noreferrer">Github repo</a></li>
             </ul>
             <p className="fareharbor-accomplishments-p">

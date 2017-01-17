@@ -25,8 +25,8 @@ class Header extends Component {
                 Projects
               </Link>
               <section className="dropdown-menu-actual projects-dropdown">
-                <Link to="/netwerker">
-                  Netwerker
+                <Link to="/fareharbor">
+                  FareHarbor Toolkit
                 </Link>
                 <Link to="/flashshopper">
                   Flash Shopper

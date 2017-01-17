@@ -26,19 +26,14 @@ class FareHarbor extends Component {
            </p>
           </section>
           <section className="project-page-section">
-              <h3>Tools Used</h3>
-              <img src="" alt="." />
+              <h3>Tools Used and What I Learned</h3>
+              <img src="images/fareharbor-code-screenshot.png" alt="Screenshot of code from the FareHarbor project." />
               <p>
+                We learned a lot in the process of building this toolkit. First, we had to build a small server to get around a CORS issue in order to serve up client API data for our tools. This led us to learn a lot about Express.js and the fundamentals of building a server. Second, due to backwards compatibility concerns, we built the whole project in vanilla JavaScript (including the styling and markup), which was an extremely useful exercise in the fundamentals and also made us learn how to make API calls using the vanilla XMLHTTPRequest() object (see screenshot above). <br /><br />
 
+                We also became more adept testers, as we made extensive use of Selenium Webdriver for testing and had to adapt our tests for contingencies such as different company names. Finally, the project taught us a lot about building software for business needs. As noted above, we shaped our choices around the objective of increasing conversions for FareHarbor's clients. This certainly made me more aware of how seemingly small aesthetic choices and code decisions can significantly impact the user experience.
              </p>
             </section>
-            <section className="project-page-section">
-                <h3>What I Learned</h3>
-                <img src="images/thinking.svg" alt="A thinking head." title="Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com" />
-                <p>
-
-               </p>
-          </section>
       </div>
     );
   }

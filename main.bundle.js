@@ -34702,7 +34702,7 @@
 	              'Graham Nessler'
 	            )
 	          ),
-	          _react2.default.createElement('img', { className: 'header-photo', src: 'images/skype-photo-2.jpg', alt: 'Photo of me in blue shirt.' }),
+	          _react2.default.createElement('img', { className: 'header-photo', src: 'images/headshot-optimized.jpg', alt: 'My photo.' }),
 	          _react2.default.createElement(
 	            'nav',
 	            { className: 'nav-bar' },
@@ -45421,8 +45421,6 @@
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	var ReactDOM = __webpack_require__(331);
-	
 	var AboutMe = function (_Component) {
 	  _inherits(AboutMe, _Component);
 	
@@ -45452,7 +45450,7 @@
 	          { className: 'big-button-container' },
 	          _react2.default.createElement(
 	            'a',
-	            { href: 'resumes/Nessler-Resume-01-17-17.pdf', target: '_blank', rel: 'noopener noreferrer' },
+	            { href: 'resumes/Nessler-Resume-02-04-17.pdf', target: '_blank', rel: 'noopener noreferrer' },
 	            _react2.default.createElement(
 	              'button',
 	              { type: 'button', className: 'big-button' },

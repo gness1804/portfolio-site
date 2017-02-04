@@ -2,8 +2,6 @@ import React, {Component} from 'react';
 import WorkHistory from './WorkHistory';
 import Education from './Education';
 
-const ReactDOM = require('react-dom');
-
 class AboutMe extends Component {
 
   render() {

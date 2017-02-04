@@ -13,7 +13,7 @@ class Header extends Component {
           <Link className="headline-link" to="/">
             <h1>Graham Nessler</h1>
           </Link>
-          <img className="header-photo" src="images/skype-photo-2.jpg" alt="Photo of me in blue shirt." />
+          <img className="header-photo" src="images/headshot-optimized.jpg" alt="My photo." />
           <nav className="nav-bar">
             <section className="dropdown-menu-container">
               <Link to="/">

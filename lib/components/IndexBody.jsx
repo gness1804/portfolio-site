@@ -16,7 +16,7 @@ class IndexBody extends Component {
           <Link to="/fareharbor">
             <h3>FareHarbor Toolkit</h3>
           </Link>
-           <a href="https://github.com/rcwestlake/fare-harbor-toolkit" target="_blank" rel="noopener noreferrer">
+           <a href="https://github.com/gness1804/fare-harbor-toolkit-1" target="_blank" rel="noopener noreferrer">
              <h4>(GitHub)</h4>
            </a>
            <img src="images/search-input-screenshot.png" alt="Screenshot from the FareHarbor project." />
@@ -24,7 +24,7 @@ class IndexBody extends Component {
              <ul>
                <li><a href="images/fareharbor-wireframes.pdf" target="_blank" rel="noopener noreferrer">A wireframe built in Sketch</a></li>
                <li><a href="https://www.gitbook.com/book/rcwestlake/fareharbor-toolkit/details" target="_blank" rel="noopener noreferrer">Documentation</a></li>
-               <li><a href="https://github.com/rcwestlake/fare-harbor-toolkit" target="_blank" rel="noopener noreferrer">Github repo</a></li>
+               <li><a href="https://github.com/gness1804/fare-harbor-toolkit-1" target="_blank" rel="noopener noreferrer">Github repo</a></li>
              </ul>
              <p className="left-article-p">
                This project consists of a powerful tool creator and three tools built for FareHarbor, an online travel services company. For more details, see the <Link to="/fareharbor">project page.</Link>

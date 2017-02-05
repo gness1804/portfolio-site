@@ -34401,7 +34401,7 @@
 	            'I am a front-end software engineer, published author, and educator. Feel free to browse my projects below and to ',
 	            _react2.default.createElement(
 	              'a',
-	              { href: 'mailto:gnessler@umich.edu', target: '_blank', rel: 'noopener noreferrer' },
+	              { href: 'mailto:graham@grahamnessler.com', target: '_blank', rel: 'noopener noreferrer' },
 	              'get in touch'
 	            ),
 	            '.'
@@ -34424,7 +34424,7 @@
 	            ),
 	            _react2.default.createElement(
 	              'a',
-	              { href: 'https://github.com/rcwestlake/fare-harbor-toolkit', target: '_blank', rel: 'noopener noreferrer' },
+	              { href: 'https://github.com/gness1804/fare-harbor-toolkit-1', target: '_blank', rel: 'noopener noreferrer' },
 	              _react2.default.createElement(
 	                'h4',
 	                null,
@@ -34463,7 +34463,7 @@
 	                null,
 	                _react2.default.createElement(
 	                  'a',
-	                  { href: 'https://github.com/rcwestlake/fare-harbor-toolkit', target: '_blank', rel: 'noopener noreferrer' },
+	                  { href: 'https://github.com/gness1804/fare-harbor-toolkit-1', target: '_blank', rel: 'noopener noreferrer' },
 	                  'Github repo'
 	                )
 	              )
@@ -45088,7 +45088,7 @@
 	          ),
 	          _react2.default.createElement(
 	            'a',
-	            { href: 'mailto:gnessler@umich.edu', target: '_blank' },
+	            { href: 'mailto:graham@grahamnessler.com', target: '_blank' },
 	            _react2.default.createElement('img', { src: 'images/gmail.png', alt: 'Gmail logo.' })
 	          ),
 	          _react2.default.createElement(
@@ -46565,7 +46565,7 @@
 	          ),
 	          _react2.default.createElement(
 	            "a",
-	            { href: "https://github.com/rcwestlake/fare-harbor-toolkit", target: "_blank", rel: "noopener noreferrer" },
+	            { href: "https://github.com/gness1804/fare-harbor-toolkit-1", target: "_blank", rel: "noopener noreferrer" },
 	            _react2.default.createElement("img", { src: "images/github.png", alt: "GitHub logo", title: "Project GitHub link" }),
 	            _react2.default.createElement(
 	              "p",
@@ -46614,7 +46614,7 @@
 	              null,
 	              _react2.default.createElement(
 	                "a",
-	                { href: "https://github.com/rcwestlake/fare-harbor-toolkit", target: "_blank", rel: "noopener noreferrer" },
+	                { href: "https://github.com/gness1804/fare-harbor-toolkit-1", target: "_blank", rel: "noopener noreferrer" },
 	                "Github repo"
 	              )
 	            )

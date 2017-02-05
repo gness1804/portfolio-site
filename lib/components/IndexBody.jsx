@@ -8,7 +8,7 @@ class IndexBody extends Component {
       <div>
         <div className="page-upper-section">
           <p>
-            I am a front-end software engineer, published author, and educator. Feel free to browse my projects below and to <a href="mailto:gnessler@umich.edu" target="_blank" rel="noopener noreferrer">get in touch</a>.
+            I am a front-end software engineer, published author, and educator. Feel free to browse my projects below and to <a href="mailto:graham@grahamnessler.com" target="_blank" rel="noopener noreferrer">get in touch</a>.
           </p>
         </div>
         <section className="two-article-control">

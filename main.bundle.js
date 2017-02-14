@@ -34506,10 +34506,10 @@
 	              null,
 	              _react2.default.createElement(
 	                'a',
-	                { href: 'https://github.com/gness1804/grocery-list-redux/tree/master', target: '_blank', rel: 'noopener noreferrer' },
+	                { href: 'https://github.com/gness1804/grocery-list-react', target: '_blank', rel: 'noopener noreferrer' },
 	                'Flash Shopper'
 	              ),
-	              ' is an application created by me independent of the Turing School curriculum. It is a grocery list app built in React and Redux where users can enter items, sort them, delete them, and edit them. The app also populates aisles by category (currently available for 1 location). This app aims to present a smart and sleek alternative to existing grocery apps. For more details, see the ',
+	              ' is an application created by me independent of the Turing School curriculum. It is a grocery list app built in React where users can enter items, sort them, delete them, and edit them. The app also populates aisles by category (currently available for 1 location). This app aims to present a smart and sleek alternative to existing grocery apps. For more details, see the ',
 	              _react2.default.createElement(
 	                _reactRouter.Link,
 	                { to: '/flashshopper' },
@@ -45450,7 +45450,7 @@
 	          { className: 'big-button-container' },
 	          _react2.default.createElement(
 	            'a',
-	            { href: 'resumes/Nessler-Resume-02-07-16.pdf', target: '_blank', rel: 'noopener noreferrer' },
+	            { href: 'resumes/Nessler-Resume-02-13-17.pdf', target: '_blank', rel: 'noopener noreferrer' },
 	            _react2.default.createElement(
 	              'button',
 	              { type: 'button', className: 'big-button' },
@@ -45826,7 +45826,7 @@
 /* 535 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 	
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -45846,8 +45846,6 @@
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	var ReactDOM = __webpack_require__(331);
-	
 	var FlashShopper = function (_Component) {
 	  _inherits(FlashShopper, _Component);
 	
@@ -45858,84 +45856,84 @@
 	  }
 	
 	  _createClass(FlashShopper, [{
-	    key: 'render',
+	    key: "render",
 	    value: function render() {
 	      return _react2.default.createElement(
-	        'div',
+	        "div",
 	        null,
 	        _react2.default.createElement(
-	          'section',
-	          { className: 'project-page-headline ' },
+	          "section",
+	          { className: "project-page-headline " },
 	          _react2.default.createElement(
-	            'h2',
+	            "h2",
 	            null,
-	            'Flash Shopper'
+	            "Flash Shopper"
 	          ),
 	          _react2.default.createElement(
-	            'a',
-	            { href: 'https://github.com/gness1804/grocery-list-redux/tree/master', target: '_blank' },
-	            _react2.default.createElement('img', { src: 'images/github.png', alt: 'GitHub logo', title: 'Project GitHub link' }),
+	            "a",
+	            { href: "https://github.com/gness1804/grocery-list-react", target: "_blank" },
+	            _react2.default.createElement("img", { src: "images/github.png", alt: "GitHub logo", title: "Project GitHub link" }),
 	            _react2.default.createElement(
-	              'p',
+	              "p",
 	              null,
-	              'Project Link (Github)'
+	              "Project Link (Github)"
 	            )
 	          )
 	        ),
 	        _react2.default.createElement(
-	          'section',
-	          { className: 'project-page-section' },
+	          "section",
+	          { className: "project-page-section" },
 	          _react2.default.createElement(
-	            'h3',
+	            "h3",
 	            null,
-	            'Principal Accomplishments'
+	            "Principal Accomplishments"
 	          ),
-	          _react2.default.createElement('img', { src: 'images/flash-shopper.png', alt: 'Screenshot.' }),
+	          _react2.default.createElement("img", { src: "images/flash-shopper.png", alt: "Screenshot." }),
 	          _react2.default.createElement(
-	            'p',
+	            "p",
 	            null,
 	            _react2.default.createElement(
-	              'a',
-	              { href: 'https://github.com/gness1804/grocery-list-redux/tree/master', target: '_blank' },
-	              'Flash Shopper'
+	              "a",
+	              { href: "https://github.com/gness1804/grocery-list-react", target: "_blank" },
+	              "Flash Shopper"
 	            ),
-	            ' is an application created by me independent of the Turing School curriculum. It is a grocery list app where users can enter items, sort them, delete them, and edit them. The app also populates aisles by category (currently available for 1 location). This app aims to present a smart and sleek alternative to existing grocery apps. In creating this app, I successfully designed a complex system utilizing React and Redux to manage the state of each item and of the entire app. Not only that, but this app has become invaluable for me when I go grocery shopping!'
+	            " is an application created by me independent of the Turing School curriculum. It is a grocery list app where users can enter items, sort them, delete them, and edit them. The app also populates aisles by category (currently available for 1 location). This app aims to present a smart and sleek alternative to existing grocery apps. In creating this app, I successfully designed a complex system utilizing React to manage the state of each item and of the entire app. Not only that, but this app has become invaluable for me when I go grocery shopping!"
 	          )
 	        ),
 	        _react2.default.createElement(
-	          'section',
-	          { className: 'project-page-section' },
+	          "section",
+	          { className: "project-page-section" },
 	          _react2.default.createElement(
-	            'h3',
+	            "h3",
 	            null,
-	            'Tools Used'
+	            "Tools Used"
 	          ),
-	          _react2.default.createElement('img', { src: 'images/react-logo.svg', alt: 'React logo.' }),
+	          _react2.default.createElement("img", { src: "images/react-logo.svg", alt: "React logo." }),
 	          _react2.default.createElement(
-	            'p',
+	            "p",
 	            null,
-	            'As noted above, I used React to build this app, along with Redux. By the time I decided to rebuild my ',
+	            "As noted above, I used React to build this app. By the time I decided to rebuild my ",
 	            _react2.default.createElement(
-	              'a',
-	              { href: 'https://github.com/gness1804/grocery-list-local-storage', target: '_blank' },
-	              'old grocery list app'
+	              "a",
+	              { href: "https://github.com/gness1804/grocery-list-local-storage", target: "_blank" },
+	              "old grocery list app"
 	            ),
-	            ' using React, I had become increasingly confident in React and ready to experiment with using it in new ways, such as sorting items alphabetically and by aisle number. I also managed to replace the local storage from the earlier iteration with Firebase, which affords me the opportuity to use any device to access the storage and for multiple users to store their own items.'
+	            " using React, I had become increasingly confident in React and ready to experiment with using it in new ways, such as sorting items alphabetically and by aisle number. I also managed to replace the local storage from the earlier iteration with Firebase, which affords me the opportuity to use any device to access the storage and for multiple users to store their own items."
 	          )
 	        ),
 	        _react2.default.createElement(
-	          'section',
-	          { className: 'project-page-section' },
+	          "section",
+	          { className: "project-page-section" },
 	          _react2.default.createElement(
-	            'h3',
+	            "h3",
 	            null,
-	            'What I Learned'
+	            "What I Learned"
 	          ),
-	          _react2.default.createElement('img', { src: 'images/thinking.svg', alt: 'A thinking head.', title: 'Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com' }),
+	          _react2.default.createElement("img", { src: "images/thinking.svg", alt: "A thinking head.", title: "Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com" }),
 	          _react2.default.createElement(
-	            'p',
+	            "p",
 	            null,
-	            'The main benefit to me of doing this project was to increase my skills in React, Redux, and Firebase. Moreover, as I use the grocery list app in my real life experience in planning grocery runs and at the store, I have learned valuable lessons on how real-life experiences can inform the improvement of software--that is, no matter how well a given app is designed, user experience and user testing are crucial to ensuring a viable product. These lessons will surely be useful to me as I embark on my career in web development.'
+	            "The main benefit to me of doing this project was to increase my skills in React and Firebase. Moreover, as I use the grocery list app in my real life experience in planning grocery runs and at the store, I have learned valuable lessons on how real-life experiences can inform the improvement of software--that is, no matter how well a given app is designed, user experience and user testing are crucial to ensuring a viable product. These lessons will surely be useful to me as I embark on my career in web development."
 	          )
 	        )
 	      );

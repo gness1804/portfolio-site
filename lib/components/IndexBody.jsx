@@ -39,7 +39,7 @@ class IndexBody extends Component {
            </a>
            <img src="images/flash-shopper.png" alt="Screenshot." />
            <p>
-             <a href="https://github.com/gness1804/grocery-list-react" target="_blank" rel="noopener noreferrer">Flash Shopper</a> is an application created by me independent of the Turing School curriculum. It is a grocery list app built in React and Redux where users can enter items, sort them, delete them, and edit them. The app also populates aisles by category (currently available for 1 location). This app aims to present a smart and sleek alternative to existing grocery apps. For more details, see the <Link to="/flashshopper">project page.</Link>
+             <a href="https://github.com/gness1804/grocery-list-react" target="_blank" rel="noopener noreferrer">Flash Shopper</a> is an application created by me independent of the Turing School curriculum. It is a grocery list app built in React where users can enter items, sort them, delete them, and edit them. The app also populates aisles by category (currently available for 1 location). This app aims to present a smart and sleek alternative to existing grocery apps. For more details, see the <Link to="/flashshopper">project page.</Link>
            </p>
          </article>
         </section>

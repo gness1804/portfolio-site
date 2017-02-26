@@ -45450,7 +45450,7 @@
 	          { className: 'big-button-container' },
 	          _react2.default.createElement(
 	            'a',
-	            { href: 'resumes/Nessler-Resume-02-13-17.pdf', target: '_blank', rel: 'noopener noreferrer' },
+	            { href: 'resumes/Nessler-Resume-02-24-17.pdf', target: '_blank', rel: 'noopener noreferrer' },
 	            _react2.default.createElement(
 	              'button',
 	              { type: 'button', className: 'big-button' },

@@ -79,12 +79,12 @@ class ProjectMenu extends Component {
             </div>
           </Link>
 
-        <a href="https://hilarylewis92.github.io/2DoBox-Pivot/">
+        <Link to="todo-box">
             <div className="proj-menu-indiv-box">
               <img src="images/2do-box.png" alt="Screenshot." />
               <p>2Do Box Pivot</p>
             </div>
-          </a>
+          </Link>
 
           <Link to="/gametime">
             <div className="proj-menu-indiv-box">

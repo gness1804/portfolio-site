@@ -460,6 +460,12 @@ a:hover {
     text-align: center;
   }
 
+  a, .proj-menu-link {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
 }
 
 .italic-names {

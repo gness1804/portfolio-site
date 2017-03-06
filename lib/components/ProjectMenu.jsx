@@ -100,12 +100,12 @@ class ProjectMenu extends Component {
             </div>
           </Link>
 
-          <a href="https://gness1804.github.io/Personal-Blog/linked-list-09-03-16.html">
+          <Link to="/linked-list">
             <div className="proj-menu-indiv-box">
               <img src="images/linked_list.png" alt="Linked List screenshot." />
               <p>Linked List</p>
             </div>
-          </a>
+          </Link>
 
           <Link to="/number-guesser">
             <div className="proj-menu-indiv-box">

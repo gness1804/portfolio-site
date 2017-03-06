@@ -13,22 +13,16 @@ class IndexBody extends Component {
         </div>
         <section className="two-article-control">
          <article className="main-article-half-width proj1">
-          <Link to="/fareharbor">
-            <h3>FareHarbor Toolkit</h3>
+          <Link to="/we-the-people">
+            <h3>We The People</h3>
           </Link>
-           <a href="https://github.com/gness1804/fare-harbor-toolkit-1" target="_blank" rel="noopener noreferrer">
+           <a href="https://github.com/gness1804/we-the-people-native" target="_blank" rel="noopener noreferrer">
              <h4>(GitHub)</h4>
            </a>
-           <img src="images/search-input-screenshot.png" alt="Screenshot from the FareHarbor project." />
-             <span className="main-article-span">Main portfolio deliverables:</span>
-             <ul>
-               <li><a href="images/fareharbor-wireframes.pdf" target="_blank" rel="noopener noreferrer">A wireframe built in Sketch</a></li>
-               <li><a href="https://www.gitbook.com/book/rcwestlake/fareharbor-toolkit/details" target="_blank" rel="noopener noreferrer">Documentation</a></li>
-               <li><a href="https://github.com/gness1804/fare-harbor-toolkit-1" target="_blank" rel="noopener noreferrer">Github repo</a></li>
-             </ul>
-             <p className="left-article-p">
-               This project consists of a powerful tool creator and three tools built for FareHarbor, an online travel services company. For more details, see the <Link to="/fareharbor">project page.</Link>
-             </p>
+           <img src="images/we-the-people.png" alt="Screenshot." />
+           <p className="left-article-p">
+              We The People is an application created in React Native that allows a user to track current Congressional bills and new laws. The application brings in data on bills and laws including title, date introduced, date of last action, sponsor, current progress (in House Committee, passed by Senate, enacted...), and other data. For more details, see the <Link to="/we-the-people">project page.</Link>
+           </p>
          </article>
          <article className="main-article-half-width proj2">
           <Link to="/flashshopper">

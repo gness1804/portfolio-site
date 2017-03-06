@@ -65,12 +65,12 @@ class ProjectMenu extends Component {
             </div>
           </a>
 
-        <a href="https://shoot-the-breeze-b5e3f.firebaseapp.com/">
+        <Link to="shoot-the-breeze">
             <div className="proj-menu-indiv-box">
               <img src="images/shoot-the-breeze.png" alt="Screenshot." />
               <p>Shoot the Breeze</p>
             </div>
-          </a>
+          </Link>
 
           <Link to="/weatherapp">
             <div className="proj-menu-indiv-box">

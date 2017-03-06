@@ -23,12 +23,12 @@ class ProjectMenu extends Component {
             </div>
           </Link>
 
-          <a href="https://github.com/kswhyte/remEMBER">
+          <Link to="ember-remember">
             <div className="proj-menu-indiv-box">
               <img src="images/ember-remember-screenshot.png" alt="Screenshot." />
                 <p>Ember RemEMBER</p>
             </div>
-          </a>
+          </Link>
 
           <Link to="/weather-tracker">
             <div className="proj-menu-indiv-box">

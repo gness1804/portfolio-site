@@ -107,12 +107,12 @@ class ProjectMenu extends Component {
             </div>
           </a>
 
-          <a href="https://gness1804.github.io/Personal-Blog/number-guesser-08-25-16.html">
+          <Link to="/number-guesser">
             <div className="proj-menu-indiv-box">
               <img src="images/number-guesser-screen.png" alt="Number guesser screenshot." />
               <p>Number Guesser</p>
             </div>
-          </a>
+          </Link>
 
           <Link to="/color-changer">
             <div className="proj-menu-indiv-box">

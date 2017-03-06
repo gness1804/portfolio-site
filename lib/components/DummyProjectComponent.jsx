@@ -6,7 +6,7 @@ class TheName extends Component {
     return (
       <div>
         <section className="project-page-headline">
-          <h2>Title</h2>
+          <h2>TheName</h2>
           <a href="" target="_blank" rel="noopener noreferrer">
             <img src="images/github.png" alt="GitHub logo" title="Project GitHub link" />
             <p>Project Link (Github)</p>

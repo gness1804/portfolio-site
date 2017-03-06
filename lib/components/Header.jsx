@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
 
-const ReactDOM = require('react-dom');
 require('./dropdown');
 
 class Header extends Component {

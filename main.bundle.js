@@ -8294,9 +8294,61 @@
 	
 	var _FareHarbor2 = _interopRequireDefault(_FareHarbor);
 	
+	var _LoremIpsum = __webpack_require__(547);
+	
+	var _LoremIpsum2 = _interopRequireDefault(_LoremIpsum);
+	
+	var _ColorChanger = __webpack_require__(548);
+	
+	var _ColorChanger2 = _interopRequireDefault(_ColorChanger);
+	
+	var _NumberGuesser = __webpack_require__(549);
+	
+	var _NumberGuesser2 = _interopRequireDefault(_NumberGuesser);
+	
+	var _LinkedList = __webpack_require__(550);
+	
+	var _LinkedList2 = _interopRequireDefault(_LinkedList);
+	
+	var _ToDoBox = __webpack_require__(551);
+	
+	var _ToDoBox2 = _interopRequireDefault(_ToDoBox);
+	
+	var _ShootTheBreeze = __webpack_require__(552);
+	
+	var _ShootTheBreeze2 = _interopRequireDefault(_ShootTheBreeze);
+	
+	var _NumberGuesserReact = __webpack_require__(553);
+	
+	var _NumberGuesserReact2 = _interopRequireDefault(_NumberGuesserReact);
+	
+	var _EmberRemember = __webpack_require__(554);
+	
+	var _EmberRemember2 = _interopRequireDefault(_EmberRemember);
+	
+	var _JetFuel = __webpack_require__(555);
+	
+	var _JetFuel2 = _interopRequireDefault(_JetFuel);
+	
+	var _RealTime = __webpack_require__(556);
+	
+	var _RealTime2 = _interopRequireDefault(_RealTime);
+	
+	var _FiredUp = __webpack_require__(557);
+	
+	var _FiredUp2 = _interopRequireDefault(_FiredUp);
+	
+	var _GrudgeBox = __webpack_require__(558);
+	
+	var _GrudgeBox2 = _interopRequireDefault(_GrudgeBox);
+	
+	var _WeThePeople = __webpack_require__(559);
+	
+	var _WeThePeople2 = _interopRequireDefault(_WeThePeople);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	__webpack_require__(547);
+	__webpack_require__(560);
 	
 	(0, _reactDom.render)(_react2.default.createElement(
 	  _reactRouter.Router,
@@ -8315,7 +8367,20 @@
 	    _react2.default.createElement(_reactRouter.Route, { path: '/flashshopper', component: _FlashShopper2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/weatherapp', component: _WeatherApp2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/gametime', component: _GameTime2.default }),
-	    _react2.default.createElement(_reactRouter.Route, { path: '/ideabox', component: _IdeaBox2.default })
+	    _react2.default.createElement(_reactRouter.Route, { path: '/ideabox', component: _IdeaBox2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/lorem-ipsum', component: _LoremIpsum2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/color-changer', component: _ColorChanger2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/number-guesser', component: _NumberGuesser2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/linked-list', component: _LinkedList2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/todo-box', component: _ToDoBox2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/shoot-the-breeze', component: _ShootTheBreeze2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/number-guesser-react', component: _NumberGuesserReact2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/ember-remember', component: _EmberRemember2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/jet-fuel', component: _JetFuel2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/real-time', component: _RealTime2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/fired-up', component: _FiredUp2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/grudge-box', component: _GrudgeBox2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/we-the-people', component: _WeThePeople2.default })
 	  )
 	), document.getElementById('application'));
 
@@ -34668,66 +34733,30 @@
 	            { className: 'main-article-half-width proj1' },
 	            _react2.default.createElement(
 	              _reactRouter.Link,
-	              { to: '/fareharbor' },
+	              { to: '/we-the-people' },
 	              _react2.default.createElement(
 	                'h3',
 	                null,
-	                'FareHarbor Toolkit'
+	                'We The People'
 	              )
 	            ),
 	            _react2.default.createElement(
 	              'a',
-	              { href: 'https://github.com/gness1804/fare-harbor-toolkit-1', target: '_blank', rel: 'noopener noreferrer' },
+	              { href: 'https://github.com/gness1804/we-the-people-native', target: '_blank', rel: 'noopener noreferrer' },
 	              _react2.default.createElement(
 	                'h4',
 	                null,
 	                '(GitHub)'
 	              )
 	            ),
-	            _react2.default.createElement('img', { src: 'images/search-input-screenshot.png', alt: 'Screenshot from the FareHarbor project.' }),
-	            _react2.default.createElement(
-	              'span',
-	              { className: 'main-article-span' },
-	              'Main portfolio deliverables:'
-	            ),
-	            _react2.default.createElement(
-	              'ul',
-	              null,
-	              _react2.default.createElement(
-	                'li',
-	                null,
-	                _react2.default.createElement(
-	                  'a',
-	                  { href: 'images/fareharbor-wireframes.pdf', target: '_blank', rel: 'noopener noreferrer' },
-	                  'A wireframe built in Sketch'
-	                )
-	              ),
-	              _react2.default.createElement(
-	                'li',
-	                null,
-	                _react2.default.createElement(
-	                  'a',
-	                  { href: 'https://www.gitbook.com/book/rcwestlake/fareharbor-toolkit/details', target: '_blank', rel: 'noopener noreferrer' },
-	                  'Documentation'
-	                )
-	              ),
-	              _react2.default.createElement(
-	                'li',
-	                null,
-	                _react2.default.createElement(
-	                  'a',
-	                  { href: 'https://github.com/gness1804/fare-harbor-toolkit-1', target: '_blank', rel: 'noopener noreferrer' },
-	                  'Github repo'
-	                )
-	              )
-	            ),
+	            _react2.default.createElement('img', { src: 'images/we-the-people.png', alt: 'Screenshot.' }),
 	            _react2.default.createElement(
 	              'p',
 	              { className: 'left-article-p' },
-	              'This project consists of a powerful tool creator and three tools built for FareHarbor, an online travel services company. For more details, see the ',
+	              'We The People is an application created in React Native that allows a user to track current Congressional bills and new laws. The application brings in data on bills and laws including title, date introduced, date of last action, sponsor, current progress (in House Committee, passed by Senate, enacted...), and other data. For more details, see the ',
 	              _react2.default.createElement(
 	                _reactRouter.Link,
-	                { to: '/fareharbor' },
+	                { to: '/we-the-people' },
 	                'project page.'
 	              )
 	            )
@@ -34980,8 +35009,8 @@
 	                { className: 'dropdown-menu-actual projects-dropdown' },
 	                _react2.default.createElement(
 	                  _reactRouter.Link,
-	                  { to: '/fareharbor' },
-	                  'FareHarbor Toolkit'
+	                  { to: '/we-the-people' },
+	                  'We The People'
 	                ),
 	                _react2.default.createElement(
 	                  _reactRouter.Link,
@@ -45408,8 +45437,64 @@
 	            'My Work'
 	          ),
 	          _react2.default.createElement(
-	            'a',
-	            { href: 'https://github.com/gness1804/jet-fuel' },
+	            _reactRouter.Link,
+	            { to: 'we-the-people' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'proj-menu-indiv-box' },
+	              _react2.default.createElement('img', { src: 'images/we-the-people.png', alt: 'Screenshot.' }),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                'We The People'
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            _reactRouter.Link,
+	            { to: 'grudge-box' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'proj-menu-indiv-box' },
+	              _react2.default.createElement('img', { src: 'images/grudge-box.png', alt: 'Screenshot.' }),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                'GrudgeBox'
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            _reactRouter.Link,
+	            { to: 'fired-up' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'proj-menu-indiv-box' },
+	              _react2.default.createElement('img', { src: 'images/fired-up-screenshot.png', alt: 'Screenshot.' }),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                'Fired Up'
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            _reactRouter.Link,
+	            { to: 'real-time' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'proj-menu-indiv-box' },
+	              _react2.default.createElement('img', { src: 'images/real-time-screen-shot-1.png', alt: 'Screenshot.' }),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                'Real Time'
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            _reactRouter.Link,
+	            { to: 'jet-fuel' },
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'proj-menu-indiv-box' },
@@ -45436,8 +45521,8 @@
 	            )
 	          ),
 	          _react2.default.createElement(
-	            'a',
-	            { href: 'https://github.com/kswhyte/remEMBER' },
+	            _reactRouter.Link,
+	            { to: 'ember-remember' },
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'proj-menu-indiv-box' },
@@ -45492,8 +45577,8 @@
 	            )
 	          ),
 	          _react2.default.createElement(
-	            'a',
-	            { href: 'https://gness1804.github.io/number-guesser-react/' },
+	            _reactRouter.Link,
+	            { to: 'number-guesser-react' },
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'proj-menu-indiv-box' },
@@ -45501,7 +45586,7 @@
 	              _react2.default.createElement(
 	                'p',
 	                null,
-	                'Number Guesser in React'
+	                'Number Guesser (React)'
 	              )
 	            )
 	          ),
@@ -45520,8 +45605,8 @@
 	            )
 	          ),
 	          _react2.default.createElement(
-	            'a',
-	            { href: 'https://shoot-the-breeze-b5e3f.firebaseapp.com/' },
+	            _reactRouter.Link,
+	            { to: 'shoot-the-breeze' },
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'proj-menu-indiv-box' },
@@ -45548,8 +45633,8 @@
 	            )
 	          ),
 	          _react2.default.createElement(
-	            'a',
-	            { href: 'https://hilarylewis92.github.io/2DoBox-Pivot/' },
+	            _reactRouter.Link,
+	            { to: 'todo-box' },
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'proj-menu-indiv-box' },
@@ -45590,8 +45675,8 @@
 	            )
 	          ),
 	          _react2.default.createElement(
-	            'a',
-	            { href: 'https://gness1804.github.io/Personal-Blog/linked-list-09-03-16.html' },
+	            _reactRouter.Link,
+	            { to: '/linked-list' },
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'proj-menu-indiv-box' },
@@ -45604,8 +45689,8 @@
 	            )
 	          ),
 	          _react2.default.createElement(
-	            'a',
-	            { href: 'https://gness1804.github.io/Personal-Blog/number-guesser-08-25-16.html' },
+	            _reactRouter.Link,
+	            { to: '/number-guesser' },
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'proj-menu-indiv-box' },
@@ -45618,8 +45703,8 @@
 	            )
 	          ),
 	          _react2.default.createElement(
-	            'a',
-	            { href: 'https://gness1804.github.io/color-changer/' },
+	            _reactRouter.Link,
+	            { to: '/color-changer' },
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'proj-menu-indiv-box' },
@@ -45632,8 +45717,8 @@
 	            )
 	          ),
 	          _react2.default.createElement(
-	            'a',
-	            { href: 'https://gness1804.github.io/160gr8-lorem-ipsum-gen/' },
+	            _reactRouter.Link,
+	            { to: '/lorem-ipsum' },
 	            _react2.default.createElement(
 	              'div',
 	              { className: 'proj-menu-indiv-box' },
@@ -46932,13 +47017,1433 @@
 /* 547 */
 /***/ function(module, exports, __webpack_require__) {
 
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(299);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var LoremIpsum = function (_Component) {
+	  _inherits(LoremIpsum, _Component);
+	
+	  function LoremIpsum() {
+	    _classCallCheck(this, LoremIpsum);
+	
+	    return _possibleConstructorReturn(this, (LoremIpsum.__proto__ || Object.getPrototypeOf(LoremIpsum)).apply(this, arguments));
+	  }
+	
+	  _createClass(LoremIpsum, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        null,
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-headline" },
+	          _react2.default.createElement(
+	            "h2",
+	            null,
+	            "Lorem Ipsum Generator"
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://github.com/gness1804/160gr8-lorem-ipsum-gen", target: "_blank", rel: "noreferrer noopener" },
+	            _react2.default.createElement("img", { src: "images/github.png", alt: "GitHub logo", title: "Project GitHub link" }),
+	            _react2.default.createElement(
+	              "p",
+	              null,
+	              "Project Link (Github)"
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "Principal Accomplishments"
+	          ),
+	          _react2.default.createElement("img", { src: "images/lorem-ipsum-screenshot.png", alt: "Screenshot." }),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "This is a fun side project that generates random lorem ipsum related to my cohort at Turing School. It allows the user to specify a word count, add a word to the generator, easily copy text to clipboard via a button, and clear text. It is a useful application to generate humorous lorem ipsum text. Check it out ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://gness1804.github.io/160gr8-lorem-ipsum-gen/", target: "_blank", rel: "noopener noreferrer" },
+	              "live!"
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "What I Learned"
+	          ),
+	          _react2.default.createElement("img", { src: "images/thinking.svg", alt: "A thinking head.", title: "Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com" }),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "This project uses an array of words for the text. I learned a lot about array methods and how to manipulate arrays. This project also enhanced my knowledge of jQuery, since DOM manipuation was a key part of the project."
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return LoremIpsum;
+	}(_react.Component);
+	
+	exports.default = LoremIpsum;
+
+/***/ },
+/* 548 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(299);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var ColorChanger = function (_Component) {
+	  _inherits(ColorChanger, _Component);
+	
+	  function ColorChanger() {
+	    _classCallCheck(this, ColorChanger);
+	
+	    return _possibleConstructorReturn(this, (ColorChanger.__proto__ || Object.getPrototypeOf(ColorChanger)).apply(this, arguments));
+	  }
+	
+	  _createClass(ColorChanger, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        null,
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-headline" },
+	          _react2.default.createElement(
+	            "h2",
+	            null,
+	            "Color Changer"
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://github.com/gness1804/color-changer", target: "_blank", rel: "noopener noreferrer" },
+	            _react2.default.createElement("img", { src: "images/github.png", alt: "GitHub logo", title: "Project GitHub link" }),
+	            _react2.default.createElement(
+	              "p",
+	              null,
+	              "Project Link (Github)"
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "Principal Accomplishments"
+	          ),
+	          _react2.default.createElement("img", { src: "images/color-changer.png", alt: "Screenshot." }),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "This is a simple application that changes the background of the page to a random color when the user clicks a button. The user can also reset the background color to the default (white) by pressing another button. This project successfully makes use of random number generation to randomize rgb colors. Check it out ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://gness1804.github.io/color-changer/", target: "_blank", rel: "noopener noreferrer" },
+	              "live!"
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "What I Learned"
+	          ),
+	          _react2.default.createElement("img", { src: "images/thinking.svg", alt: "A thinking head.", title: "Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com" }),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "I expanded my knowledge of random number generation and how the rgb color system works. This was also my first solo project at Turing, so I gained confidence in my ability to efficiently complete a project on my own."
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return ColorChanger;
+	}(_react.Component);
+	
+	exports.default = ColorChanger;
+
+/***/ },
+/* 549 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(299);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var NumberGuesser = function (_Component) {
+	  _inherits(NumberGuesser, _Component);
+	
+	  function NumberGuesser() {
+	    _classCallCheck(this, NumberGuesser);
+	
+	    return _possibleConstructorReturn(this, (NumberGuesser.__proto__ || Object.getPrototypeOf(NumberGuesser)).apply(this, arguments));
+	  }
+	
+	  _createClass(NumberGuesser, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        null,
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-headline" },
+	          _react2.default.createElement(
+	            "h2",
+	            null,
+	            "Number Guesser"
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://github.com/gness1804/number-guesser", target: "_blank", rel: "noopener noreferrer" },
+	            _react2.default.createElement("img", { src: "images/github.png", alt: "GitHub logo", title: "Project GitHub link" }),
+	            _react2.default.createElement(
+	              "p",
+	              null,
+	              "Project Link (Github)"
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "Principal Accomplishments"
+	          ),
+	          _react2.default.createElement("img", { src: "images/number-guesser-screen.png", alt: "Screenshot." }),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "I constructed a number guesser program with colleague Kinan Whyte during Module 1 at the Turing School of Software and Design. We created a program with basic functionality, albeit with a few hiccups. Our program accepts a number from the user (default range 0-100) and generates a pseudo-random number which it compares to the user's number. The program tells the user whether his/her number is too low, too high, out of the acceptable range, or not a number (such as text). If the user correctly guesses the computer's number, the program regenerates another pseudo-random value and adjusts the max and min by +10 and -10 respectively. The program also accepts optional max and min values from the user. Upon user submission of these values, the program regenerates a pseudo-random within the new range. Check it out ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://kswhyte.github.io/number-guesser/", target: "_blank", rel: "noopener noreferrer" },
+	              "live!"
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "Tools Used"
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "We built this application in vanilla JavaScript, HTML, and CSS. This project improved our understanding of these tools, which would prove especially useful as I would return to vanilla JS for later projects."
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "What I Learned"
+	          ),
+	          _react2.default.createElement("img", { src: "images/thinking.svg", alt: "A thinking head.", title: "Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com" }),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "This was my first Turing project, so I learned a lot about teamwork and got my feet wet with JavaScript. It was a challenging project, but one that build a solid foundation for later projects."
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return NumberGuesser;
+	}(_react.Component);
+	
+	exports.default = NumberGuesser;
+
+/***/ },
+/* 550 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(299);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var LinkedList = function (_Component) {
+	  _inherits(LinkedList, _Component);
+	
+	  function LinkedList() {
+	    _classCallCheck(this, LinkedList);
+	
+	    return _possibleConstructorReturn(this, (LinkedList.__proto__ || Object.getPrototypeOf(LinkedList)).apply(this, arguments));
+	  }
+	
+	  _createClass(LinkedList, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        null,
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-headline" },
+	          _react2.default.createElement(
+	            "h2",
+	            null,
+	            "Linked List"
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://github.com/gness1804/linked-list", target: "_blank", rel: "noopener noreferrer" },
+	            _react2.default.createElement("img", { src: "images/github.png", alt: "GitHub logo", title: "Project GitHub link" }),
+	            _react2.default.createElement(
+	              "p",
+	              null,
+	              "Project Link (Github)"
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "Principal Accomplishments"
+	          ),
+	          _react2.default.createElement("img", { src: "images/linked_list.png", alt: "Screenshot." }),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "This project involved creating a site where the user could enter in a title and url of favorite sites. The program organizes the user's entries into bookmarks that can be toggle \"read\" and \"unread\". The user has the option of marking all bookmarks on the page as read, removing all bookmarks, and removing all read bookmarks. The program keeps track of the number of bookmarks on the page as well as the number of read and unread ones currently on the page. At the end of the day, we created a functional program using jQuery, CSS, and HTML. Alex did the majority of the CSS, and I focused on the JavaScript. Check it out ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://gness1804.github.io/linked-list/", target: "_blank", rel: "noopener noreferrer" },
+	              "live!"
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "What I Learned"
+	          ),
+	          _react2.default.createElement("img", { src: "images/thinking.svg", alt: "A thinking head.", title: "Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com" }),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "Our biggest challenge was coordinating all of the functions to keep count of the read and unread bookmarks and all those currently on the page. I initially wrote some jQuery that used the global variable count = 0 and reassigned this variable when the user submitted a bookmark and removed a bookmark, but the addition of the functionality to keep track of read and unread bookmarks, and in particular the fact that the \"Mark as Read\" button within each bookmark toggled the class of \"read\", necessitated a different approach. Ultimately, this project not only helped us improve our JavaScript and jQuery skills but also afforded us the opportunity to learn how to write focused, well-organized CSS by creating several logically-organized stylesheets. The project also enhanced our knowledge of semantic HTML."
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return LinkedList;
+	}(_react.Component);
+	
+	exports.default = LinkedList;
+
+/***/ },
+/* 551 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(299);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRouter = __webpack_require__(475);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var ToDoBox = function (_Component) {
+	  _inherits(ToDoBox, _Component);
+	
+	  function ToDoBox() {
+	    _classCallCheck(this, ToDoBox);
+	
+	    return _possibleConstructorReturn(this, (ToDoBox.__proto__ || Object.getPrototypeOf(ToDoBox)).apply(this, arguments));
+	  }
+	
+	  _createClass(ToDoBox, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'section',
+	          { className: 'project-page-headline' },
+	          _react2.default.createElement(
+	            'h2',
+	            null,
+	            'ToDo Box'
+	          ),
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://github.com/gness1804/2DoBox-Pivot', target: '_blank', rel: 'noopener noreferrer' },
+	            _react2.default.createElement('img', { src: 'images/github.png', alt: 'GitHub logo', title: 'Project GitHub link' }),
+	            _react2.default.createElement(
+	              'p',
+	              null,
+	              'Project Link (Github)'
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'section',
+	          { className: 'project-page-section' },
+	          _react2.default.createElement(
+	            'h3',
+	            null,
+	            'Principal Accomplishments'
+	          ),
+	          _react2.default.createElement('img', { src: 'images/2do-box.png', alt: 'Screenshot.' }),
+	          _react2.default.createElement(
+	            'p',
+	            null,
+	            'This is a pivot of the original ',
+	            _react2.default.createElement(
+	              _reactRouter.Link,
+	              { to: '/ideabox' },
+	              'idea box'
+	            ),
+	            ' project. We revised this project by adding features such as ratings for level of importance and filtering by level of importance. Check it out ',
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'https://hilarylewis92.github.io/2DoBox-Pivot/', target: '_blank', rel: 'noopener noreferrer' },
+	              'live!'
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'section',
+	          { className: 'project-page-section' },
+	          _react2.default.createElement(
+	            'h3',
+	            null,
+	            'What I Learned'
+	          ),
+	          _react2.default.createElement('img', { src: 'images/thinking.svg', alt: 'A thinking head.', title: 'Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com' }),
+	          _react2.default.createElement(
+	            'p',
+	            null,
+	            'This was my first experience in diving into an existing codebase, so it gave me some valuable experience in working with preexisting code and understanding its logic and structure. I also learned a great deal about feature testing, as we used Selenium Webdriver to extensively test the application.'
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return ToDoBox;
+	}(_react.Component);
+	
+	exports.default = ToDoBox;
+
+/***/ },
+/* 552 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(299);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var ShootTheBreeze = function (_Component) {
+	  _inherits(ShootTheBreeze, _Component);
+	
+	  function ShootTheBreeze() {
+	    _classCallCheck(this, ShootTheBreeze);
+	
+	    return _possibleConstructorReturn(this, (ShootTheBreeze.__proto__ || Object.getPrototypeOf(ShootTheBreeze)).apply(this, arguments));
+	  }
+	
+	  _createClass(ShootTheBreeze, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        null,
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-headline" },
+	          _react2.default.createElement(
+	            "h2",
+	            null,
+	            "Shoot The Breeze"
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://github.com/gness1804/shoot-the-breeze", target: "_blank", rel: "noopener noreferrer" },
+	            _react2.default.createElement("img", { src: "images/github.png", alt: "GitHub logo", title: "Project GitHub link" }),
+	            _react2.default.createElement(
+	              "p",
+	              null,
+	              "Project Link (Github)"
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "Principal Accomplishments"
+	          ),
+	          _react2.default.createElement("img", { src: "images/shoot-the-breeze.png", alt: "Screenshot." }),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "This is a chat app created with Gabrielle Procell while a student at the Turing School of Software and Design. The app accepts messages from multiple users, who log in via Google using Firebase. Users can see and respond to other messages in the chat room, see who else is in the chat room, and log out at any time. Users can also filter messages by user and by message text. We built a solid instant messaging application with a Firebase back end and a React front end. Check it out ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://shoot-the-breeze-b5e3f.firebaseapp.com/", target: "_blank", rel: "noopener noreferrer" },
+	              "live!"
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "What I Learned"
+	          ),
+	          _react2.default.createElement("img", { src: "images/thinking.svg", alt: "A thinking head.", title: "Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com" }),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "This was our first real experience using a database as a back-end, as opposed to localStorage. I learned a lot about Firebase and how to communicate data between back end and front end. I also learned a lot about teamwork and communication on this project."
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return ShootTheBreeze;
+	}(_react.Component);
+	
+	exports.default = ShootTheBreeze;
+
+/***/ },
+/* 553 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(299);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRouter = __webpack_require__(475);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var NumberGuesserReact = function (_Component) {
+	  _inherits(NumberGuesserReact, _Component);
+	
+	  function NumberGuesserReact() {
+	    _classCallCheck(this, NumberGuesserReact);
+	
+	    return _possibleConstructorReturn(this, (NumberGuesserReact.__proto__ || Object.getPrototypeOf(NumberGuesserReact)).apply(this, arguments));
+	  }
+	
+	  _createClass(NumberGuesserReact, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'section',
+	          { className: 'project-page-headline' },
+	          _react2.default.createElement(
+	            'h2',
+	            null,
+	            'Number Guesser in React'
+	          ),
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://github.com/gness1804/number-guesser-react', target: '_blank', rel: 'noopener noreferrer' },
+	            _react2.default.createElement('img', { src: 'images/github.png', alt: 'GitHub logo', title: 'Project GitHub link' }),
+	            _react2.default.createElement(
+	              'p',
+	              null,
+	              'Project Link (Github)'
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'section',
+	          { className: 'project-page-section' },
+	          _react2.default.createElement(
+	            'h3',
+	            null,
+	            'Principal Accomplishments'
+	          ),
+	          _react2.default.createElement('img', { src: 'images/number-guesser-react.png', alt: 'Screenshot.' }),
+	          _react2.default.createElement(
+	            'p',
+	            null,
+	            'This is a rebuild of the original ',
+	            _react2.default.createElement(
+	              _reactRouter.Link,
+	              { to: '/number-guesser' },
+	              'Number Guesser.'
+	            ),
+	            '  It is the same as the original except that it is built in React and has different styling. This project showed how far I had come as a developer, since I was able to built this out myself with relative ease, while the original Number Guesser was quite challenging as a pair project. Check it out ',
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'https://gness1804.github.io/number-guesser-react/', target: '_blank', rel: 'noopener noreferrer' },
+	              'live!'
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'section',
+	          { className: 'project-page-section' },
+	          _react2.default.createElement(
+	            'h3',
+	            null,
+	            'What I Learned'
+	          ),
+	          _react2.default.createElement('img', { src: 'images/thinking.svg', alt: 'A thinking head.', title: 'Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com' }),
+	          _react2.default.createElement(
+	            'p',
+	            null,
+	            'This project strengthened my understanding of React and allowed me to revisit random number generation from the original iteration of the project. It also gave me more experience working solo.'
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return NumberGuesserReact;
+	}(_react.Component);
+	
+	exports.default = NumberGuesserReact;
+
+/***/ },
+/* 554 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(299);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var EmberRemember = function (_Component) {
+	  _inherits(EmberRemember, _Component);
+	
+	  function EmberRemember() {
+	    _classCallCheck(this, EmberRemember);
+	
+	    return _possibleConstructorReturn(this, (EmberRemember.__proto__ || Object.getPrototypeOf(EmberRemember)).apply(this, arguments));
+	  }
+	
+	  _createClass(EmberRemember, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        null,
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-headline" },
+	          _react2.default.createElement(
+	            "h2",
+	            null,
+	            "Ember Remember"
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://github.com/kswhyte/remEMBER", target: "_blank", rel: "noopener noreferrer" },
+	            _react2.default.createElement("img", { src: "images/github.png", alt: "GitHub logo", title: "Project GitHub link" }),
+	            _react2.default.createElement(
+	              "p",
+	              null,
+	              "Project Link (Github)"
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "Principal Accomplishments"
+	          ),
+	          _react2.default.createElement("img", { src: "images/ember-remember-screenshot.png", alt: "Screenshot." }),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "This was our first and only Ember project at Turing. It involved a list of reminders that could be created, modified, and deleted. This project gave me confidence that I could quickly pick up a new framework, as we only had about a week to learn Ember and complete the project in it."
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "Tools Used"
+	          ),
+	          _react2.default.createElement("img", { src: "images/ember.png", alt: "" }),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "The framework used for this project was Ember.js. As detailed below, this project also made heavy use of Git and taught us a lot about Git workflow."
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "What I Learned"
+	          ),
+	          _react2.default.createElement("img", { src: "images/thinking.svg", alt: "A thinking head.", title: "Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com" }),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "This project was a rather different animal, as we worked from an instructor-created repo and did not have commit access. This meant that the pull request review process was a core part of the project. Accordingly, we learned a great deal about making a proper pull request, responding to PR comments, and pacing ourselves in accordance with the workflow of pull review acceptances. I feel that I am much stronger with Git as a result of this project. Also, as mentioned above, this project involved the use of Ember, a new framework for us, which allowed me to expand my horizons beyond my previous React comfort zone."
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return EmberRemember;
+	}(_react.Component);
+	
+	exports.default = EmberRemember;
+
+/***/ },
+/* 555 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(299);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRouter = __webpack_require__(475);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var JetFuel = function (_Component) {
+	  _inherits(JetFuel, _Component);
+	
+	  function JetFuel() {
+	    _classCallCheck(this, JetFuel);
+	
+	    return _possibleConstructorReturn(this, (JetFuel.__proto__ || Object.getPrototypeOf(JetFuel)).apply(this, arguments));
+	  }
+	
+	  _createClass(JetFuel, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'section',
+	          { className: 'project-page-headline' },
+	          _react2.default.createElement(
+	            'h2',
+	            null,
+	            'Jet Fuel'
+	          ),
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://github.com/gness1804/jet-fuel', target: '_blank', rel: 'noopener noreferrer' },
+	            _react2.default.createElement('img', { src: 'images/github.png', alt: 'GitHub logo', title: 'Project GitHub link' }),
+	            _react2.default.createElement(
+	              'p',
+	              null,
+	              'Project Link (Github)'
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'section',
+	          { className: 'project-page-section' },
+	          _react2.default.createElement(
+	            'h3',
+	            null,
+	            'Principal Accomplishments'
+	          ),
+	          _react2.default.createElement('img', { src: 'images/jet-fuel-ss.png', alt: 'Screenshot.' }),
+	          _react2.default.createElement(
+	            'p',
+	            null,
+	            'This is a URL shortening service built using Postgres, SQL, jQuery, Express.js, and Node.js. The user enters in folder names to store URLs and then enters in URLs in specified folders. The application then generates a shortened URL for each URL the user enters. These are grouped by folders in the UI, which the user can navigate. The user can also sort URLs by date added and popularity (number of clicks). The data persists in a Postgres database. Check it out ',
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'https://kbgn-jetfuel.herokuapp.com/', target: '_blank', rel: 'noopener noreferrer' },
+	              'live!'
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'section',
+	          { className: 'project-page-section' },
+	          _react2.default.createElement(
+	            'h3',
+	            null,
+	            'What I Learned'
+	          ),
+	          _react2.default.createElement('img', { src: 'images/thinking.svg', alt: 'A thinking head.', title: 'Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com' }),
+	          _react2.default.createElement(
+	            'p',
+	            null,
+	            'This was our first experience creating our own Postgres database, using SQL, and creating a server to interact with the front end (though we did create a small server for the ',
+	            _react2.default.createElement(
+	              _reactRouter.Link,
+	              { to: '/fareharbor' },
+	              'FareHarbor project'
+	            ),
+	            '). Though the learning curve was steep, I feel far more prepared now to tackle back-end work in a future job. This project also taught me more about Node and Express.'
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return JetFuel;
+	}(_react.Component);
+	
+	exports.default = JetFuel;
+
+/***/ },
+/* 556 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(299);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var RealTime = function (_Component) {
+	  _inherits(RealTime, _Component);
+	
+	  function RealTime() {
+	    _classCallCheck(this, RealTime);
+	
+	    return _possibleConstructorReturn(this, (RealTime.__proto__ || Object.getPrototypeOf(RealTime)).apply(this, arguments));
+	  }
+	
+	  _createClass(RealTime, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        null,
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-headline" },
+	          _react2.default.createElement(
+	            "h2",
+	            null,
+	            "Real Time"
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://github.com/gness1804/real-time", target: "_blank", rel: "noopener noreferrer" },
+	            _react2.default.createElement("img", { src: "images/github.png", alt: "GitHub logo", title: "Project GitHub link" }),
+	            _react2.default.createElement(
+	              "p",
+	              null,
+	              "Project Link (Github)"
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "Principal Accomplishments"
+	          ),
+	          _react2.default.createElement("img", { src: "images/real-time-screen-shot-1.png", alt: "Screenshot." }),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "This is an application that allows a user to create a question and then post the question to a live channel, where users (who must authenticate with Github) can post answers. The users all see the tally of answer choices chosen, who chose which answer (with Github profile pics next to each choice), the total number of votes, and the number of users in the room. The question choice keys can be any value; they are not restricted to a strict format such as A, B, C, D. Check it out ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://real-time-gness.herokuapp.com/", target: "_blank", rel: "noopener noreferrer" },
+	              "live!"
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "Tools Used"
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "Main tools used: Websockets, ExpressJS, Auth0, Node.js, jQuery, Mocha and Chai."
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "What I Learned"
+	          ),
+	          _react2.default.createElement("img", { src: "images/thinking.svg", alt: "A thinking head.", title: "Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com" }),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "This project taught me a lot about Websockets and Node. I left the project feeling a sense of accomplishment that I was able to build this complex app in a short period of time. In particular, I learned a lot about authentication and its challenges. This was also the first time that I had tested Express, since my partner had written all the tests for the previous project."
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return RealTime;
+	}(_react.Component);
+	
+	exports.default = RealTime;
+
+/***/ },
+/* 557 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(299);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var FiredUp = function (_Component) {
+	  _inherits(FiredUp, _Component);
+	
+	  function FiredUp() {
+	    _classCallCheck(this, FiredUp);
+	
+	    return _possibleConstructorReturn(this, (FiredUp.__proto__ || Object.getPrototypeOf(FiredUp)).apply(this, arguments));
+	  }
+	
+	  _createClass(FiredUp, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        null,
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-headline" },
+	          _react2.default.createElement(
+	            "h2",
+	            null,
+	            "Fired Up"
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://github.com/gness1804/fired-up", target: "_blank", rel: "noopener noreferrer" },
+	            _react2.default.createElement("img", { src: "images/github.png", alt: "GitHub logo", title: "Project GitHub link" }),
+	            _react2.default.createElement(
+	              "p",
+	              null,
+	              "Project Link (Github)"
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "Principal Accomplishments"
+	          ),
+	          _react2.default.createElement("img", { src: "images/fired-up-screenshot.png", alt: "Screenshot." }),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "This is a productivity app built in Electron. For details on this project, see my two Medium posts: ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://medium.com/@gness1804/fired-up-an-introduction-to-electron-9d1f2c91f513#.8zep7num9", target: "_blank", rel: "noopener noreferrer" },
+	              "Intro to Electron"
+	            ),
+	            " and ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://medium.com/@gness1804/debugging-electron-a-journey-e4e01ea481fb#.a0ab0sm5g", target: "_blank", rel: "noopener noreferrer" },
+	              "Debugging Electron: A Journey"
+	            ),
+	            "."
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return FiredUp;
+	}(_react.Component);
+	
+	exports.default = FiredUp;
+
+/***/ },
+/* 558 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(299);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var GrudgeBox = function (_Component) {
+	  _inherits(GrudgeBox, _Component);
+	
+	  function GrudgeBox() {
+	    _classCallCheck(this, GrudgeBox);
+	
+	    return _possibleConstructorReturn(this, (GrudgeBox.__proto__ || Object.getPrototypeOf(GrudgeBox)).apply(this, arguments));
+	  }
+	
+	  _createClass(GrudgeBox, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        null,
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-headline" },
+	          _react2.default.createElement(
+	            "h2",
+	            null,
+	            "GrudgeBox"
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://github.com/gness1804/grudge-box", target: "_blank", rel: "noopener noreferrer" },
+	            _react2.default.createElement("img", { src: "images/github.png", alt: "GitHub logo", title: "Project GitHub link" }),
+	            _react2.default.createElement(
+	              "p",
+	              null,
+	              "Project Link (Github)"
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "Principal Accomplishments"
+	          ),
+	          _react2.default.createElement("img", { src: "images/grudge-box.png", alt: "Screenshot." }),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "This app consists of a place to store grudges and information about the people in question. It was the final exam for Turing School. Check it out ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://grudge-box-0217.herokuapp.com/", target: "_blank", rel: "noopener noreferrer" },
+	              "live!"
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "What I Learned"
+	          ),
+	          _react2.default.createElement("img", { src: "images/thinking.svg", alt: "A thinking head.", title: "Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com" }),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "This final assessment enabled me to solidify my skills with JavaScript, Node, Express, and Selenium testing. It also reaffirmed that I can work well under pressure and produce a solid product."
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return GrudgeBox;
+	}(_react.Component);
+	
+	exports.default = GrudgeBox;
+
+/***/ },
+/* 559 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(299);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var WeThePeople = function (_Component) {
+	  _inherits(WeThePeople, _Component);
+	
+	  function WeThePeople() {
+	    _classCallCheck(this, WeThePeople);
+	
+	    return _possibleConstructorReturn(this, (WeThePeople.__proto__ || Object.getPrototypeOf(WeThePeople)).apply(this, arguments));
+	  }
+	
+	  _createClass(WeThePeople, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        null,
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-headline" },
+	          _react2.default.createElement(
+	            "h2",
+	            null,
+	            "We The People"
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://github.com/gness1804/we-the-people-native", target: "_blank", rel: "noopener noreferrer" },
+	            _react2.default.createElement("img", { src: "images/github.png", alt: "GitHub logo", title: "Project GitHub link" }),
+	            _react2.default.createElement(
+	              "p",
+	              null,
+	              "Project Link (Github)"
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "Principal Accomplishments"
+	          ),
+	          _react2.default.createElement("img", { src: "images/we-the-people.png", alt: "Screenshot." }),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "We The People is an application created in React Native that allows a user to track current Congressional bills and new laws. Using the ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://sunlightlabs.github.io/congress/", target: "_blank", rel: "noopener noreferrer" },
+	              "Sunlight Congress API"
+	            ),
+	            ", the application brings in data on bills and laws including title, date introduced, date of last action, sponsor, current progress (in House Committee, passed by Senate, enacted...), and other data. This application is meant for concerned citizens (and non-citizens) to keep track of Congressional actions and to be better informed and empowered to take action on critical issues."
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "Key Technological and Learning Accomplishments"
+	          ),
+	          _react2.default.createElement("img", { src: "images/thinking.svg", alt: "A thinking head.", title: "Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com" }),
+	          _react2.default.createElement(
+	            "ul",
+	            null,
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "A powerful search feature to filter bills by topic when a user taps on a topic name in the drawer"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Data scraping and creating endpoints using Express"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "An SVG graphic showing bill progress"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Strongly modular architecture that breaks apart logic into separate components and files"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Strong and intuitive UI"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "Extensively tested"
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "For more details, see the ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://github.com/gness1804/we-the-people-native/blob/master/README.md", target: "_blank", rel: "noopener noreferrer" },
+	              "readme."
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return WeThePeople;
+	}(_react.Component);
+	
+	exports.default = WeThePeople;
+
+/***/ },
+/* 560 */
+/***/ function(module, exports, __webpack_require__) {
+
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(548);
+	var content = __webpack_require__(561);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(551)(content, {});
+	var update = __webpack_require__(564)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -46955,21 +48460,21 @@
 	}
 
 /***/ },
-/* 548 */
+/* 561 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(549)();
+	exports = module.exports = __webpack_require__(562)();
 	// imports
-	exports.i(__webpack_require__(550), "");
+	exports.i(__webpack_require__(563), "");
 	
 	// module
-	exports.push([module.id, "@media screen and (max-width: 920px) {\n  html {\n    min-height: 2000px; }\n  .header-each-page {\n    text-align: center;\n    width: 1000px; }\n  .dropdown-menu-container {\n    display: block !important;\n    margin: auto !important;\n    max-width: 600px !important; }\n  .nav-bar {\n    display: block !important;\n    float: none !important; }\n    .nav-bar a {\n      display: block;\n      margin: 35px 15px; }\n  .header-photo {\n    margin: 80px 0px 120px 50px; }\n  .footer-each-page {\n    margin: auto;\n    margin-top: 220px !important;\n    max-height: 50px;\n    top: 1950px;\n    width: 1000px; }\n    .footer-each-page img {\n      padding: 0px 60px; }\n  .big-button-container {\n    width: 1000px !important; }\n  .bio-page-headline {\n    margin-top: 50px !important;\n    width: 1000px !important; }\n  .bio-page-section-container {\n    width: 1000px; }\n  .page-upper-section {\n    margin-top: 140px;\n    width: 1000px; }\n  .two-article-control {\n    width: 1000px !important; }\n  .main-article-half-width {\n    display: block !important;\n    height: auto !important;\n    margin: 0px auto !important;\n    width: 800px !important; }\n  .main-article-half-width p {\n    margin: 10px auto;\n    text-align: center; }\n  .proj2 {\n    margin-top: 50px !important; }\n  .bottom-elements-control {\n    width: 1000px !important; }\n  .page-lower-section {\n    bottom: 0 !important;\n    margin: 0px auto; }\n  #fig-main {\n    display: none !important; }\n  .project-page-headline {\n    margin-bottom: 120px !important;\n    width: 1000px !important; }\n  .project-page-section {\n    margin-left: 100px !important;\n    margin-right: 0px !important;\n    margin-top: 40px !important;\n    width: 800px !important; }\n  .proj-menu-master-container {\n    margin-bottom: 240px; } }\n\n/* elements common to all pages */\nhtml {\n  background-size: cover;\n  background: linear-gradient(to bottom, white, #cbcad9);\n  font-family: \"Open Sans\", sans-serif; }\n\na:link {\n  color: #4025e2;\n  text-decoration: none; }\n\na:visited {\n  color: #dd16cf; }\n\na:hover {\n  color: red;\n  font-style: italic; }\n\n.header-each-page {\n  background: linear-gradient(to bottom, #7fb3f7, #f0f3f7);\n  margin-bottom: 80px; }\n\n.headline-link {\n  color: black !important; }\n  .headline-link:visited {\n    color: black !important; }\n\n.header-each-page h1 {\n  font-size: 60px;\n  font-weight: bold;\n  margin-bottom: 60px;\n  padding-top: 20px;\n  text-align: center; }\n\n.nav-bar {\n  display: inline-block;\n  float: right;\n  margin-top: 20px; }\n\n.nav-bar a {\n  color: black;\n  font-size: 22px;\n  padding: 10px;\n  text-transform: uppercase; }\n  .nav-bar a:hover {\n    background-color: white;\n    border-radius: 5px;\n    border: 1px solid #495246; }\n\n.nav-bar a:visited {\n  color: #404b4b; }\n\n.dropdown-menu-container {\n  display: inline-block;\n  margin: 25px;\n  position: relative; }\n\n.dropdown-menu-actual {\n  background-color: white;\n  position: absolute;\n  border: 1px solid #495246;\n  border-radius: 5px;\n  max-width: 135px;\n  padding: 5px;\n  text-align: center;\n  word-wrap: normal;\n  z-index: 1; }\n\n.dropdown-menu-actual a {\n  display: block;\n  margin-bottom: 15px;\n  padding: 0px 10px;\n  font-size: 18px;\n  line-height: 20px; }\n  .dropdown-menu-actual a:hover {\n    border: none;\n    color: #9f919f; }\n\n.projects-dropdown {\n  left: -9px;\n  top: 38px; }\n\n.background-dropdown {\n  left: -9px;\n  max-width: 150px;\n  top: 38px; }\n\n.selected {\n  background-color: white;\n  border-radius: 5px;\n  border: 1px solid #495246; }\n\n.header-photo {\n  border-radius: 50%;\n  margin-left: 50px;\n  margin-top: 20px;\n  max-height: 250px;\n  max-width: 250px; }\n\n.footer-each-page {\n  background-color: #f0ece4;\n  border-radius: 5px;\n  border: 1px solid #495246;\n  clear: both;\n  display: flex;\n  justify-content: center;\n  margin-top: 80px;\n  text-align: center; }\n\n.footer-each-page img {\n  height: 40px;\n  padding: 10px 75px;\n  width: 40px; }\n\n.footer-each-page img:hover {\n  height: 55px;\n  width: 55px; }\n\n.master-section {\n  text-align: center;\n  width: 100vw; }\n\n.big-button-container {\n  margin: 60px auto;\n  text-align: center;\n  width: 900px; }\n\n.big-button {\n  background-color: #e4e2ed;\n  border-radius: 30px;\n  font-size: 20px;\n  padding: 15px;\n  width: 200px; }\n\n.big-button:hover {\n  background-color: #1e14db;\n  color: white;\n  cursor: pointer; }\n\n.project-page-section {\n  border-radius: 5px;\n  border: 1px solid #495246;\n  margin: 100px auto 50px auto;\n  max-width: 920px;\n  text-align: center; }\n  .project-page-section img {\n    height: 200px; }\n  .project-page-section p {\n    padding-bottom: 30px;\n    padding-top: 30px;\n    margin: auto;\n    text-align: center;\n    width: 400px; }\n  .project-page-section ul {\n    padding-bottom: 20px;\n    padding-top: 20px; }\n  .project-page-section .ul-span {\n    display: block;\n    font-weight: 600;\n    margin-top: 20px; }\n  .project-page-section li {\n    padding-bottom: 15px; }\n  .project-page-section .fareharbor-accomplishments-p {\n    padding-top: 0; }\n\n.bio-page-section h3, .project-page-section h3 {\n  font-size: 30px;\n  font-weight: bold;\n  padding: 20px 0px 40px 0px;\n  text-align: center; }\n\n.bio-page-headline {\n  margin-top: 50px;\n  margin: auto;\n  width: 900px; }\n  .bio-page-headline h2 {\n    font-size: 50px;\n    text-align: center; }\n\n.resume {\n  margin-bottom: 100px; }\n\n.bio-page-section-container {\n  margin: 120px auto;\n  text-align: center; }\n\n.bio-page-section {\n  border-radius: 5px;\n  border: 1px solid #495246;\n  margin: 0px auto 50px auto;\n  max-width: 920px; }\n  .bio-page-section p {\n    padding: 0px 0px 30px 10px;\n    text-align: center; }\n  .bio-page-section span {\n    font-size: 20px;\n    font-weight: bolder; }\n\n.bio-page-section-italic {\n  font-style: italic; }\n\n.page-upper-section {\n  display: block;\n  margin: auto;\n  margin-bottom: 140px;\n  width: 900px; }\n  .page-upper-section p {\n    font-size: 36px;\n    font-style: italic;\n    line-height: 43px;\n    max-width: 700px;\n    margin: auto;\n    text-align: center; }\n\n.two-article-control {\n  margin: auto;\n  position: relative;\n  text-align: center;\n  width: 900px; }\n\n.main-article-half-width {\n  border-radius: 5px;\n  border: 1px solid #495246;\n  display: inline-block;\n  height: 570px;\n  overflow: auto;\n  width: 300px; }\n  .main-article-half-width p {\n    max-width: 400px;\n    padding: 30px 30px 30px 15px;\n    text-align: center; }\n  .main-article-half-width h3, .main-article-half-width h4 {\n    text-align: center; }\n  .main-article-half-width h3 {\n    font-size: 30px;\n    font-weight: bold;\n    padding: 10px 0px; }\n  .main-article-half-width h4 {\n    font-size: 22px;\n    padding: 20px 0px 30px 0px; }\n  .main-article-half-width img {\n    display: block;\n    height: 150px;\n    margin-left: auto;\n    margin-right: auto; }\n\n.proj1 {\n  margin-right: 20px; }\n  .proj1 .main-article-span {\n    display: block;\n    font-weight: 600;\n    margin-top: 20px; }\n  .proj1 ul {\n    padding-top: 20px; }\n  .proj1 li {\n    padding-bottom: 15px; }\n  .proj1 .left-article-p {\n    padding-top: 20px; }\n\n.proj2 {\n  margin-left: 20px; }\n\n.page-lower-section {\n  border-radius: 5px;\n  border: 1px solid #495246;\n  bottom: 100px;\n  display: inline-block;\n  margin-right: 20px;\n  position: relative; }\n\n.page-lower-section h3 {\n  font-size: 30px;\n  font-weight: bold;\n  padding: 10px 0px;\n  text-align: center; }\n\n.page-lower-section p {\n  max-width: 400px;\n  padding: 10px;\n  padding-bottom: 30px;\n  text-align: center; }\n\n.page-lower-section span {\n  font-style: italic; }\n\n#fig-main {\n  display: inline-block;\n  margin-left: 20px; }\n\n#fig-main figcaption {\n  font-size: 20px;\n  font-style: italic;\n  padding: 10px;\n  text-align: center; }\n\n.bottom-elements-control {\n  margin: auto;\n  margin-bottom: 50px;\n  position: relative;\n  text-align: center;\n  width: 900px; }\n\n#book-img {\n  height: 300px; }\n\n.project-page-headline {\n  margin-bottom: 60px;\n  margin-top: 50px;\n  margin: auto;\n  width: 900px; }\n  .project-page-headline h2 {\n    font-size: 50px;\n    text-align: center; }\n  .project-page-headline img {\n    display: block;\n    height: 80px;\n    margin: 40px auto 30px auto;\n    position: relative;\n    width: 80px; }\n  .project-page-headline p {\n    text-align: center; }\n\n.proj-menu-master-container {\n  margin-top: 50px;\n  margin: auto;\n  text-align: center;\n  width: 1000px; }\n  .proj-menu-master-container h2 {\n    font-size: 50px;\n    padding-bottom: 80px;\n    text-align: center; }\n\n.proj-menu-indiv-box {\n  display: inline-block;\n  height: 250px;\n  margin-bottom: 50px;\n  margin-left: 20px;\n  margin-right: 20px;\n  width: 250px; }\n  .proj-menu-indiv-box img {\n    height: 200px;\n    width: 200px; }\n  .proj-menu-indiv-box p {\n    font-size: 20px;\n    font-style: italic;\n    font-weight: bold;\n    margin-top: 10px;\n    position: relative;\n    text-align: center; }\n\n.italic-names {\n  font-style: italic; }\n", ""]);
+	exports.push([module.id, "@media screen and (max-width: 920px) {\n  html {\n    min-height: 2000px; }\n  .header-each-page {\n    text-align: center;\n    width: 1000px; }\n  .dropdown-menu-container {\n    display: block !important;\n    margin: auto !important;\n    max-width: 600px !important; }\n  .nav-bar {\n    display: block !important;\n    float: none !important; }\n    .nav-bar a {\n      display: block;\n      margin: 35px 15px; }\n  .header-photo {\n    margin: 80px 0px 120px 50px; }\n  .footer-each-page {\n    margin: auto;\n    margin-top: 220px !important;\n    max-height: 50px;\n    top: 1950px;\n    width: 1000px; }\n    .footer-each-page img {\n      padding: 0px 60px; }\n  .big-button-container {\n    width: 1000px !important; }\n  .bio-page-headline {\n    margin-top: 50px !important;\n    width: 1000px !important; }\n  .bio-page-section-container {\n    width: 1000px; }\n  .page-upper-section {\n    margin-top: 140px;\n    width: 1000px; }\n  .two-article-control {\n    width: 1000px !important; }\n  .main-article-half-width {\n    display: block !important;\n    height: auto !important;\n    margin: 0px auto !important;\n    width: 800px !important; }\n  .main-article-half-width p {\n    margin: 10px auto;\n    text-align: center; }\n  .proj2 {\n    margin-top: 50px !important; }\n  .bottom-elements-control {\n    width: 1000px !important; }\n  .page-lower-section {\n    bottom: 0 !important;\n    margin: 0px auto; }\n  #fig-main {\n    display: none !important; }\n  .project-page-headline {\n    margin-bottom: 120px !important;\n    width: 1000px !important; }\n  .project-page-section {\n    margin-left: 100px !important;\n    margin-right: 0px !important;\n    margin-top: 40px !important;\n    width: 800px !important; }\n  .proj-menu-master-container {\n    margin-bottom: 240px; } }\n\n/* elements common to all pages */\nhtml {\n  background-size: cover;\n  background: linear-gradient(to bottom, white, #cbcad9);\n  font-family: \"Open Sans\", sans-serif; }\n\na:link {\n  color: #4025e2;\n  text-decoration: none; }\n\na:visited {\n  color: #dd16cf; }\n\na:hover {\n  color: red;\n  font-style: italic; }\n\n.header-each-page {\n  background: linear-gradient(to bottom, #7fb3f7, #f0f3f7);\n  margin-bottom: 80px; }\n\n.headline-link {\n  color: black !important; }\n  .headline-link:visited {\n    color: black !important; }\n\n.header-each-page h1 {\n  font-size: 60px;\n  font-weight: bold;\n  margin-bottom: 60px;\n  padding-top: 20px;\n  text-align: center; }\n\n.nav-bar {\n  display: inline-block;\n  float: right;\n  margin-top: 20px; }\n\n.nav-bar a {\n  color: black;\n  font-size: 22px;\n  padding: 10px;\n  text-transform: uppercase; }\n  .nav-bar a:hover {\n    background-color: white;\n    border-radius: 5px;\n    border: 1px solid #495246; }\n\n.nav-bar a:visited {\n  color: #404b4b; }\n\n.dropdown-menu-container {\n  display: inline-block;\n  margin: 25px;\n  position: relative; }\n\n.dropdown-menu-actual {\n  background-color: white;\n  position: absolute;\n  border: 1px solid #495246;\n  border-radius: 5px;\n  max-width: 135px;\n  padding: 5px;\n  text-align: center;\n  word-wrap: normal;\n  z-index: 1; }\n\n.dropdown-menu-actual a {\n  display: block;\n  margin-bottom: 15px;\n  padding: 0px 10px;\n  font-size: 18px;\n  line-height: 20px; }\n  .dropdown-menu-actual a:hover {\n    border: none;\n    color: #9f919f; }\n\n.projects-dropdown {\n  left: -1px;\n  top: 38px; }\n\n.background-dropdown {\n  left: -9px;\n  max-width: 150px;\n  top: 38px; }\n\n.selected {\n  background-color: white;\n  border-radius: 5px;\n  border: 1px solid #495246; }\n\n.header-photo {\n  border-radius: 50%;\n  margin-left: 50px;\n  margin-top: 20px;\n  max-height: 250px;\n  max-width: 250px; }\n\n.footer-each-page {\n  background-color: #f0ece4;\n  border-radius: 5px;\n  border: 1px solid #495246;\n  clear: both;\n  display: flex;\n  justify-content: center;\n  margin-top: 80px;\n  text-align: center; }\n\n.footer-each-page img {\n  height: 40px;\n  padding: 10px 75px;\n  width: 40px; }\n\n.footer-each-page img:hover {\n  height: 55px;\n  width: 55px; }\n\n.master-section {\n  text-align: center;\n  width: 100vw; }\n\n.big-button-container {\n  margin: 60px auto;\n  text-align: center;\n  width: 900px; }\n\n.big-button {\n  background-color: #e4e2ed;\n  border-radius: 30px;\n  font-size: 20px;\n  padding: 15px;\n  width: 200px; }\n\n.big-button:hover {\n  background-color: #1e14db;\n  color: white;\n  cursor: pointer; }\n\n.project-page-section {\n  border-radius: 5px;\n  border: 1px solid #495246;\n  margin: 100px auto 50px auto;\n  max-width: 920px;\n  text-align: center; }\n  .project-page-section img {\n    height: 200px; }\n  .project-page-section p {\n    line-height: 1.2;\n    margin: auto;\n    padding-bottom: 30px;\n    padding-top: 30px;\n    text-align: center;\n    width: 400px; }\n  .project-page-section ul {\n    padding-bottom: 20px;\n    padding-top: 20px; }\n  .project-page-section .ul-span {\n    display: block;\n    font-weight: 600;\n    margin-top: 20px; }\n  .project-page-section li {\n    padding-bottom: 15px; }\n  .project-page-section .fareharbor-accomplishments-p {\n    padding-top: 0; }\n\n.bio-page-section h3, .project-page-section h3 {\n  font-size: 30px;\n  font-weight: bold;\n  padding: 20px 0px 40px 0px;\n  text-align: center; }\n\n.bio-page-headline {\n  margin-top: 50px;\n  margin: auto;\n  width: 900px; }\n  .bio-page-headline h2 {\n    font-size: 50px;\n    text-align: center; }\n\n.resume {\n  margin-bottom: 100px; }\n\n.bio-page-section-container {\n  margin: 120px auto;\n  text-align: center; }\n\n.bio-page-section {\n  border-radius: 5px;\n  border: 1px solid #495246;\n  margin: 0px auto 50px auto;\n  max-width: 920px; }\n  .bio-page-section p {\n    padding: 0px 0px 30px 10px;\n    text-align: center; }\n  .bio-page-section span {\n    font-size: 20px;\n    font-weight: bolder; }\n\n.bio-page-section-italic {\n  font-style: italic; }\n\n.page-upper-section {\n  display: block;\n  margin: auto;\n  margin-bottom: 140px;\n  width: 900px; }\n  .page-upper-section p {\n    font-size: 36px;\n    font-style: italic;\n    line-height: 43px;\n    max-width: 700px;\n    margin: auto;\n    text-align: center; }\n\n.two-article-control {\n  margin: auto;\n  position: relative;\n  text-align: center;\n  width: 900px; }\n\n.main-article-half-width {\n  border-radius: 5px;\n  border: 1px solid #495246;\n  display: inline-block;\n  height: 570px;\n  overflow: auto;\n  width: 300px; }\n  .main-article-half-width p {\n    max-width: 400px;\n    padding: 30px 30px 30px 15px;\n    text-align: center; }\n  .main-article-half-width h3, .main-article-half-width h4 {\n    text-align: center; }\n  .main-article-half-width h3 {\n    font-size: 30px;\n    font-weight: bold;\n    padding: 10px 0px; }\n  .main-article-half-width h4 {\n    font-size: 22px;\n    padding: 20px 0px 30px 0px; }\n  .main-article-half-width img {\n    display: block;\n    height: 150px;\n    margin-left: auto;\n    margin-right: auto; }\n\n.proj1 {\n  margin-right: 20px; }\n  .proj1 .main-article-span {\n    display: block;\n    font-weight: 600;\n    margin-top: 20px; }\n  .proj1 ul {\n    padding-top: 20px; }\n  .proj1 li {\n    padding-bottom: 15px; }\n  .proj1 .left-article-p {\n    padding-top: 20px; }\n\n.proj2 {\n  margin-left: 20px; }\n\n.page-lower-section {\n  border-radius: 5px;\n  border: 1px solid #495246;\n  bottom: 100px;\n  display: inline-block;\n  margin-right: 20px;\n  position: relative; }\n\n.page-lower-section h3 {\n  font-size: 30px;\n  font-weight: bold;\n  padding: 10px 0px;\n  text-align: center; }\n\n.page-lower-section p {\n  max-width: 400px;\n  padding: 10px;\n  padding-bottom: 30px;\n  text-align: center; }\n\n.page-lower-section span {\n  font-style: italic; }\n\n#fig-main {\n  display: inline-block;\n  margin-left: 20px; }\n\n#fig-main figcaption {\n  font-size: 20px;\n  font-style: italic;\n  padding: 10px;\n  text-align: center; }\n\n.bottom-elements-control {\n  margin: auto;\n  margin-bottom: 50px;\n  position: relative;\n  text-align: center;\n  width: 900px; }\n\n#book-img {\n  height: 300px; }\n\n.project-page-headline {\n  margin-bottom: 60px;\n  margin-top: 50px;\n  margin: auto;\n  width: 900px; }\n  .project-page-headline h2 {\n    font-size: 50px;\n    text-align: center; }\n  .project-page-headline img {\n    display: block;\n    height: 80px;\n    margin: 40px auto 30px auto;\n    position: relative;\n    width: 80px; }\n  .project-page-headline p {\n    text-align: center; }\n\n.proj-menu-master-container {\n  margin-top: 50px;\n  margin: auto;\n  text-align: center;\n  width: 1000px; }\n  .proj-menu-master-container h2 {\n    font-size: 50px;\n    padding-bottom: 80px;\n    text-align: center; }\n\n.proj-menu-indiv-box {\n  display: inline-block;\n  height: 250px;\n  margin-bottom: 50px;\n  margin-left: 20px;\n  margin-right: 20px;\n  width: 250px; }\n  .proj-menu-indiv-box img {\n    height: 200px;\n    width: 200px; }\n  .proj-menu-indiv-box p {\n    font-size: 20px;\n    font-style: italic;\n    font-weight: bold;\n    margin-top: 10px;\n    position: relative;\n    text-align: center; }\n\n.italic-names {\n  font-style: italic; }\n", ""]);
 	
 	// exports
 
 
 /***/ },
-/* 549 */
+/* 562 */
 /***/ function(module, exports) {
 
 	/*
@@ -47025,10 +48530,10 @@
 
 
 /***/ },
-/* 550 */
+/* 563 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(549)();
+	exports = module.exports = __webpack_require__(562)();
 	// imports
 	
 	
@@ -47039,7 +48544,7 @@
 
 
 /***/ },
-/* 551 */
+/* 564 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*

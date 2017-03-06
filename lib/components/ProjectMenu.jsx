@@ -121,12 +121,12 @@ class ProjectMenu extends Component {
             </div>
           </a>
 
-          <a href="https://gness1804.github.io/160gr8-lorem-ipsum-gen/">
+          <Link to="/lorem-ipsum">
             <div className="proj-menu-indiv-box">
               <img src="images/lorem-ipsum-screenshot.png" alt="Screenshot of lorem ipsum generator." />
               <p>Lorem Ipsum Generator</p>
             </div>
-          </a>
+          </Link>
 
         </div>
       </div>

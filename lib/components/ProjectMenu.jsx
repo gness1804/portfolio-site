@@ -9,6 +9,13 @@ class ProjectMenu extends Component {
         <div className="proj-menu-master-container">
           <h2>My Work</h2>
 
+            <Link to="fired-up">
+              <div className="proj-menu-indiv-box">
+                <img src="images/fired-up-screenshot.png" alt="Screenshot." />
+                <p>Fired Up</p>
+              </div>
+            </Link>
+
           <Link to="real-time">
             <div className="proj-menu-indiv-box">
               <img src="images/real-time-screen-shot-1.png" alt="Screenshot." />

@@ -9,20 +9,19 @@ class ProjectMenu extends Component {
         <div className="proj-menu-master-container">
           <h2>My Work</h2>
 
+          <a href="https://github.com/gness1804/jet-fuel">
             <div className="proj-menu-indiv-box">
               <img src="images/jet-fuel-ss.png" alt="Screenshot." />
-                <p>Jet Fuel Bookmarker</p>
-                <a href="https://github.com/gness1804/jet-fuel">Github</a>
+              <p>Jet Fuel Bookmarker</p>
             </div>
+          </a>
 
-
+          <Link to="/fareharbor">
             <div className="proj-menu-indiv-box">
               <img src="images/search-input-screenshot.png" alt="Screenshot." />
               <p>FareHarbor Toolkit</p>
-              <a href="https://github.com/gness1804/fare-harbor-toolkit-1">Github</a>
-              <Link to="/fareharbor" className="proj-menu-link">Details...</Link>
             </div>
-
+          </Link>
 
           <a href="https://github.com/kswhyte/remEMBER">
             <div className="proj-menu-indiv-box">

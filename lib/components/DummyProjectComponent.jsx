@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Name extends Component {
+class TheName extends Component {
 
   render() {
     return (
       <div>
         <section className="project-page-headline">
           <h2>Title</h2>
-          <a href="" target="_blank">
+          <a href="" target="_blank" rel="noopener noreferrer">
             <img src="images/github.png" alt="GitHub logo" title="Project GitHub link" />
             <p>Project Link (Github)</p>
           </a>
@@ -17,6 +17,7 @@ class Name extends Component {
             <img src="" alt="Screenshot." />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Check it out <a>live!</a>
            </p>
           </section>
           <section className="project-page-section">
@@ -40,4 +41,4 @@ class Name extends Component {
 }
 
 
-export default Name;
+export default TheName;

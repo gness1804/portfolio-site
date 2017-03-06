@@ -114,12 +114,12 @@ class ProjectMenu extends Component {
             </div>
           </a>
 
-          <a href="https://gness1804.github.io/color-changer/">
+          <Link to="/color-changer">
             <div className="proj-menu-indiv-box">
               <img src="images/color-changer.png" alt="Color changer screenshot." />
               <p>Color Changer</p>
             </div>
-          </a>
+          </Link>
 
           <Link to="/lorem-ipsum">
             <div className="proj-menu-indiv-box">

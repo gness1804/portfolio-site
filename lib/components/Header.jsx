@@ -25,7 +25,7 @@ class Header extends Component {
               </Link>
               <section className="dropdown-menu-actual projects-dropdown">
                 <Link to="/we-the-people">
-                  We The People
+                  MyGov
                 </Link>
                 <Link to="/flashshopper">
                   Flash Shopper

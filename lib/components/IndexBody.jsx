@@ -14,14 +14,14 @@ class IndexBody extends Component {
         <section className="two-article-control">
          <article className="main-article-half-width proj1">
           <Link to="/we-the-people">
-            <h3>We The People</h3>
+            <h3>MyGov</h3>
           </Link>
            <a href="https://github.com/gness1804/we-the-people-native" target="_blank" rel="noopener noreferrer">
              <h4>(GitHub)</h4>
            </a>
            <img src="images/we-the-people.png" alt="Screenshot." />
            <p className="left-article-p">
-              We The People is an application created in React Native that allows a user to track current Congressional bills and new laws. The application brings in data on bills and laws including title, date introduced, date of last action, sponsor, current progress (in House Committee, passed by Senate, enacted...), and other data. For more details, see the <Link to="/we-the-people">project page.</Link>
+              MyGov is an application created in React Native that allows a user to track current Congressional bills and new laws. The application brings in data on bills and laws including title, date introduced, date of last action, sponsor, current progress (in House Committee, passed by Senate, enacted...), and other data. For more details, see the <Link to="/we-the-people">project page.</Link>
            </p>
          </article>
          <article className="main-article-half-width proj2">

@@ -6,7 +6,7 @@ class WeThePeople extends Component {
     return (
       <div>
         <section className="project-page-headline">
-          <h2>We The People</h2>
+          <h2>MyGov</h2>
           <a href="https://github.com/gness1804/we-the-people-native" target="_blank" rel="noopener noreferrer">
             <img src="images/github.png" alt="GitHub logo" title="Project GitHub link" />
             <p>Project Link (Github)</p>
@@ -16,7 +16,7 @@ class WeThePeople extends Component {
             <h3>Principal Accomplishments</h3>
             <img src="images/we-the-people.png" alt="Screenshot." />
             <p>
-              We The People is an application created in React Native that allows a user to track current Congressional bills and new laws. Using the <a href="https://sunlightlabs.github.io/congress/" target="_blank" rel="noopener noreferrer">Sunlight Congress API</a>, the application brings in data on bills and laws including title, date introduced, date of last action, sponsor, current progress (in House Committee, passed by Senate, enacted...), and other data. This application is meant for concerned citizens (and non-citizens) to keep track of Congressional actions and to be better informed and empowered to take action on critical issues.
+              MyGov is an application created in React Native that allows a user to track current Congressional bills and new laws. Using the <a href="https://sunlightlabs.github.io/congress/" target="_blank" rel="noopener noreferrer">Sunlight Congress API</a>, the application brings in data on bills and laws including title, date introduced, date of last action, sponsor, current progress (in House Committee, passed by Senate, enacted...), and other data. This application is meant for concerned citizens (and non-citizens) to keep track of Congressional actions and to be better informed and empowered to take action on critical issues.
            </p>
           </section>
           <section className="project-page-section">

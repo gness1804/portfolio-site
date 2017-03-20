@@ -34737,7 +34737,7 @@
 	              _react2.default.createElement(
 	                'h3',
 	                null,
-	                'We The People'
+	                'MyGov'
 	              )
 	            ),
 	            _react2.default.createElement(
@@ -34753,7 +34753,7 @@
 	            _react2.default.createElement(
 	              'p',
 	              { className: 'left-article-p' },
-	              'We The People is an application created in React Native that allows a user to track current Congressional bills and new laws. The application brings in data on bills and laws including title, date introduced, date of last action, sponsor, current progress (in House Committee, passed by Senate, enacted...), and other data. For more details, see the ',
+	              'MyGov is an application created in React Native that allows a user to track current Congressional bills and new laws. The application brings in data on bills and laws including title, date introduced, date of last action, sponsor, current progress (in House Committee, passed by Senate, enacted...), and other data. For more details, see the ',
 	              _react2.default.createElement(
 	                _reactRouter.Link,
 	                { to: '/we-the-people' },
@@ -35010,7 +35010,7 @@
 	                _react2.default.createElement(
 	                  _reactRouter.Link,
 	                  { to: '/we-the-people' },
-	                  'We The People'
+	                  'MyGov'
 	                ),
 	                _react2.default.createElement(
 	                  _reactRouter.Link,
@@ -45801,7 +45801,7 @@
 	          { className: 'big-button-container' },
 	          _react2.default.createElement(
 	            'a',
-	            { href: 'resumes/Nessler-Resume-03-02-17.pdf', target: '_blank', rel: 'noopener noreferrer' },
+	            { href: 'resumes/Nessler-Resume-03-16-17.pdf', target: '_blank', rel: 'noopener noreferrer' },
 	            _react2.default.createElement(
 	              'button',
 	              { type: 'button', className: 'big-button' },
@@ -48336,7 +48336,7 @@
 	          _react2.default.createElement(
 	            "h2",
 	            null,
-	            "We The People"
+	            "MyGov"
 	          ),
 	          _react2.default.createElement(
 	            "a",
@@ -48361,7 +48361,7 @@
 	          _react2.default.createElement(
 	            "p",
 	            null,
-	            "We The People is an application created in React Native that allows a user to track current Congressional bills and new laws. Using the ",
+	            "MyGov is an application created in React Native that allows a user to track current Congressional bills and new laws. Using the ",
 	            _react2.default.createElement(
 	              "a",
 	              { href: "https://sunlightlabs.github.io/congress/", target: "_blank", rel: "noopener noreferrer" },

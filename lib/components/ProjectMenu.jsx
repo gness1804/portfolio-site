@@ -16,6 +16,13 @@ class ProjectMenu extends Component {
               </div>
             </Link>
 
+            <Link to="flash-shopper-rn">
+              <div className="proj-menu-indiv-box">
+                <img src="images/flash-shopper-screenshot-mobile.png" alt="Screenshot." />
+                <p>F. Shopper React Native</p>
+              </div>
+            </Link>
+
             <Link to="grudge-box">
               <div className="proj-menu-indiv-box">
                 <img src="images/grudge-box.png" alt="Screenshot." />

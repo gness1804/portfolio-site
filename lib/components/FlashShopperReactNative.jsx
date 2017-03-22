@@ -6,34 +6,26 @@ class FlashShopperReactNative extends Component {
     return (
       <div>
         <section className="project-page-headline">
-          <h2>FlashShopperReactNative</h2>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <h2>Flash Shopper in React Native</h2>
+          <a href="https://github.com/gness1804/flash-shopper-react-native" target="_blank" rel="noopener noreferrer">
             <img src="images/github.png" alt="GitHub logo" title="Project GitHub link" />
             <p>Project Link (Github)</p>
           </a>
         </section>
         <section className="project-page-section">
             <h3>Principal Accomplishments</h3>
-            <img src="" alt="Screenshot." />
+            <img src="images/flash-shopper-screenshot-mobile.png" alt="Screenshot." />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              Check it out <a>live!</a>
+              This is a rebuild of my <a href="https://github.com/gness1804/grocery-list-react" target="_blank" rel="noopener noreferrer">Flash Shopper</a> application in React Native. It contains most of the functionality of the original app. Rather than existing in the browser, this program exists as a separate application. 
            </p>
           </section>
           <section className="project-page-section">
-              <h3>Tools Used</h3>
-              <img src="" alt="" />
+              <h3>What I Learned</h3>
+              <img src="images/thinking.svg" alt="A thinking head." title="Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com" />
               <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+               This was my first React Native application. I learned a lot about creating user interfaces for mobile and adjusting to React Native's distinctive styling system. This experience prepared me well for later React Native applications.
              </p>
-            </section>
-            <section className="project-page-section">
-                <h3>What I Learned</h3>
-                <img src="images/thinking.svg" alt="A thinking head." title="Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com" />
-                <p>
-                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-               </p>
-          </section>
+        </section>
       </div>
     );
   }

@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import WorkHistory from './WorkHistory';
 import Education from './Education';
 

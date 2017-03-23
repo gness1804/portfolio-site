@@ -9,33 +9,40 @@ class ProjectMenu extends Component {
         <div className="proj-menu-master-container">
           <h2>My Work</h2>
 
-            <Link to="we-the-people">
-              <div className="proj-menu-indiv-box">
-                <img src="images/we-the-people.png" alt="Screenshot." />
-                <p>We The People</p>
-              </div>
-            </Link>
+          <Link to="we-the-people">
+            <div className="proj-menu-indiv-box">
+              <img src="images/we-the-people.png" alt="Screenshot." />
+              <p>We The People</p>
+            </div>
+          </Link>
 
-            <Link to="flash-shopper-rn">
-              <div className="proj-menu-indiv-box">
-                <img src="images/flash-shopper-screenshot-mobile.png" alt="Screenshot." />
-                <p>F. Shopper React Native</p>
-              </div>
-            </Link>
+          <Link to="weathrly-rn">
+            <div className="proj-menu-indiv-box">
+              <img src="images/weathrly-1.png" alt="Screenshot." />
+              <p>Weathrly React Native</p>
+            </div>
+          </Link>
 
-            <Link to="grudge-box">
-              <div className="proj-menu-indiv-box">
-                <img src="images/grudge-box.png" alt="Screenshot." />
-                <p>GrudgeBox</p>
-              </div>
-            </Link>
+          <Link to="flash-shopper-rn">
+            <div className="proj-menu-indiv-box">
+              <img src="images/flash-shopper-screenshot-mobile.png" alt="Screenshot." />
+              <p>F. Shopper React Native</p>
+            </div>
+          </Link>
 
-            <Link to="fired-up">
-              <div className="proj-menu-indiv-box">
-                <img src="images/fired-up-screenshot.png" alt="Screenshot." />
-                <p>Fired Up</p>
-              </div>
-            </Link>
+          <Link to="grudge-box">
+            <div className="proj-menu-indiv-box">
+              <img src="images/grudge-box.png" alt="Screenshot." />
+              <p>GrudgeBox</p>
+            </div>
+          </Link>
+
+          <Link to="fired-up">
+            <div className="proj-menu-indiv-box">
+              <img src="images/fired-up-screenshot.png" alt="Screenshot." />
+              <p>Fired Up</p>
+            </div>
+          </Link>
 
           <Link to="real-time">
             <div className="proj-menu-indiv-box">
@@ -61,7 +68,7 @@ class ProjectMenu extends Component {
           <Link to="ember-remember">
             <div className="proj-menu-indiv-box">
               <img src="images/ember-remember-screenshot.png" alt="Screenshot." />
-                <p>Ember RemEMBER</p>
+              <p>Ember RemEMBER</p>
             </div>
           </Link>
 
@@ -89,7 +96,7 @@ class ProjectMenu extends Component {
           <Link to="number-guesser-react">
             <div className="proj-menu-indiv-box">
               <img src="images/number-guesser-react.png" alt="Screenshot." />
-                <p>Number Guesser (React)</p>
+              <p>Number Guesser (React)</p>
             </div>
           </Link>
 
@@ -100,7 +107,7 @@ class ProjectMenu extends Component {
             </div>
           </a>
 
-        <Link to="shoot-the-breeze">
+          <Link to="shoot-the-breeze">
             <div className="proj-menu-indiv-box">
               <img src="images/shoot-the-breeze.png" alt="Screenshot." />
               <p>Shoot the Breeze</p>
@@ -114,7 +121,7 @@ class ProjectMenu extends Component {
             </div>
           </Link>
 
-        <Link to="todo-box">
+          <Link to="todo-box">
             <div className="proj-menu-indiv-box">
               <img src="images/2do-box.png" alt="Screenshot." />
               <p>2Do Box Pivot</p>

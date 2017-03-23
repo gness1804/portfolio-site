@@ -58,6 +58,13 @@ class ProjectMenu extends Component {
             </div>
           </Link>
 
+          <Link to="bookmarker">
+            <div className="proj-menu-indiv-box">
+              <img src="images/bookmarker-ss.png" alt="Screenshot." />
+              <p>Bookmarker in Angular</p>
+            </div>
+          </Link>
+
           <Link to="/fareharbor">
             <div className="proj-menu-indiv-box">
               <img src="images/search-input-screenshot.png" alt="Screenshot." />

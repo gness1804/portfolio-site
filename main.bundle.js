@@ -8358,9 +8358,13 @@
 	
 	var _Bookmarker2 = _interopRequireDefault(_Bookmarker);
 	
+	var _NumberGuesserJava = __webpack_require__(563);
+	
+	var _NumberGuesserJava2 = _interopRequireDefault(_NumberGuesserJava);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	__webpack_require__(563);
+	__webpack_require__(564);
 	
 	(0, _reactDom.render)(_react2.default.createElement(
 	  _reactRouter.Router,
@@ -8395,7 +8399,8 @@
 	    _react2.default.createElement(_reactRouter.Route, { path: '/we-the-people', component: _WeThePeople2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/flash-shopper-rn', component: _FlashShopperReactNative2.default }),
 	    _react2.default.createElement(_reactRouter.Route, { path: '/weathrly-rn', component: _WeathrlyRN2.default }),
-	    _react2.default.createElement(_reactRouter.Route, { path: '/bookmarker', component: _Bookmarker2.default })
+	    _react2.default.createElement(_reactRouter.Route, { path: '/bookmarker', component: _Bookmarker2.default }),
+	    _react2.default.createElement(_reactRouter.Route, { path: '/number-guesser-java', component: _NumberGuesserJava2.default })
 	  )
 	), document.getElementById('application'));
 
@@ -45463,7 +45468,21 @@
 	              _react2.default.createElement(
 	                'p',
 	                null,
-	                'We The People'
+	                'MyGov'
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            _reactRouter.Link,
+	            { to: 'number-guesser-java' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'proj-menu-indiv-box' },
+	              _react2.default.createElement('img', { src: 'images/number_guesser_java.png', alt: 'Screenshot.' }),
+	              _react2.default.createElement(
+	                'p',
+	                null,
+	                'Number Guesser in Java'
 	              )
 	            )
 	          ),
@@ -48799,13 +48818,116 @@
 /* 563 */
 /***/ function(module, exports, __webpack_require__) {
 
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(299);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var NumberGuesserJava = function (_Component) {
+	  _inherits(NumberGuesserJava, _Component);
+	
+	  function NumberGuesserJava() {
+	    _classCallCheck(this, NumberGuesserJava);
+	
+	    return _possibleConstructorReturn(this, (NumberGuesserJava.__proto__ || Object.getPrototypeOf(NumberGuesserJava)).apply(this, arguments));
+	  }
+	
+	  _createClass(NumberGuesserJava, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        null,
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-headline" },
+	          _react2.default.createElement(
+	            "h2",
+	            null,
+	            "Number Guesser in Java"
+	          ),
+	          _react2.default.createElement(
+	            "a",
+	            { href: "https://github.com/gness1804/number-guesser-java", target: "_blank", rel: "noopener noreferrer" },
+	            _react2.default.createElement("img", { src: "images/github.png", alt: "GitHub logo", title: "Project GitHub link" }),
+	            _react2.default.createElement(
+	              "p",
+	              null,
+	              "Project Link (Github)"
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "Principal Accomplishments"
+	          ),
+	          _react2.default.createElement("img", { src: "images/number_guesser_java.png", alt: "Screenshot." }),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "This was my first project in Java. I built this project using Android Studio. The language and IDE have been a bit of a learning curve, but in the end, I successfully built out all of the features of the ",
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://github.com/gness1804/number-guesser", target: "_blank", rel: "noopener noreferrer" },
+	              "original Number Guesser project"
+	            ),
+	            "."
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "section",
+	          { className: "project-page-section" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            "What I Learned"
+	          ),
+	          _react2.default.createElement("img", { src: "images/thinking.svg", alt: "A thinking head.", title: "Image courtesy of Elias Bikbulatov for FlatIcon, http://www.flaticon.com" }),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "I learned some core Java concepts in building this project, such as classes, data types, and how Java works with XML in Android development. I also learned a lot about Android Studio itself and how to construct a simple but effective UI using this tool."
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return NumberGuesserJava;
+	}(_react.Component);
+	
+	exports.default = NumberGuesserJava;
+
+/***/ },
+/* 564 */
+/***/ function(module, exports, __webpack_require__) {
+
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 	
 	// load the styles
-	var content = __webpack_require__(564);
+	var content = __webpack_require__(565);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(567)(content, {});
+	var update = __webpack_require__(568)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -48822,12 +48944,12 @@
 	}
 
 /***/ },
-/* 564 */
+/* 565 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(565)();
+	exports = module.exports = __webpack_require__(566)();
 	// imports
-	exports.i(__webpack_require__(566), "");
+	exports.i(__webpack_require__(567), "");
 	
 	// module
 	exports.push([module.id, "@media screen and (max-width: 920px) {\n  html {\n    min-height: 2000px; }\n  .header-each-page {\n    text-align: center;\n    width: 1000px; }\n  .dropdown-menu-container {\n    display: block !important;\n    margin: auto !important;\n    max-width: 600px !important; }\n  .nav-bar {\n    display: block !important;\n    float: none !important; }\n    .nav-bar a {\n      display: block;\n      margin: 35px 15px; }\n  .header-photo {\n    margin: 80px 0px 120px 50px; }\n  .footer-each-page {\n    margin: auto;\n    margin-top: 220px !important;\n    max-height: 50px;\n    top: 1950px;\n    width: 1000px; }\n    .footer-each-page img {\n      padding: 0px 60px; }\n  .big-button-container {\n    width: 1000px !important; }\n  .bio-page-headline {\n    margin-top: 50px !important;\n    width: 1000px !important; }\n  .bio-page-section-container {\n    width: 1000px; }\n  .page-upper-section {\n    margin-top: 140px;\n    width: 1000px; }\n  .two-article-control {\n    width: 1000px !important; }\n  .main-article-half-width {\n    display: block !important;\n    height: auto !important;\n    margin: 0px auto !important;\n    width: 800px !important; }\n  .main-article-half-width p {\n    margin: 10px auto;\n    text-align: center; }\n  .proj2 {\n    margin-top: 50px !important; }\n  .bottom-elements-control {\n    width: 1000px !important; }\n  .page-lower-section {\n    bottom: 0 !important;\n    margin: 0px auto; }\n  #fig-main {\n    display: none !important; }\n  .project-page-headline {\n    margin-bottom: 120px !important;\n    width: 1000px !important; }\n  .project-page-section {\n    margin-left: 100px !important;\n    margin-right: 0px !important;\n    margin-top: 40px !important;\n    width: 800px !important; }\n  .proj-menu-master-container {\n    margin-bottom: 240px; } }\n\n/* elements common to all pages */\nhtml {\n  background-size: cover;\n  background: linear-gradient(to bottom, white, #cbcad9);\n  font-family: \"Open Sans\", sans-serif; }\n\na:link {\n  color: #4025e2;\n  text-decoration: none; }\n\na:visited {\n  color: #dd16cf; }\n\na:hover {\n  color: red;\n  font-style: italic; }\n\n.header-each-page {\n  background: linear-gradient(to bottom, #7fb3f7, #f0f3f7);\n  margin-bottom: 80px; }\n\n.headline-link {\n  color: black !important; }\n  .headline-link:visited {\n    color: black !important; }\n\n.header-each-page h1 {\n  font-size: 60px;\n  font-weight: bold;\n  margin-bottom: 60px;\n  padding-top: 20px;\n  text-align: center; }\n\n.nav-bar {\n  display: inline-block;\n  float: right;\n  margin-top: 20px; }\n\n.nav-bar a {\n  color: black;\n  font-size: 22px;\n  padding: 10px;\n  text-transform: uppercase; }\n  .nav-bar a:hover {\n    background-color: white;\n    border-radius: 5px;\n    border: 1px solid #495246; }\n\n.nav-bar a:visited {\n  color: #404b4b; }\n\n.dropdown-menu-container {\n  display: inline-block;\n  margin: 25px;\n  position: relative; }\n\n.dropdown-menu-actual {\n  background-color: white;\n  position: absolute;\n  border: 1px solid #495246;\n  border-radius: 5px;\n  max-width: 135px;\n  padding: 5px;\n  text-align: center;\n  word-wrap: normal;\n  z-index: 1; }\n\n.dropdown-menu-actual a {\n  display: block;\n  margin-bottom: 15px;\n  padding: 0px 10px;\n  font-size: 18px;\n  line-height: 20px; }\n  .dropdown-menu-actual a:hover {\n    border: none;\n    color: #9f919f; }\n\n.projects-dropdown {\n  left: -1px;\n  top: 38px; }\n\n.background-dropdown {\n  left: -9px;\n  max-width: 150px;\n  top: 38px; }\n\n.selected {\n  background-color: white;\n  border-radius: 5px;\n  border: 1px solid #495246; }\n\n.header-photo {\n  border-radius: 50%;\n  margin-left: 50px;\n  margin-top: 20px;\n  max-height: 250px;\n  max-width: 250px; }\n\n.footer-each-page {\n  background-color: #f0ece4;\n  border-radius: 5px;\n  border: 1px solid #495246;\n  clear: both;\n  display: flex;\n  justify-content: center;\n  margin-top: 80px;\n  text-align: center; }\n\n.footer-each-page img {\n  height: 40px;\n  padding: 10px 75px;\n  width: 40px; }\n\n.footer-each-page img:hover {\n  height: 55px;\n  width: 55px; }\n\n.master-section {\n  text-align: center;\n  width: 100vw; }\n\n.big-button-container {\n  margin: 60px auto;\n  text-align: center;\n  width: 900px; }\n\n.big-button {\n  background-color: #e4e2ed;\n  border-radius: 30px;\n  font-size: 20px;\n  padding: 15px;\n  width: 200px; }\n\n.big-button:hover {\n  background-color: #1e14db;\n  color: white;\n  cursor: pointer; }\n\n.project-page-section {\n  border-radius: 5px;\n  border: 1px solid #495246;\n  margin: 100px auto 50px auto;\n  max-width: 920px;\n  text-align: center; }\n  .project-page-section img {\n    height: 200px; }\n  .project-page-section p {\n    line-height: 1.2;\n    margin: auto;\n    padding-bottom: 30px;\n    padding-top: 30px;\n    text-align: center;\n    width: 400px; }\n  .project-page-section ul {\n    padding-bottom: 20px;\n    padding-top: 20px; }\n  .project-page-section .ul-span {\n    display: block;\n    font-weight: 600;\n    margin-top: 20px; }\n  .project-page-section li {\n    padding-bottom: 15px; }\n  .project-page-section .fareharbor-accomplishments-p {\n    padding-top: 0; }\n\n.bio-page-section h3, .project-page-section h3 {\n  font-size: 30px;\n  font-weight: bold;\n  padding: 20px 0px 40px 0px;\n  text-align: center; }\n\n.bio-page-headline {\n  margin-top: 50px;\n  margin: auto;\n  width: 900px; }\n  .bio-page-headline h2 {\n    font-size: 50px;\n    text-align: center; }\n\n.resume {\n  margin-bottom: 100px; }\n\n.bio-page-section-container {\n  margin: 120px auto;\n  text-align: center; }\n\n.bio-page-section {\n  border-radius: 5px;\n  border: 1px solid #495246;\n  margin: 0px auto 50px auto;\n  max-width: 920px; }\n  .bio-page-section p {\n    padding: 0px 0px 30px 10px;\n    text-align: center; }\n  .bio-page-section span {\n    font-size: 20px;\n    font-weight: bolder; }\n\n.bio-page-section-italic {\n  font-style: italic; }\n\n.page-upper-section {\n  display: block;\n  margin: auto;\n  margin-bottom: 140px;\n  width: 900px; }\n  .page-upper-section p {\n    font-size: 36px;\n    font-style: italic;\n    line-height: 43px;\n    max-width: 700px;\n    margin: auto;\n    text-align: center; }\n\n.two-article-control {\n  margin: auto;\n  position: relative;\n  text-align: center;\n  width: 900px; }\n\n.main-article-half-width {\n  border-radius: 5px;\n  border: 1px solid #495246;\n  display: inline-block;\n  height: 570px;\n  overflow: auto;\n  width: 300px; }\n  .main-article-half-width p {\n    max-width: 400px;\n    padding: 30px 30px 30px 15px;\n    text-align: center; }\n  .main-article-half-width h3, .main-article-half-width h4 {\n    text-align: center; }\n  .main-article-half-width h3 {\n    font-size: 30px;\n    font-weight: bold;\n    padding: 10px 0px; }\n  .main-article-half-width h4 {\n    font-size: 22px;\n    padding: 20px 0px 30px 0px; }\n  .main-article-half-width img {\n    display: block;\n    height: 150px;\n    margin-left: auto;\n    margin-right: auto; }\n\n.proj1 {\n  margin-right: 20px; }\n  .proj1 .main-article-span {\n    display: block;\n    font-weight: 600;\n    margin-top: 20px; }\n  .proj1 ul {\n    padding-top: 20px; }\n  .proj1 li {\n    padding-bottom: 15px; }\n  .proj1 .left-article-p {\n    padding-top: 20px; }\n\n.proj2 {\n  margin-left: 20px; }\n\n.page-lower-section {\n  border-radius: 5px;\n  border: 1px solid #495246;\n  bottom: 100px;\n  display: inline-block;\n  margin-right: 20px;\n  position: relative; }\n\n.page-lower-section h3 {\n  font-size: 30px;\n  font-weight: bold;\n  padding: 10px 0px;\n  text-align: center; }\n\n.page-lower-section p {\n  max-width: 400px;\n  padding: 10px;\n  padding-bottom: 30px;\n  text-align: center; }\n\n.page-lower-section span {\n  font-style: italic; }\n\n#fig-main {\n  display: inline-block;\n  margin-left: 20px; }\n\n#fig-main figcaption {\n  font-size: 20px;\n  font-style: italic;\n  padding: 10px;\n  text-align: center; }\n\n.bottom-elements-control {\n  margin: auto;\n  margin-bottom: 50px;\n  position: relative;\n  text-align: center;\n  width: 900px; }\n\n#book-img {\n  height: 300px; }\n\n.project-page-headline {\n  margin-bottom: 60px;\n  margin-top: 50px;\n  margin: auto;\n  width: 900px; }\n  .project-page-headline h2 {\n    font-size: 50px;\n    text-align: center; }\n  .project-page-headline img {\n    display: block;\n    height: 80px;\n    margin: 40px auto 30px auto;\n    position: relative;\n    width: 80px; }\n  .project-page-headline p {\n    text-align: center; }\n\n.proj-menu-master-container {\n  margin-top: 50px;\n  margin: auto;\n  text-align: center;\n  width: 1000px; }\n  .proj-menu-master-container h2 {\n    font-size: 50px;\n    padding-bottom: 80px;\n    text-align: center; }\n\n.proj-menu-indiv-box {\n  display: inline-block;\n  height: 250px;\n  margin-bottom: 50px;\n  margin-left: 20px;\n  margin-right: 20px;\n  width: 250px; }\n  .proj-menu-indiv-box img {\n    height: 200px;\n    width: 200px; }\n  .proj-menu-indiv-box p {\n    font-size: 20px;\n    font-style: italic;\n    font-weight: bold;\n    margin-top: 10px;\n    position: relative;\n    text-align: center; }\n\n.italic-names {\n  font-style: italic; }\n", ""]);
@@ -48836,7 +48958,7 @@
 
 
 /***/ },
-/* 565 */
+/* 566 */
 /***/ function(module, exports) {
 
 	/*
@@ -48892,10 +49014,10 @@
 
 
 /***/ },
-/* 566 */
+/* 567 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(565)();
+	exports = module.exports = __webpack_require__(566)();
 	// imports
 	
 	
@@ -48906,7 +49028,7 @@
 
 
 /***/ },
-/* 567 */
+/* 568 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*

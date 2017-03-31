@@ -12,7 +12,14 @@ class ProjectMenu extends Component {
           <Link to="we-the-people">
             <div className="proj-menu-indiv-box">
               <img src="images/we-the-people.png" alt="Screenshot." />
-              <p>We The People</p>
+              <p>MyGov</p>
+            </div>
+          </Link>
+
+          <Link to="number-guesser-java">
+            <div className="proj-menu-indiv-box">
+              <img src="images/number_guesser_java.png" alt="Screenshot." />
+              <p>Number Guesser in Java</p>
             </div>
           </Link>
 

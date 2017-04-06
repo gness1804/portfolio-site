@@ -18,7 +18,7 @@ class ProjectMenu extends Component {
 
           <Link to="flashcard-fe">
             <div className="proj-menu-indiv-box">
-              <img src="images/" alt="Screenshot." />
+              <img src="images/flashcardfe.png" alt="Screenshot." />
               <p>FlashcardFE</p>
             </div>
           </Link>

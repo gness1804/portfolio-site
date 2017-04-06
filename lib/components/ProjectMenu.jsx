@@ -16,10 +16,24 @@ class ProjectMenu extends Component {
             </div>
           </Link>
 
+          <Link to="flashcard-fe">
+            <div className="proj-menu-indiv-box">
+              <img src="images/" alt="Screenshot." />
+              <p>FlashcardFE</p>
+            </div>
+          </Link>
+
           <Link to="number-guesser-java">
             <div className="proj-menu-indiv-box">
               <img src="images/number_guesser_java.png" alt="Screenshot." />
               <p>Number Guesser in Java</p>
+            </div>
+          </Link>
+
+          <Link to="quick-search">
+            <div className="proj-menu-indiv-box">
+              <img src="images/" alt="Screenshot." />
+              <p>Quick Search</p>
             </div>
           </Link>
 

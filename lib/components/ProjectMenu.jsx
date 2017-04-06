@@ -32,7 +32,7 @@ class ProjectMenu extends Component {
 
           <Link to="quick-search">
             <div className="proj-menu-indiv-box">
-              <img src="images/" alt="Screenshot." />
+              <img src="images/quicksearch.png" alt="Screenshot." />
               <p>Quick Search</p>
             </div>
           </Link>

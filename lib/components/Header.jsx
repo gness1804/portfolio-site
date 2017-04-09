@@ -27,8 +27,9 @@ class Header extends Component {
                 <Link to="/we-the-people">
                   MyGov
                 </Link>
-                <Link to="/flashshopper">
-                  Flash Shopper
+                <Link to="/flashcard-fe">
+                  Flash
+                  CardFE
                 </Link>
                 <Link to="/projmenu">Other Projects</Link>
               </section>

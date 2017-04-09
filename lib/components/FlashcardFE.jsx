@@ -16,7 +16,7 @@ class FlashCardFE extends Component {
             <h3>Principal Accomplishments</h3>
             <img src="images/flashcardfe.png" alt="Screenshot." />
             <p>
-            This app exists to help job seekers prepare for front end developer interviews. From the Home screen, you can select from three categories of questions: HTML, CSS, and JavaScript. These in turn are divided by category (typically difficulty). You can use this app to quiz yourself or others. Also, there is a section with links to useful interview-related sites and a section with questions to ask an interviewer. Check it out <a href="https://expo.io/@gness1804/bookmarker" target="_blank" rel="noopener noreferrer">live!</a>
+            This app exists to help job seekers prepare for front end developer interviews. From the Home screen, you can select from three categories of questions: HTML, CSS, and JavaScript. These in turn are divided by category (typically difficulty). You can use this app to quiz yourself or others. Also, there is a section with links to useful interview-related sites and a section with questions to ask an interviewer. Check it out in the <a href="https://play.google.com/store/apps/details?id=com.grahamnessler.bookmarker&hl=en" target="_blank" rel="noopener noreferrer">Google Play Store!</a> (iOS version coming soon.)
            </p>
           </section>
           <section className="project-page-section">

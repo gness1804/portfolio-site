@@ -25,15 +25,18 @@ class IndexBody extends Component {
            </p>
          </article>
          <article className="main-article-half-width proj2">
-          <Link to="/flashshopper">
-            <h3>Flash Shopper</h3>
+          <Link to="/flashcard-fe">
+            <h3>FlashcardFE</h3>
           </Link>
-           <a href="https://github.com/gness1804/grocery-list-react" target="_blank" rel="noopener noreferrer">
+           <a href="https://github.com/gness1804/front-end-interview-prep-app" target="_blank" rel="noopener noreferrer">
              <h4>(GitHub)</h4>
            </a>
-           <img src="images/flash-shopper.png" alt="Screenshot." />
+           <img src="images/flashcardfe.png" alt="Screenshot." />
            <p>
-             <a href="https://github.com/gness1804/grocery-list-react" target="_blank" rel="noopener noreferrer">Flash Shopper</a> is an application created by me independent of the Turing School curriculum. It is a grocery list app built in React where users can enter items, sort them, delete them, and edit them. The app also populates aisles by category (currently available for 1 location). This app aims to present a smart and sleek alternative to existing grocery apps. For more details, see the <Link to="/flashshopper">project page.</Link>
+             Check it out in the <a href="https://play.google.com/store/apps/details?id=com.grahamnessler.bookmarker&hl=en" target="_blank" rel="noopener noreferrer">Google Play Store!</a> (iOS version coming soon.)
+           </p>
+           <p>
+             This app exists to help job seekers prepare for front end developer interviews. From the Home screen, you can select from three categories of questions: HTML, CSS, and JavaScript. These in turn are divided by category (typically difficulty). You can use this app to quiz yourself or others. Also, there is a section with links to useful interview-related sites and a section with questions to ask an interviewer.
            </p>
          </article>
         </section>

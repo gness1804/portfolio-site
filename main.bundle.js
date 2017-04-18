@@ -45963,7 +45963,7 @@
 	          { className: 'big-button-container' },
 	          _react2.default.createElement(
 	            'a',
-	            { href: 'resumes/Nessler-Resume-04-08-17.pdf', target: '_blank', rel: 'noopener noreferrer' },
+	            { href: 'resumes/Nessler-Resume-04-18-17.pdf', target: '_blank', rel: 'noopener noreferrer' },
 	            _react2.default.createElement(
 	              'button',
 	              { type: 'button', className: 'big-button' },
@@ -45990,7 +45990,7 @@
 /* 538 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 	
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -46010,8 +46010,6 @@
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	var ReactDOM = __webpack_require__(329);
-	
 	var WorkHistory = function (_Component) {
 	  _inherits(WorkHistory, _Component);
 	
@@ -46022,75 +46020,62 @@
 	  }
 	
 	  _createClass(WorkHistory, [{
-	    key: 'render',
+	    key: "render",
 	    value: function render() {
 	      return _react2.default.createElement(
-	        'div',
+	        "div",
 	        null,
 	        _react2.default.createElement(
-	          'article',
-	          { className: 'bio-page-section' },
+	          "article",
+	          { className: "bio-page-section" },
 	          _react2.default.createElement(
-	            'h3',
-	            { id: 'work-hist', target: '_blank' },
-	            'Work History'
+	            "h3",
+	            { id: "work-hist", target: "_blank" },
+	            "Work History"
 	          ),
 	          _react2.default.createElement(
-	            'p',
+	            "p",
 	            null,
 	            _react2.default.createElement(
-	              'span',
+	              "span",
 	              null,
-	              'Selected Positions:'
+	              "Selected Positions:"
 	            )
 	          ),
-	          _react2.default.createElement('br', null),
+	          _react2.default.createElement("br", null),
 	          _react2.default.createElement(
-	            'p',
+	            "p",
 	            null,
-	            'Visiting Professor of History, ',
+	            "\u200BFront End/UI Developer Intern, ",
 	            _react2.default.createElement(
-	              'a',
-	              { href: 'https://www.fau.edu', target: '_blank' },
-	              _react2.default.createElement(
-	                'span',
-	                null,
-	                'Florida Atlantic University'
-	              )
+	              "span",
+	              null,
+	              "Express Scripts"
 	            ),
-	            ' (2015-2016)'
+	            " (May 2017-August 2017)"
 	          ),
 	          _react2.default.createElement(
-	            'p',
+	            "p",
 	            null,
-	            'Post-Doctoral Fellow, ',
+	            "Student, Front End Engineering, ",
 	            _react2.default.createElement(
-	              'a',
-	              { href: 'https://www.bentley.edu', target: '_blank' },
-	              _react2.default.createElement(
-	                'span',
-	                null,
-	                'Bentley University'
-	              )
+	              "span",
+	              null,
+	              "Turing School of Software and Design"
 	            ),
-	            ' (2013-2015)'
+	            " (August 2016-March 2017)"
 	          ),
 	          _react2.default.createElement(
-	            'p',
+	            "p",
 	            null,
-	            'Ad Interim Assistant Professor of History, ',
+	            "Visiting Professor of History, ",
 	            _react2.default.createElement(
-	              'a',
-	              { href: 'https://www.tamuc.edu', target: '_blank' },
-	              _react2.default.createElement(
-	                'span',
-	                null,
-	                'Texas A and M University-Commerce'
-	              )
+	              "span",
+	              null,
+	              "Florida Atlantic University"
 	            ),
-	            ' (2012-2013)'
-	          ),
-	          _react2.default.createElement('br', null)
+	            " (August 2015- May 2016)"
+	          )
 	        )
 	      );
 	    }
@@ -46105,7 +46090,7 @@
 /* 539 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 	
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -46125,8 +46110,6 @@
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
-	var ReactDOM = __webpack_require__(329);
-	
 	var Education = function (_Component) {
 	  _inherits(Education, _Component);
 	
@@ -46137,65 +46120,53 @@
 	  }
 	
 	  _createClass(Education, [{
-	    key: 'render',
+	    key: "render",
 	    value: function render() {
 	      return _react2.default.createElement(
-	        'div',
+	        "div",
 	        null,
 	        _react2.default.createElement(
-	          'article',
-	          { className: 'bio-page-section' },
+	          "article",
+	          { className: "bio-page-section" },
 	          _react2.default.createElement(
-	            'h3',
-	            { id: 'education' },
-	            'Education'
+	            "h3",
+	            { id: "education" },
+	            "Education"
 	          ),
 	          _react2.default.createElement(
-	            'p',
+	            "p",
 	            null,
-	            'Certificate in Front End Engineering, ',
+	            "Certificate in Front End Engineering, ",
 	            _react2.default.createElement(
-	              'a',
-	              { href: 'https://www.turing.io/', target: '_blank' },
-	              _react2.default.createElement(
-	                'span',
-	                null,
-	                'Turing School of Software and Design'
-	              )
+	              "span",
+	              null,
+	              "Turing School of Software and Design"
 	            ),
-	            ' (2017)'
+	            " (2017)"
 	          ),
 	          _react2.default.createElement(
-	            'p',
+	            "p",
 	            null,
-	            'PhD, History, ',
+	            "PhD, History, ",
 	            _react2.default.createElement(
-	              'a',
-	              { href: 'https://www.umich.edu/', target: '_blank' },
-	              _react2.default.createElement(
-	                'span',
-	                null,
-	                'University of Michigan'
-	              )
+	              "span",
+	              null,
+	              "University of Michigan"
 	            ),
-	            ' (2011)'
+	            " (2011)"
 	          ),
 	          _react2.default.createElement(
-	            'p',
+	            "p",
 	            null,
-	            'BA, History, ',
+	            "BA, History, ",
 	            _react2.default.createElement(
-	              'a',
-	              { href: 'http://www.wm.edu/', target: '_blank' },
-	              _react2.default.createElement(
-	                'span',
-	                null,
-	                'College of William and Mary'
-	              )
+	              "span",
+	              null,
+	              "College of William and Mary"
 	            ),
-	            ' (2005)'
+	            " (2005)"
 	          ),
-	          _react2.default.createElement('br', null)
+	          _react2.default.createElement("br", null)
 	        )
 	      );
 	    }

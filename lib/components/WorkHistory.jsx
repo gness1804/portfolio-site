@@ -1,5 +1,4 @@
-import React, {Component} from 'react';
-const ReactDOM = require('react-dom');
+import React, { Component } from 'react';
 
 class WorkHistory extends Component {
 
@@ -8,18 +7,18 @@ class WorkHistory extends Component {
       <div>
         <article className="bio-page-section">
           <h3 id="work-hist" target="_blank">Work History</h3>
-            <p>
-              <span>Selected Positions:</span>
-            </p><br></br>
-            <p>
-              Visiting Professor of History, <a href="https://www.fau.edu" target="_blank"><span>Florida Atlantic University</span></a> (2015-2016)
-            </p>
-            <p>
-              Post-Doctoral Fellow, <a href="https://www.bentley.edu" target="_blank"><span>Bentley University</span></a> (2013-2015)
-            </p>
-            <p>
-              Ad Interim Assistant Professor of History, <a href="https://www.tamuc.edu" target="_blank"><span>Texas A and M University-Commerce</span></a> (2012-2013)
-            </p><br></br>
+          <p>
+            <span>Selected Positions:</span>
+          </p><br />
+          <p>
+             ​Front End/UI Developer Intern, <span>Express Scripts</span> (May 2017-August 2017)
+          </p>
+          <p>
+             Student, Front End Engineering, <span>Turing School of Software and Design</span> (August 2016-March 2017)
+          </p>
+          <p>
+            Visiting Professor of History, <span>Florida Atlantic University</span> (August 2015- May 2016)
+          </p>
         </article>
       </div>
     );

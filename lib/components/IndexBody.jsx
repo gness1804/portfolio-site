@@ -33,7 +33,7 @@ class IndexBody extends Component {
            </a>
            <img src="images/flashcardfe.png" alt="Screenshot." />
            <p id="google-play-notice">
-             Check it out in the <a href="https://play.google.com/store/apps/details?id=com.grahamnessler.bookmarker&hl=en" target="_blank" rel="noopener noreferrer">Google Play Store!</a> (iOS version coming soon.)
+             Check it out in the <a href="https://play.google.com/store/apps/details?id=com.grahamnessler.bookmarker&hl=en" target="_blank" rel="noopener noreferrer">Google Play Store</a> and the <a href="https://itunes.apple.com/us/app/flashcardfe/id1225364104?ls=1&mt=8" target="_blank" rel="noopener noreferrer">Apple Store!</a>
            </p>
            <p>
              This app exists to help job seekers prepare for front end developer interviews. From the Home screen, you can select from three categories of questions: HTML, CSS, and JavaScript. You can use this app to quiz yourself or others. Also, there is a section with links to useful interview-related sites and a section with questions to ask an interviewer.

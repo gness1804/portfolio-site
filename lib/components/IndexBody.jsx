@@ -32,12 +32,12 @@ class IndexBody extends Component {
              <h4>(GitHub)</h4>
            </a>
            <img src="images/flashcardfe.png" alt="Screenshot." />
-           <section>
+           <section id="app-store-icons-container">
              <a href="https://itunes.apple.com/us/app/flashcardfe/id1225364104?ls=1&mt=8" target="_blank" rel="noopener noreferrer">
-               <img src="images/apple-store.png" alt="Apple Store logo." />
+               <img src="images/apple-store.png" alt="Apple Store logo." id="app-store-icon" />
              </a>
              <a href="https://play.google.com/store/apps/details?id=com.grahamnessler.bookmarker&hl=en" target="_blank" rel="noopener noreferrer">
-               <img src="images/google-play-store.png" alt="Google Play Store logo." />
+               <img src="images/google-play-store.png" alt="Google Play Store logo." id="app-store-icon" />
              </a>
            </section>
            <p>

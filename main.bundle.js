@@ -34749,7 +34749,7 @@
 	            'I am a front-end software engineer, published author, and educator. Feel free to browse my projects below and to ',
 	            _react2.default.createElement(
 	              'a',
-	              { href: 'mailto:graham@grahamnessler.com', target: '_blank', rel: 'noopener noreferrer' },
+	              { href: 'mailto:gness1804@gmail.com', target: '_blank', rel: 'noopener noreferrer' },
 	              'get in touch'
 	            ),
 	            '.'
@@ -45405,7 +45405,7 @@
 	          ),
 	          _react2.default.createElement(
 	            'a',
-	            { href: 'mailto:graham@grahamnessler.com', target: '_blank' },
+	            { href: 'mailto:gness1804@gmail.com', target: '_blank' },
 	            _react2.default.createElement('img', { src: 'images/gmail.png', alt: 'Gmail logo.' })
 	          ),
 	          _react2.default.createElement(

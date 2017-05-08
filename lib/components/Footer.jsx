@@ -13,7 +13,7 @@ class Footer extends Component {
           <a href="https://github.com/gness1804" target="_blank">
             <img src="images/github.png" alt="GitHub logo" />
           </a>
-          <a href="mailto:graham@grahamnessler.com" target="_blank">
+          <a href="mailto:gness1804@gmail.com" target="_blank">
             <img src="images/gmail.png" alt="Gmail logo." />
           </a>
           <a href="https://twitter.com/gness1804" target="_blank">

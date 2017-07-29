@@ -11,7 +11,7 @@ class WorkHistory extends Component {
             <span>Selected Positions:</span>
           </p><br />
           <p>
-             ​Front End/UI Developer Intern, <span>Express Scripts</span> (May 2017-August 2017)
+             ​Front End/UI Developer Intern, <span>Express Scripts</span> (May 2017-present)
           </p>
           <p>
              Student, Front End Engineering, <span>Turing School of Software and Design</span> (August 2016-March 2017)

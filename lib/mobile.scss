@@ -94,8 +94,10 @@
   }
 
    .main-article-half-width p {
-     margin: 10px auto;
-     text-align: center;
+    font-size: 40px;
+    margin: 30px auto;
+    max-width: none !important;
+    text-align: center;
   }
 
   .main-article-half-width h4 {

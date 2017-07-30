@@ -19,7 +19,7 @@ class IndexBody extends Component {
            <a href="https://github.com/gness1804/we-the-people-native" target="_blank" rel="noopener noreferrer">
              <h4>(GitHub)</h4>
            </a>
-           <img src="images/we-the-people.png" alt="Screenshot." />
+           <img src="images/we-the-people.png" alt="Screenshot." className="screenshot" />
            <p className="left-article-p">
               MyGov is an application created in React Native that allows a user to track current Congressional bills and new laws. The application brings in data on bills and laws including title, date introduced, date of last action, sponsor, current progress (in House Committee, passed by Senate, enacted...), and other data. For more details, see the <Link to="/we-the-people">project page.</Link>
            </p>
@@ -31,7 +31,7 @@ class IndexBody extends Component {
            <a href="https://github.com/gness1804/front-end-interview-prep-app" target="_blank" rel="noopener noreferrer">
              <h4>(GitHub)</h4>
            </a>
-           <img src="images/flashcardfe.png" alt="Screenshot." />
+           <img src="images/flashcardfe.png" alt="Screenshot." className="screenshot" />
            <section id="app-store-icons-container">
              <a href="https://itunes.apple.com/us/app/flashcardfe/id1225364104?ls=1&mt=8" target="_blank" rel="noopener noreferrer">
                <img src="images/apple-store.png" alt="Apple Store logo." id="app-store-icon" />

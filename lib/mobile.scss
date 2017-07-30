@@ -85,11 +85,21 @@
      height: auto !important;
      margin: 0px auto !important;
      width: 800px !important;
+
+     h3 {
+      font-size: 50px !important;
+      margin-top: 30px;
+     }
+
   }
 
    .main-article-half-width p {
      margin: 10px auto;
      text-align: center;
+  }
+
+  .main-article-half-width h4 {
+    font-size: 40px !important;
   }
 
    .proj2 {

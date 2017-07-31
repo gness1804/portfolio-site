@@ -155,6 +155,10 @@
   .project-page-headline {
     margin-bottom: 120px !important;
     width: 1000px !important;
+
+    p {
+      display: none;
+    }
   }
 
   .project-page-section {

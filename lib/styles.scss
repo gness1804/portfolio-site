@@ -427,8 +427,9 @@ a:hover {
     width: 80px;
   }
 
+// will ultimately get rid of this element
   p {
-    text-align: center;
+    display: none;
   }
 
 }

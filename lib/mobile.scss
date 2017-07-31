@@ -172,6 +172,13 @@
     margin-right: 0px !important;
     margin-top: 40px !important;
     width: 800px !important;
+
+    p {
+      font-size: 40px;
+      margin: 30px auto !important;
+      max-width: none !important;
+      width: auto !important;
+    }
   }
 
   .proj-menu-master-container {
